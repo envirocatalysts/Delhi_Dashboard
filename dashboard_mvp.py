@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 from pathlib import Path
 import json
+import math
 import urllib.request
 import re
 
@@ -31,11 +32,10 @@ AQI_DASH_URL = "https://envirocatalysts-delhi-aq-dashboard.streamlit.app/"
 TRANSPORT_DASH_URL = "https://www.envirocatalysts.com/changing-gears-dashboard"
 EV_TARGET = 25.0
 NAAQS_PM25 = 60.0
-# Tuned so NCT Delhi fills the panel (mapbox_bounds alone zooms out to ~8).
+# Punjab-style: one centre + zoom so full NCT Delhi fits the panel (not West-only crop).
 DELHI_MAP_CENTER = {"lat": 28.652, "lon": 77.143}
-AQI_MAP_ZOOM = 10.75
-TRANSPORT_MAP_ZOOM = 10.9
-TRANSPORT_MAP_PAD = 0.02
+DELHI_MAP_ZOOM = 9.45
+DELHI_MAP_PAD = 0.07
 AQI_MAP_HEIGHT = 260
 TRANSPORT_MAP_HEIGHT = 220
 
@@ -196,14 +196,36 @@ def _geojson_bounds(geojson: dict, pad: float = 0.055) -> dict[str, float] | Non
     }
 
 
-def _delhi_map_view(geojson: dict) -> tuple[dict[str, float], float]:
-    """Centre on NCT Delhi with fixed zoom (Punjab-style), not wide Haryana view."""
-    bounds = _geojson_bounds(geojson, pad=TRANSPORT_MAP_PAD)
+def _zoom_for_panel(
+    bounds: dict[str, float],
+    height_px: int,
+    width_px: float = 420.0,
+) -> float:
+    """Mapbox zoom so geojson bbox fits panel (lower zoom = wider view)."""
+    lat_c = (bounds["north"] + bounds["south"]) / 2
+    lat_rad = math.radians(lat_c)
+    lat_span = max(bounds["north"] - bounds["south"], 1e-6)
+    lon_span = max(bounds["east"] - bounds["west"], 1e-6)
+    world = 256.0
+    z_lon = math.log2(360 * width_px / (world * lon_span * math.cos(lat_rad)))
+    z_lat = math.log2(180 * height_px / (world * lat_span))
+    return float(np.clip(min(z_lon, z_lat) - 0.3, 9.1, 10.2))
+
+
+def _delhi_map_view(
+    geojson: dict,
+    map_height: int = AQI_MAP_HEIGHT,
+) -> tuple[dict[str, float], float]:
+    """Centre on NCT Delhi with panel-fit zoom (Punjab-style state view)."""
+    bounds = _geojson_bounds(geojson, pad=DELHI_MAP_PAD)
     if bounds:
-        lat_c = (bounds["north"] + bounds["south"]) / 2
-        lon_c = (bounds["east"] + bounds["west"]) / 2
-        return {"lat": lat_c, "lon": lon_c}, TRANSPORT_MAP_ZOOM
-    return DELHI_MAP_CENTER, AQI_MAP_ZOOM
+        center = {
+            "lat": (bounds["north"] + bounds["south"]) / 2,
+            "lon": (bounds["east"] + bounds["west"]) / 2,
+        }
+        zoom = _zoom_for_panel(bounds, map_height)
+        return center, zoom
+    return DELHI_MAP_CENTER, DELHI_MAP_ZOOM
 
 
 def _transport_pie_figure(
@@ -801,7 +823,10 @@ def main() -> None:
     imd_chart = imd_daily.dropna(subset=["tmax_c"]).copy() if not imd_daily.empty else imd_daily
 
     delhi_district_geojson = load_delhi_district_geojson()
-    delhi_map_center, delhi_map_zoom = _delhi_map_view(delhi_district_geojson)
+    delhi_map_center, delhi_map_zoom = _delhi_map_view(
+        delhi_district_geojson,
+        map_height=max(AQI_MAP_HEIGHT, TRANSPORT_MAP_HEIGHT),
+    )
 
     # ══════════════════════ RENDER ═════════════════════════════════════════
     logo_html = ""
@@ -862,12 +887,15 @@ def main() -> None:
                 }
                 fig_map.update_layout(
                     map=aqi_map_cfg,
+                    map_center=delhi_map_center,
+                    map_zoom=delhi_map_zoom,
                     dragmode="pan",
                     clickmode="event+select",
                     height=AQI_MAP_HEIGHT,
                     margin=dict(l=0, r=0, t=0, b=0),
                     paper_bgcolor="rgba(0,0,0,0)",
                     showlegend=False,
+                    uirevision="delhi-aqi-map",
                 )
                 for ring in delhi_rings:
                     lons = [pt[0] for pt in ring]
@@ -1135,6 +1163,9 @@ def main() -> None:
                             center=delhi_map_center,
                             zoom=delhi_map_zoom,
                         ),
+                        mapbox_center=delhi_map_center,
+                        mapbox_zoom=delhi_map_zoom,
+                        uirevision="delhi-transport-map",
                         coloraxis=dict(cmin=cb_min, cmax=cb_max),
                         coloraxis_colorbar=dict(
                             title=dict(text="Registered vehicles (count)", font=dict(color="#111827", size=8)),
