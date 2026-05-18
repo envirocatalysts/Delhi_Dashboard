@@ -1,0 +1,3181 @@
+city,station,year,pollutant,station_val,city_avg
+Delhi,"Alipur, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Alipur, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Alipur, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Alipur, Delhi - DPCC",2018,PM2.5,220.0,116
+Delhi,"Alipur, Delhi - DPCC",2019,PM2.5,106.0,109
+Delhi,"Alipur, Delhi - DPCC",2020,PM2.5,99.0,97
+Delhi,"Alipur, Delhi - DPCC",2021,PM2.5,107.0,107
+Delhi,"Alipur, Delhi - DPCC",2022,PM2.5,101.0,99
+Delhi,"Alipur, Delhi - DPCC",2023,PM2.5,99.0,101
+Delhi,"Alipur, Delhi - DPCC",2024,PM2.5,100.0,105
+Delhi,"Alipur, Delhi - DPCC",2025,PM2.5,100.0,102
+Delhi,"Alipur, Delhi - DPCC",2026,PM2.5,102.0,100
+Delhi,"Anand Vihar, Delhi - DPCC",2015,PM2.5,157.0,135
+Delhi,"Anand Vihar, Delhi - DPCC",2016,PM2.5,171.0,166
+Delhi,"Anand Vihar, Delhi - DPCC",2017,PM2.5,192.0,134
+Delhi,"Anand Vihar, Delhi - DPCC",2018,PM2.5,161.0,116
+Delhi,"Anand Vihar, Delhi - DPCC",2019,PM2.5,128.0,109
+Delhi,"Anand Vihar, Delhi - DPCC",2020,PM2.5,115.0,97
+Delhi,"Anand Vihar, Delhi - DPCC",2021,PM2.5,129.0,107
+Delhi,"Anand Vihar, Delhi - DPCC",2022,PM2.5,124.0,99
+Delhi,"Anand Vihar, Delhi - DPCC",2023,PM2.5,128.0,101
+Delhi,"Anand Vihar, Delhi - DPCC",2024,PM2.5,136.0,105
+Delhi,"Anand Vihar, Delhi - DPCC",2025,PM2.5,122.0,102
+Delhi,"Anand Vihar, Delhi - DPCC",2026,PM2.5,137.0,100
+Delhi,"Ashok Vihar, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Ashok Vihar, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Ashok Vihar, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Ashok Vihar, Delhi - DPCC",2018,PM2.5,119.0,116
+Delhi,"Ashok Vihar, Delhi - DPCC",2019,PM2.5,121.0,109
+Delhi,"Ashok Vihar, Delhi - DPCC",2020,PM2.5,103.0,97
+Delhi,"Ashok Vihar, Delhi - DPCC",2021,PM2.5,114.0,107
+Delhi,"Ashok Vihar, Delhi - DPCC",2022,PM2.5,103.0,99
+Delhi,"Ashok Vihar, Delhi - DPCC",2023,PM2.5,95.0,101
+Delhi,"Ashok Vihar, Delhi - DPCC",2024,PM2.5,107.0,105
+Delhi,"Ashok Vihar, Delhi - DPCC",2025,PM2.5,112.0,102
+Delhi,"Ashok Vihar, Delhi - DPCC",2026,PM2.5,120.0,100
+Delhi,"Aya Nagar, Delhi - IMD",2015,PM2.5,,135
+Delhi,"Aya Nagar, Delhi - IMD",2016,PM2.5,,166
+Delhi,"Aya Nagar, Delhi - IMD",2017,PM2.5,139.0,134
+Delhi,"Aya Nagar, Delhi - IMD",2018,PM2.5,95.0,116
+Delhi,"Aya Nagar, Delhi - IMD",2019,PM2.5,83.0,109
+Delhi,"Aya Nagar, Delhi - IMD",2020,PM2.5,77.0,97
+Delhi,"Aya Nagar, Delhi - IMD",2021,PM2.5,79.0,107
+Delhi,"Aya Nagar, Delhi - IMD",2022,PM2.5,69.0,99
+Delhi,"Aya Nagar, Delhi - IMD",2023,PM2.5,79.0,101
+Delhi,"Aya Nagar, Delhi - IMD",2024,PM2.5,89.0,105
+Delhi,"Aya Nagar, Delhi - IMD",2025,PM2.5,77.0,102
+Delhi,"Aya Nagar, Delhi - IMD",2026,PM2.5,80.0,100
+Delhi,"Bawana, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Bawana, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Bawana, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Bawana, Delhi - DPCC",2018,PM2.5,118.0,116
+Delhi,"Bawana, Delhi - DPCC",2019,PM2.5,131.0,109
+Delhi,"Bawana, Delhi - DPCC",2020,PM2.5,120.0,97
+Delhi,"Bawana, Delhi - DPCC",2021,PM2.5,128.0,107
+Delhi,"Bawana, Delhi - DPCC",2022,PM2.5,114.0,99
+Delhi,"Bawana, Delhi - DPCC",2023,PM2.5,122.0,101
+Delhi,"Bawana, Delhi - DPCC",2024,PM2.5,125.0,105
+Delhi,"Bawana, Delhi - DPCC",2025,PM2.5,123.0,102
+Delhi,"Bawana, Delhi - DPCC",2026,PM2.5,122.0,100
+Delhi,"Burari Crossing, Delhi - IMD",2015,PM2.5,314.0,135
+Delhi,"Burari Crossing, Delhi - IMD",2016,PM2.5,203.0,166
+Delhi,"Burari Crossing, Delhi - IMD",2017,PM2.5,117.0,134
+Delhi,"Burari Crossing, Delhi - IMD",2018,PM2.5,131.0,116
+Delhi,"Burari Crossing, Delhi - IMD",2019,PM2.5,111.0,109
+Delhi,"Burari Crossing, Delhi - IMD",2020,PM2.5,,97
+Delhi,"Burari Crossing, Delhi - IMD",2021,PM2.5,152.0,107
+Delhi,"Burari Crossing, Delhi - IMD",2022,PM2.5,122.0,99
+Delhi,"Burari Crossing, Delhi - IMD",2023,PM2.5,97.0,101
+Delhi,"Burari Crossing, Delhi - IMD",2024,PM2.5,109.0,105
+Delhi,"Burari Crossing, Delhi - IMD",2025,PM2.5,97.0,102
+Delhi,"Burari Crossing, Delhi - IMD",2026,PM2.5,103.0,100
+Delhi,"CRRI Mathura Road, Delhi - IMD",2015,PM2.5,127.0,135
+Delhi,"CRRI Mathura Road, Delhi - IMD",2016,PM2.5,166.0,166
+Delhi,"CRRI Mathura Road, Delhi - IMD",2017,PM2.5,173.0,134
+Delhi,"CRRI Mathura Road, Delhi - IMD",2018,PM2.5,125.0,116
+Delhi,"CRRI Mathura Road, Delhi - IMD",2019,PM2.5,104.0,109
+Delhi,"CRRI Mathura Road, Delhi - IMD",2020,PM2.5,93.0,97
+Delhi,"CRRI Mathura Road, Delhi - IMD",2021,PM2.5,104.0,107
+Delhi,"CRRI Mathura Road, Delhi - IMD",2022,PM2.5,87.0,99
+Delhi,"CRRI Mathura Road, Delhi - IMD",2023,PM2.5,84.0,101
+Delhi,"CRRI Mathura Road, Delhi - IMD",2024,PM2.5,104.0,105
+Delhi,"CRRI Mathura Road, Delhi - IMD",2025,PM2.5,90.0,102
+Delhi,"CRRI Mathura Road, Delhi - IMD",2026,PM2.5,86.0,100
+Delhi,"Cantonment Area, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Cantonment Area, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Cantonment Area, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Cantonment Area, Delhi - DPCC",2018,PM2.5,,116
+Delhi,"Cantonment Area, Delhi - DPCC",2019,PM2.5,,109
+Delhi,"Cantonment Area, Delhi - DPCC",2020,PM2.5,,97
+Delhi,"Cantonment Area, Delhi - DPCC",2021,PM2.5,,107
+Delhi,"Cantonment Area, Delhi - DPCC",2022,PM2.5,,99
+Delhi,"Cantonment Area, Delhi - DPCC",2023,PM2.5,,101
+Delhi,"Cantonment Area, Delhi - DPCC",2024,PM2.5,,105
+Delhi,"Cantonment Area, Delhi - DPCC",2025,PM2.5,,102
+Delhi,"Cantonment Area, Delhi - DPCC",2026,PM2.5,24.0,100
+Delhi,"Chandni Chowk, Delhi - IITM",2015,PM2.5,,135
+Delhi,"Chandni Chowk, Delhi - IITM",2016,PM2.5,,166
+Delhi,"Chandni Chowk, Delhi - IITM",2017,PM2.5,,134
+Delhi,"Chandni Chowk, Delhi - IITM",2018,PM2.5,,116
+Delhi,"Chandni Chowk, Delhi - IITM",2019,PM2.5,,109
+Delhi,"Chandni Chowk, Delhi - IITM",2020,PM2.5,155.0,97
+Delhi,"Chandni Chowk, Delhi - IITM",2021,PM2.5,84.0,107
+Delhi,"Chandni Chowk, Delhi - IITM",2022,PM2.5,89.0,99
+Delhi,"Chandni Chowk, Delhi - IITM",2023,PM2.5,56.0,101
+Delhi,"Chandni Chowk, Delhi - IITM",2024,PM2.5,101.0,105
+Delhi,"Chandni Chowk, Delhi - IITM",2025,PM2.5,98.0,102
+Delhi,"Chandni Chowk, Delhi - IITM",2026,PM2.5,113.0,100
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2018,PM2.5,,116
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2019,PM2.5,,109
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2020,PM2.5,,97
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2021,PM2.5,,107
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2022,PM2.5,,99
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2023,PM2.5,,101
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2024,PM2.5,,105
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2025,PM2.5,,102
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2026,PM2.5,75.0,100
+Delhi,"DTU, Delhi - CPCB",2015,PM2.5,68.0,135
+Delhi,"DTU, Delhi - CPCB",2016,PM2.5,331.0,166
+Delhi,"DTU, Delhi - CPCB",2017,PM2.5,144.0,134
+Delhi,"DTU, Delhi - CPCB",2018,PM2.5,129.0,116
+Delhi,"DTU, Delhi - CPCB",2019,PM2.5,119.0,109
+Delhi,"DTU, Delhi - CPCB",2020,PM2.5,111.0,97
+Delhi,"DTU, Delhi - CPCB",2021,PM2.5,120.0,107
+Delhi,"DTU, Delhi - CPCB",2022,PM2.5,96.0,99
+Delhi,"DTU, Delhi - CPCB",2023,PM2.5,73.0,101
+Delhi,"DTU, Delhi - CPCB",2024,PM2.5,77.0,105
+Delhi,"DTU, Delhi - CPCB",2025,PM2.5,76.0,102
+Delhi,"DTU, Delhi - CPCB",2026,PM2.5,106.0,100
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2018,PM2.5,73.0,116
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2019,PM2.5,98.0,109
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2020,PM2.5,77.0,97
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2021,PM2.5,95.0,107
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2022,PM2.5,89.0,99
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2023,PM2.5,97.0,101
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2024,PM2.5,102.0,105
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2025,PM2.5,92.0,102
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2026,PM2.5,105.0,100
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2018,PM2.5,106.0,116
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2019,PM2.5,109.0,109
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2020,PM2.5,100.0,97
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2021,PM2.5,108.0,107
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2022,PM2.5,98.0,99
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2023,PM2.5,108.0,101
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2024,PM2.5,111.0,105
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2025,PM2.5,101.0,102
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2026,PM2.5,116.0,100
+Delhi,"IGI Airport (T3), Delhi - IMD",2015,PM2.5,163.0,135
+Delhi,"IGI Airport (T3), Delhi - IMD",2016,PM2.5,115.0,166
+Delhi,"IGI Airport (T3), Delhi - IMD",2017,PM2.5,142.0,134
+Delhi,"IGI Airport (T3), Delhi - IMD",2018,PM2.5,85.0,116
+Delhi,"IGI Airport (T3), Delhi - IMD",2019,PM2.5,95.0,109
+Delhi,"IGI Airport (T3), Delhi - IMD",2020,PM2.5,81.0,97
+Delhi,"IGI Airport (T3), Delhi - IMD",2021,PM2.5,96.0,107
+Delhi,"IGI Airport (T3), Delhi - IMD",2022,PM2.5,83.0,99
+Delhi,"IGI Airport (T3), Delhi - IMD",2023,PM2.5,87.0,101
+Delhi,"IGI Airport (T3), Delhi - IMD",2024,PM2.5,92.0,105
+Delhi,"IGI Airport (T3), Delhi - IMD",2025,PM2.5,80.0,102
+Delhi,"IGI Airport (T3), Delhi - IMD",2026,PM2.5,75.0,100
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2018,PM2.5,,116
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2019,PM2.5,,109
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2020,PM2.5,,97
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2021,PM2.5,,107
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2022,PM2.5,,99
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2023,PM2.5,,101
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2024,PM2.5,,105
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2025,PM2.5,,102
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2026,PM2.5,78.0,100
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2015,PM2.5,131.0,135
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2016,PM2.5,130.0,166
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2017,PM2.5,86.0,134
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2018,PM2.5,102.0,116
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2019,PM2.5,113.0,109
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2020,PM2.5,83.0,97
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2021,PM2.5,89.0,107
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2022,PM2.5,85.0,99
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2023,PM2.5,80.0,101
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2024,PM2.5,76.0,105
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2025,PM2.5,75.0,102
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2026,PM2.5,91.0,100
+Delhi,"IIT Delhi, Delhi - IITM",2015,PM2.5,,135
+Delhi,"IIT Delhi, Delhi - IITM",2016,PM2.5,,166
+Delhi,"IIT Delhi, Delhi - IITM",2017,PM2.5,,134
+Delhi,"IIT Delhi, Delhi - IITM",2018,PM2.5,,116
+Delhi,"IIT Delhi, Delhi - IITM",2019,PM2.5,,109
+Delhi,"IIT Delhi, Delhi - IITM",2020,PM2.5,,97
+Delhi,"IIT Delhi, Delhi - IITM",2021,PM2.5,,107
+Delhi,"IIT Delhi, Delhi - IITM",2022,PM2.5,,99
+Delhi,"IIT Delhi, Delhi - IITM",2023,PM2.5,,101
+Delhi,"IIT Delhi, Delhi - IITM",2024,PM2.5,,105
+Delhi,"IIT Delhi, Delhi - IITM",2025,PM2.5,160.0,102
+Delhi,"IIT Delhi, Delhi - IITM",2026,PM2.5,82.0,100
+Delhi,"ITO, Delhi - CPCB",2015,PM2.5,178.0,135
+Delhi,"ITO, Delhi - CPCB",2016,PM2.5,231.0,166
+Delhi,"ITO, Delhi - CPCB",2017,PM2.5,124.0,134
+Delhi,"ITO, Delhi - CPCB",2018,PM2.5,124.0,116
+Delhi,"ITO, Delhi - CPCB",2019,PM2.5,109.0,109
+Delhi,"ITO, Delhi - CPCB",2020,PM2.5,110.0,97
+Delhi,"ITO, Delhi - CPCB",2021,PM2.5,125.0,107
+Delhi,"ITO, Delhi - CPCB",2022,PM2.5,104.0,99
+Delhi,"ITO, Delhi - CPCB",2023,PM2.5,110.0,101
+Delhi,"ITO, Delhi - CPCB",2024,PM2.5,100.0,105
+Delhi,"ITO, Delhi - CPCB",2025,PM2.5,102.0,102
+Delhi,"ITO, Delhi - CPCB",2026,PM2.5,106.0,100
+Delhi,"JNU, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"JNU, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"JNU, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"JNU, Delhi - DPCC",2018,PM2.5,,116
+Delhi,"JNU, Delhi - DPCC",2019,PM2.5,,109
+Delhi,"JNU, Delhi - DPCC",2020,PM2.5,,97
+Delhi,"JNU, Delhi - DPCC",2021,PM2.5,,107
+Delhi,"JNU, Delhi - DPCC",2022,PM2.5,,99
+Delhi,"JNU, Delhi - DPCC",2023,PM2.5,,101
+Delhi,"JNU, Delhi - DPCC",2024,PM2.5,,105
+Delhi,"JNU, Delhi - DPCC",2025,PM2.5,,102
+Delhi,"JNU, Delhi - DPCC",2026,PM2.5,60.0,100
+Delhi,"Jahangirpuri, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Jahangirpuri, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Jahangirpuri, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Jahangirpuri, Delhi - DPCC",2018,PM2.5,145.0,116
+Delhi,"Jahangirpuri, Delhi - DPCC",2019,PM2.5,128.0,109
+Delhi,"Jahangirpuri, Delhi - DPCC",2020,PM2.5,123.0,97
+Delhi,"Jahangirpuri, Delhi - DPCC",2021,PM2.5,136.0,107
+Delhi,"Jahangirpuri, Delhi - DPCC",2022,PM2.5,127.0,99
+Delhi,"Jahangirpuri, Delhi - DPCC",2023,PM2.5,125.0,101
+Delhi,"Jahangirpuri, Delhi - DPCC",2024,PM2.5,129.0,105
+Delhi,"Jahangirpuri, Delhi - DPCC",2025,PM2.5,130.0,102
+Delhi,"Jahangirpuri, Delhi - DPCC",2026,PM2.5,135.0,100
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2018,PM2.5,103.0,116
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2019,PM2.5,104.0,109
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2020,PM2.5,87.0,97
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2021,PM2.5,99.0,107
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2022,PM2.5,93.0,99
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2023,PM2.5,92.0,101
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2024,PM2.5,85.0,105
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2025,PM2.5,83.0,102
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2026,PM2.5,104.0,100
+Delhi,"Lodhi Road, Delhi - IMD",2015,PM2.5,80.0,135
+Delhi,"Lodhi Road, Delhi - IMD",2016,PM2.5,135.0,166
+Delhi,"Lodhi Road, Delhi - IMD",2017,PM2.5,150.0,134
+Delhi,"Lodhi Road, Delhi - IMD",2018,PM2.5,90.0,116
+Delhi,"Lodhi Road, Delhi - IMD",2019,PM2.5,85.0,109
+Delhi,"Lodhi Road, Delhi - IMD",2020,PM2.5,75.0,97
+Delhi,"Lodhi Road, Delhi - IMD",2021,PM2.5,82.0,107
+Delhi,"Lodhi Road, Delhi - IMD",2022,PM2.5,71.0,99
+Delhi,"Lodhi Road, Delhi - IMD",2023,PM2.5,76.0,101
+Delhi,"Lodhi Road, Delhi - IMD",2024,PM2.5,79.0,105
+Delhi,"Lodhi Road, Delhi - IMD",2025,PM2.5,86.0,102
+Delhi,"Lodhi Road, Delhi - IMD",2026,PM2.5,77.0,100
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2018,PM2.5,102.0,116
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2019,PM2.5,94.0,109
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2020,PM2.5,86.0,97
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2021,PM2.5,98.0,107
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2022,PM2.5,99.0,99
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2023,PM2.5,99.0,101
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2024,PM2.5,105.0,105
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2025,PM2.5,90.0,102
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2026,PM2.5,87.0,100
+Delhi,"Mandir Marg, Delhi - DPCC",2015,PM2.5,96.0,135
+Delhi,"Mandir Marg, Delhi - DPCC",2016,PM2.5,120.0,166
+Delhi,"Mandir Marg, Delhi - DPCC",2017,PM2.5,106.0,134
+Delhi,"Mandir Marg, Delhi - DPCC",2018,PM2.5,109.0,116
+Delhi,"Mandir Marg, Delhi - DPCC",2019,PM2.5,103.0,109
+Delhi,"Mandir Marg, Delhi - DPCC",2020,PM2.5,87.0,97
+Delhi,"Mandir Marg, Delhi - DPCC",2021,PM2.5,101.0,107
+Delhi,"Mandir Marg, Delhi - DPCC",2022,PM2.5,85.0,99
+Delhi,"Mandir Marg, Delhi - DPCC",2023,PM2.5,93.0,101
+Delhi,"Mandir Marg, Delhi - DPCC",2024,PM2.5,96.0,105
+Delhi,"Mandir Marg, Delhi - DPCC",2025,PM2.5,85.0,102
+Delhi,"Mandir Marg, Delhi - DPCC",2026,PM2.5,97.0,100
+Delhi,"Mundka, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Mundka, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Mundka, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Mundka, Delhi - DPCC",2018,PM2.5,142.0,116
+Delhi,"Mundka, Delhi - DPCC",2019,PM2.5,126.0,109
+Delhi,"Mundka, Delhi - DPCC",2020,PM2.5,114.0,97
+Delhi,"Mundka, Delhi - DPCC",2021,PM2.5,129.0,107
+Delhi,"Mundka, Delhi - DPCC",2022,PM2.5,115.0,99
+Delhi,"Mundka, Delhi - DPCC",2023,PM2.5,122.0,101
+Delhi,"Mundka, Delhi - DPCC",2024,PM2.5,124.0,105
+Delhi,"Mundka, Delhi - DPCC",2025,PM2.5,115.0,102
+Delhi,"Mundka, Delhi - DPCC",2026,PM2.5,133.0,100
+Delhi,"NSIT Dwarka, Delhi - CPCB",2015,PM2.5,80.0,135
+Delhi,"NSIT Dwarka, Delhi - CPCB",2016,PM2.5,132.0,166
+Delhi,"NSIT Dwarka, Delhi - CPCB",2017,PM2.5,128.0,134
+Delhi,"NSIT Dwarka, Delhi - CPCB",2018,PM2.5,119.0,116
+Delhi,"NSIT Dwarka, Delhi - CPCB",2019,PM2.5,113.0,109
+Delhi,"NSIT Dwarka, Delhi - CPCB",2020,PM2.5,74.0,97
+Delhi,"NSIT Dwarka, Delhi - CPCB",2021,PM2.5,99.0,107
+Delhi,"NSIT Dwarka, Delhi - CPCB",2022,PM2.5,117.0,99
+Delhi,"NSIT Dwarka, Delhi - CPCB",2023,PM2.5,119.0,101
+Delhi,"NSIT Dwarka, Delhi - CPCB",2024,PM2.5,102.0,105
+Delhi,"NSIT Dwarka, Delhi - CPCB",2025,PM2.5,74.0,102
+Delhi,"NSIT Dwarka, Delhi - CPCB",2026,PM2.5,75.0,100
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2018,PM2.5,,116
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2019,PM2.5,,109
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2020,PM2.5,,97
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2021,PM2.5,,107
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2022,PM2.5,,99
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2023,PM2.5,,101
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2024,PM2.5,,105
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2025,PM2.5,,102
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2026,PM2.5,82.0,100
+Delhi,"Najafgarh, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Najafgarh, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Najafgarh, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Najafgarh, Delhi - DPCC",2018,PM2.5,87.0,116
+Delhi,"Najafgarh, Delhi - DPCC",2019,PM2.5,93.0,109
+Delhi,"Najafgarh, Delhi - DPCC",2020,PM2.5,84.0,97
+Delhi,"Najafgarh, Delhi - DPCC",2021,PM2.5,84.0,107
+Delhi,"Najafgarh, Delhi - DPCC",2022,PM2.5,76.0,99
+Delhi,"Najafgarh, Delhi - DPCC",2023,PM2.5,83.0,101
+Delhi,"Najafgarh, Delhi - DPCC",2024,PM2.5,87.0,105
+Delhi,"Najafgarh, Delhi - DPCC",2025,PM2.5,80.0,102
+Delhi,"Najafgarh, Delhi - DPCC",2026,PM2.5,83.0,100
+Delhi,"Narela, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Narela, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Narela, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Narela, Delhi - DPCC",2018,PM2.5,121.0,116
+Delhi,"Narela, Delhi - DPCC",2019,PM2.5,109.0,109
+Delhi,"Narela, Delhi - DPCC",2020,PM2.5,106.0,97
+Delhi,"Narela, Delhi - DPCC",2021,PM2.5,118.0,107
+Delhi,"Narela, Delhi - DPCC",2022,PM2.5,108.0,99
+Delhi,"Narela, Delhi - DPCC",2023,PM2.5,109.0,101
+Delhi,"Narela, Delhi - DPCC",2024,PM2.5,107.0,105
+Delhi,"Narela, Delhi - DPCC",2025,PM2.5,109.0,102
+Delhi,"Narela, Delhi - DPCC",2026,PM2.5,110.0,100
+Delhi,"Nehru Nagar, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Nehru Nagar, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Nehru Nagar, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Nehru Nagar, Delhi - DPCC",2018,PM2.5,121.0,116
+Delhi,"Nehru Nagar, Delhi - DPCC",2019,PM2.5,123.0,109
+Delhi,"Nehru Nagar, Delhi - DPCC",2020,PM2.5,110.0,97
+Delhi,"Nehru Nagar, Delhi - DPCC",2021,PM2.5,115.0,107
+Delhi,"Nehru Nagar, Delhi - DPCC",2022,PM2.5,116.0,99
+Delhi,"Nehru Nagar, Delhi - DPCC",2023,PM2.5,122.0,101
+Delhi,"Nehru Nagar, Delhi - DPCC",2024,PM2.5,120.0,105
+Delhi,"Nehru Nagar, Delhi - DPCC",2025,PM2.5,110.0,102
+Delhi,"Nehru Nagar, Delhi - DPCC",2026,PM2.5,128.0,100
+Delhi,"New Moti Bagh, Delhi - MHUA",2015,PM2.5,,135
+Delhi,"New Moti Bagh, Delhi - MHUA",2016,PM2.5,,166
+Delhi,"New Moti Bagh, Delhi - MHUA",2017,PM2.5,,134
+Delhi,"New Moti Bagh, Delhi - MHUA",2018,PM2.5,,116
+Delhi,"New Moti Bagh, Delhi - MHUA",2019,PM2.5,,109
+Delhi,"New Moti Bagh, Delhi - MHUA",2020,PM2.5,,97
+Delhi,"New Moti Bagh, Delhi - MHUA",2021,PM2.5,,107
+Delhi,"New Moti Bagh, Delhi - MHUA",2022,PM2.5,,99
+Delhi,"New Moti Bagh, Delhi - MHUA",2023,PM2.5,,101
+Delhi,"New Moti Bagh, Delhi - MHUA",2024,PM2.5,,105
+Delhi,"New Moti Bagh, Delhi - MHUA",2025,PM2.5,226.0,102
+Delhi,"New Moti Bagh, Delhi - MHUA",2026,PM2.5,83.0,100
+Delhi,"North Campus, DU, Delhi - IMD",2015,PM2.5,151.0,135
+Delhi,"North Campus, DU, Delhi - IMD",2016,PM2.5,88.0,166
+Delhi,"North Campus, DU, Delhi - IMD",2017,PM2.5,186.0,134
+Delhi,"North Campus, DU, Delhi - IMD",2018,PM2.5,111.0,116
+Delhi,"North Campus, DU, Delhi - IMD",2019,PM2.5,108.0,109
+Delhi,"North Campus, DU, Delhi - IMD",2020,PM2.5,91.0,97
+Delhi,"North Campus, DU, Delhi - IMD",2021,PM2.5,103.0,107
+Delhi,"North Campus, DU, Delhi - IMD",2022,PM2.5,91.0,99
+Delhi,"North Campus, DU, Delhi - IMD",2023,PM2.5,99.0,101
+Delhi,"North Campus, DU, Delhi - IMD",2024,PM2.5,103.0,105
+Delhi,"North Campus, DU, Delhi - IMD",2025,PM2.5,94.0,102
+Delhi,"North Campus, DU, Delhi - IMD",2026,PM2.5,99.0,100
+Delhi,"Okhla Phase-2, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Okhla Phase-2, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Okhla Phase-2, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Okhla Phase-2, Delhi - DPCC",2018,PM2.5,104.0,116
+Delhi,"Okhla Phase-2, Delhi - DPCC",2019,PM2.5,108.0,109
+Delhi,"Okhla Phase-2, Delhi - DPCC",2020,PM2.5,94.0,97
+Delhi,"Okhla Phase-2, Delhi - DPCC",2021,PM2.5,105.0,107
+Delhi,"Okhla Phase-2, Delhi - DPCC",2022,PM2.5,92.0,99
+Delhi,"Okhla Phase-2, Delhi - DPCC",2023,PM2.5,101.0,101
+Delhi,"Okhla Phase-2, Delhi - DPCC",2024,PM2.5,101.0,105
+Delhi,"Okhla Phase-2, Delhi - DPCC",2025,PM2.5,96.0,102
+Delhi,"Okhla Phase-2, Delhi - DPCC",2026,PM2.5,108.0,100
+Delhi,"Patparganj, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Patparganj, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Patparganj, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Patparganj, Delhi - DPCC",2018,PM2.5,100.0,116
+Delhi,"Patparganj, Delhi - DPCC",2019,PM2.5,100.0,109
+Delhi,"Patparganj, Delhi - DPCC",2020,PM2.5,97.0,97
+Delhi,"Patparganj, Delhi - DPCC",2021,PM2.5,116.0,107
+Delhi,"Patparganj, Delhi - DPCC",2022,PM2.5,108.0,99
+Delhi,"Patparganj, Delhi - DPCC",2023,PM2.5,111.0,101
+Delhi,"Patparganj, Delhi - DPCC",2024,PM2.5,104.0,105
+Delhi,"Patparganj, Delhi - DPCC",2025,PM2.5,101.0,102
+Delhi,"Patparganj, Delhi - DPCC",2026,PM2.5,111.0,100
+Delhi,"Punjabi Bagh, Delhi - DPCC",2015,PM2.5,124.0,135
+Delhi,"Punjabi Bagh, Delhi - DPCC",2016,PM2.5,100.0,166
+Delhi,"Punjabi Bagh, Delhi - DPCC",2017,PM2.5,101.0,134
+Delhi,"Punjabi Bagh, Delhi - DPCC",2018,PM2.5,131.0,116
+Delhi,"Punjabi Bagh, Delhi - DPCC",2019,PM2.5,107.0,109
+Delhi,"Punjabi Bagh, Delhi - DPCC",2020,PM2.5,103.0,97
+Delhi,"Punjabi Bagh, Delhi - DPCC",2021,PM2.5,115.0,107
+Delhi,"Punjabi Bagh, Delhi - DPCC",2022,PM2.5,114.0,99
+Delhi,"Punjabi Bagh, Delhi - DPCC",2023,PM2.5,118.0,101
+Delhi,"Punjabi Bagh, Delhi - DPCC",2024,PM2.5,120.0,105
+Delhi,"Punjabi Bagh, Delhi - DPCC",2025,PM2.5,108.0,102
+Delhi,"Punjabi Bagh, Delhi - DPCC",2026,PM2.5,120.0,100
+Delhi,"Pusa, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Pusa, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Pusa, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Pusa, Delhi - DPCC",2018,PM2.5,105.0,116
+Delhi,"Pusa, Delhi - DPCC",2019,PM2.5,100.0,109
+Delhi,"Pusa, Delhi - DPCC",2020,PM2.5,93.0,97
+Delhi,"Pusa, Delhi - DPCC",2021,PM2.5,97.0,107
+Delhi,"Pusa, Delhi - DPCC",2022,PM2.5,90.0,99
+Delhi,"Pusa, Delhi - DPCC",2023,PM2.5,97.0,101
+Delhi,"Pusa, Delhi - DPCC",2024,PM2.5,93.0,105
+Delhi,"Pusa, Delhi - DPCC",2025,PM2.5,88.0,102
+Delhi,"Pusa, Delhi - DPCC",2026,PM2.5,107.0,100
+Delhi,"Pusa, Delhi - IMD",2015,PM2.5,,135
+Delhi,"Pusa, Delhi - IMD",2016,PM2.5,,166
+Delhi,"Pusa, Delhi - IMD",2017,PM2.5,116.0,134
+Delhi,"Pusa, Delhi - IMD",2018,PM2.5,83.0,116
+Delhi,"Pusa, Delhi - IMD",2019,PM2.5,83.0,109
+Delhi,"Pusa, Delhi - IMD",2020,PM2.5,84.0,97
+Delhi,"Pusa, Delhi - IMD",2021,PM2.5,92.0,107
+Delhi,"Pusa, Delhi - IMD",2022,PM2.5,79.0,99
+Delhi,"Pusa, Delhi - IMD",2023,PM2.5,84.0,101
+Delhi,"Pusa, Delhi - IMD",2024,PM2.5,97.0,105
+Delhi,"Pusa, Delhi - IMD",2025,PM2.5,84.0,102
+Delhi,"Pusa, Delhi - IMD",2026,PM2.5,75.0,100
+Delhi,"R K Puram, Delhi - DPCC",2015,PM2.5,119.0,135
+Delhi,"R K Puram, Delhi - DPCC",2016,PM2.5,137.0,166
+Delhi,"R K Puram, Delhi - DPCC",2017,PM2.5,107.0,134
+Delhi,"R K Puram, Delhi - DPCC",2018,PM2.5,124.0,116
+Delhi,"R K Puram, Delhi - DPCC",2019,PM2.5,101.0,109
+Delhi,"R K Puram, Delhi - DPCC",2020,PM2.5,88.0,97
+Delhi,"R K Puram, Delhi - DPCC",2021,PM2.5,106.0,107
+Delhi,"R K Puram, Delhi - DPCC",2022,PM2.5,105.0,99
+Delhi,"R K Puram, Delhi - DPCC",2023,PM2.5,120.0,101
+Delhi,"R K Puram, Delhi - DPCC",2024,PM2.5,118.0,105
+Delhi,"R K Puram, Delhi - DPCC",2025,PM2.5,108.0,102
+Delhi,"R K Puram, Delhi - DPCC",2026,PM2.5,121.0,100
+Delhi,"Rohini, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Rohini, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Rohini, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Rohini, Delhi - DPCC",2018,PM2.5,128.0,116
+Delhi,"Rohini, Delhi - DPCC",2019,PM2.5,128.0,109
+Delhi,"Rohini, Delhi - DPCC",2020,PM2.5,117.0,97
+Delhi,"Rohini, Delhi - DPCC",2021,PM2.5,118.0,107
+Delhi,"Rohini, Delhi - DPCC",2022,PM2.5,109.0,99
+Delhi,"Rohini, Delhi - DPCC",2023,PM2.5,114.0,101
+Delhi,"Rohini, Delhi - DPCC",2024,PM2.5,118.0,105
+Delhi,"Rohini, Delhi - DPCC",2025,PM2.5,116.0,102
+Delhi,"Rohini, Delhi - DPCC",2026,PM2.5,132.0,100
+Delhi,"Shadipur, Delhi - CPCB",2015,PM2.5,104.0,135
+Delhi,"Shadipur, Delhi - CPCB",2016,PM2.5,136.0,166
+Delhi,"Shadipur, Delhi - CPCB",2017,PM2.5,127.0,134
+Delhi,"Shadipur, Delhi - CPCB",2018,PM2.5,113.0,116
+Delhi,"Shadipur, Delhi - CPCB",2019,PM2.5,119.0,109
+Delhi,"Shadipur, Delhi - CPCB",2020,PM2.5,70.0,97
+Delhi,"Shadipur, Delhi - CPCB",2021,PM2.5,76.0,107
+Delhi,"Shadipur, Delhi - CPCB",2022,PM2.5,95.0,99
+Delhi,"Shadipur, Delhi - CPCB",2023,PM2.5,116.0,101
+Delhi,"Shadipur, Delhi - CPCB",2024,PM2.5,126.0,105
+Delhi,"Shadipur, Delhi - CPCB",2025,PM2.5,91.0,102
+Delhi,"Shadipur, Delhi - CPCB",2026,PM2.5,104.0,100
+Delhi,"Sirifort, Delhi - CPCB",2015,PM2.5,,135
+Delhi,"Sirifort, Delhi - CPCB",2016,PM2.5,288.0,166
+Delhi,"Sirifort, Delhi - CPCB",2017,PM2.5,133.0,134
+Delhi,"Sirifort, Delhi - CPCB",2018,PM2.5,107.0,116
+Delhi,"Sirifort, Delhi - CPCB",2019,PM2.5,109.0,109
+Delhi,"Sirifort, Delhi - CPCB",2020,PM2.5,91.0,97
+Delhi,"Sirifort, Delhi - CPCB",2021,PM2.5,97.0,107
+Delhi,"Sirifort, Delhi - CPCB",2022,PM2.5,94.0,99
+Delhi,"Sirifort, Delhi - CPCB",2023,PM2.5,96.0,101
+Delhi,"Sirifort, Delhi - CPCB",2024,PM2.5,111.0,105
+Delhi,"Sirifort, Delhi - CPCB",2025,PM2.5,103.0,102
+Delhi,"Sirifort, Delhi - CPCB",2026,PM2.5,113.0,100
+Delhi,"Sonia Vihar, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Sonia Vihar, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Sonia Vihar, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Sonia Vihar, Delhi - DPCC",2018,PM2.5,117.0,116
+Delhi,"Sonia Vihar, Delhi - DPCC",2019,PM2.5,106.0,109
+Delhi,"Sonia Vihar, Delhi - DPCC",2020,PM2.5,103.0,97
+Delhi,"Sonia Vihar, Delhi - DPCC",2021,PM2.5,118.0,107
+Delhi,"Sonia Vihar, Delhi - DPCC",2022,PM2.5,102.0,99
+Delhi,"Sonia Vihar, Delhi - DPCC",2023,PM2.5,109.0,101
+Delhi,"Sonia Vihar, Delhi - DPCC",2024,PM2.5,111.0,105
+Delhi,"Sonia Vihar, Delhi - DPCC",2025,PM2.5,96.0,102
+Delhi,"Sonia Vihar, Delhi - DPCC",2026,PM2.5,116.0,100
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2018,PM2.5,93.0,116
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2019,PM2.5,91.0,109
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2020,PM2.5,81.0,97
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2021,PM2.5,88.0,107
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2022,PM2.5,82.0,99
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2023,PM2.5,87.0,101
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2024,PM2.5,85.0,105
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2025,PM2.5,74.0,102
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2026,PM2.5,82.0,100
+Delhi,"Talkatora Garden, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Talkatora Garden, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Talkatora Garden, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Talkatora Garden, Delhi - DPCC",2018,PM2.5,,116
+Delhi,"Talkatora Garden, Delhi - DPCC",2019,PM2.5,,109
+Delhi,"Talkatora Garden, Delhi - DPCC",2020,PM2.5,,97
+Delhi,"Talkatora Garden, Delhi - DPCC",2021,PM2.5,,107
+Delhi,"Talkatora Garden, Delhi - DPCC",2022,PM2.5,,99
+Delhi,"Talkatora Garden, Delhi - DPCC",2023,PM2.5,,101
+Delhi,"Talkatora Garden, Delhi - DPCC",2024,PM2.5,,105
+Delhi,"Talkatora Garden, Delhi - DPCC",2025,PM2.5,,102
+Delhi,"Talkatora Garden, Delhi - DPCC",2026,PM2.5,67.0,100
+Delhi,"Vivek Vihar, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Vivek Vihar, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Vivek Vihar, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Vivek Vihar, Delhi - DPCC",2018,PM2.5,109.0,116
+Delhi,"Vivek Vihar, Delhi - DPCC",2019,PM2.5,115.0,109
+Delhi,"Vivek Vihar, Delhi - DPCC",2020,PM2.5,112.0,97
+Delhi,"Vivek Vihar, Delhi - DPCC",2021,PM2.5,122.0,107
+Delhi,"Vivek Vihar, Delhi - DPCC",2022,PM2.5,111.0,99
+Delhi,"Vivek Vihar, Delhi - DPCC",2023,PM2.5,103.0,101
+Delhi,"Vivek Vihar, Delhi - DPCC",2024,PM2.5,118.0,105
+Delhi,"Vivek Vihar, Delhi - DPCC",2025,PM2.5,114.0,102
+Delhi,"Vivek Vihar, Delhi - DPCC",2026,PM2.5,125.0,100
+Delhi,"Wazirpur, Delhi - DPCC",2015,PM2.5,,135
+Delhi,"Wazirpur, Delhi - DPCC",2016,PM2.5,,166
+Delhi,"Wazirpur, Delhi - DPCC",2017,PM2.5,,134
+Delhi,"Wazirpur, Delhi - DPCC",2018,PM2.5,136.0,116
+Delhi,"Wazirpur, Delhi - DPCC",2019,PM2.5,135.0,109
+Delhi,"Wazirpur, Delhi - DPCC",2020,PM2.5,91.0,97
+Delhi,"Wazirpur, Delhi - DPCC",2021,PM2.5,120.0,107
+Delhi,"Wazirpur, Delhi - DPCC",2022,PM2.5,114.0,99
+Delhi,"Wazirpur, Delhi - DPCC",2023,PM2.5,123.0,101
+Delhi,"Wazirpur, Delhi - DPCC",2024,PM2.5,125.0,105
+Delhi,"Wazirpur, Delhi - DPCC",2025,PM2.5,124.0,102
+Delhi,"Wazirpur, Delhi - DPCC",2026,PM2.5,132.0,100
+Delhi,"Alipur, Delhi - DPCC",2015,PM10,,278
+Delhi,"Alipur, Delhi - DPCC",2016,PM10,,286
+Delhi,"Alipur, Delhi - DPCC",2017,PM10,,253
+Delhi,"Alipur, Delhi - DPCC",2018,PM10,344.0,246
+Delhi,"Alipur, Delhi - DPCC",2019,PM10,200.0,217
+Delhi,"Alipur, Delhi - DPCC",2020,PM10,185.0,190
+Delhi,"Alipur, Delhi - DPCC",2021,PM10,208.0,217
+Delhi,"Alipur, Delhi - DPCC",2022,PM10,210.0,214
+Delhi,"Alipur, Delhi - DPCC",2023,PM10,185.0,209
+Delhi,"Alipur, Delhi - DPCC",2024,PM10,202.0,214
+Delhi,"Alipur, Delhi - DPCC",2025,PM10,207.0,201
+Delhi,"Alipur, Delhi - DPCC",2026,PM10,227.0,217
+Delhi,"Anand Vihar, Delhi - DPCC",2015,PM10,457.0,278
+Delhi,"Anand Vihar, Delhi - DPCC",2016,PM10,402.0,286
+Delhi,"Anand Vihar, Delhi - DPCC",2017,PM10,429.0,253
+Delhi,"Anand Vihar, Delhi - DPCC",2018,PM10,358.0,246
+Delhi,"Anand Vihar, Delhi - DPCC",2019,PM10,273.0,217
+Delhi,"Anand Vihar, Delhi - DPCC",2020,PM10,206.0,190
+Delhi,"Anand Vihar, Delhi - DPCC",2021,PM10,275.0,217
+Delhi,"Anand Vihar, Delhi - DPCC",2022,PM10,319.0,214
+Delhi,"Anand Vihar, Delhi - DPCC",2023,PM10,297.0,209
+Delhi,"Anand Vihar, Delhi - DPCC",2024,PM10,314.0,214
+Delhi,"Anand Vihar, Delhi - DPCC",2025,PM10,261.0,201
+Delhi,"Anand Vihar, Delhi - DPCC",2026,PM10,321.0,217
+Delhi,"Ashok Vihar, Delhi - DPCC",2015,PM10,,278
+Delhi,"Ashok Vihar, Delhi - DPCC",2016,PM10,,286
+Delhi,"Ashok Vihar, Delhi - DPCC",2017,PM10,,253
+Delhi,"Ashok Vihar, Delhi - DPCC",2018,PM10,265.0,246
+Delhi,"Ashok Vihar, Delhi - DPCC",2019,PM10,226.0,217
+Delhi,"Ashok Vihar, Delhi - DPCC",2020,PM10,184.0,190
+Delhi,"Ashok Vihar, Delhi - DPCC",2021,PM10,221.0,217
+Delhi,"Ashok Vihar, Delhi - DPCC",2022,PM10,221.0,214
+Delhi,"Ashok Vihar, Delhi - DPCC",2023,PM10,224.0,209
+Delhi,"Ashok Vihar, Delhi - DPCC",2024,PM10,224.0,214
+Delhi,"Ashok Vihar, Delhi - DPCC",2025,PM10,223.0,201
+Delhi,"Ashok Vihar, Delhi - DPCC",2026,PM10,246.0,217
+Delhi,"Aya Nagar, Delhi - IMD",2015,PM10,,278
+Delhi,"Aya Nagar, Delhi - IMD",2016,PM10,,286
+Delhi,"Aya Nagar, Delhi - IMD",2017,PM10,245.0,253
+Delhi,"Aya Nagar, Delhi - IMD",2018,PM10,187.0,246
+Delhi,"Aya Nagar, Delhi - IMD",2019,PM10,165.0,217
+Delhi,"Aya Nagar, Delhi - IMD",2020,PM10,138.0,190
+Delhi,"Aya Nagar, Delhi - IMD",2021,PM10,158.0,217
+Delhi,"Aya Nagar, Delhi - IMD",2022,PM10,156.0,214
+Delhi,"Aya Nagar, Delhi - IMD",2023,PM10,163.0,209
+Delhi,"Aya Nagar, Delhi - IMD",2024,PM10,168.0,214
+Delhi,"Aya Nagar, Delhi - IMD",2025,PM10,179.0,201
+Delhi,"Aya Nagar, Delhi - IMD",2026,PM10,213.0,217
+Delhi,"Bawana, Delhi - DPCC",2015,PM10,,278
+Delhi,"Bawana, Delhi - DPCC",2016,PM10,,286
+Delhi,"Bawana, Delhi - DPCC",2017,PM10,,253
+Delhi,"Bawana, Delhi - DPCC",2018,PM10,264.0,246
+Delhi,"Bawana, Delhi - DPCC",2019,PM10,242.0,217
+Delhi,"Bawana, Delhi - DPCC",2020,PM10,227.0,190
+Delhi,"Bawana, Delhi - DPCC",2021,PM10,252.0,217
+Delhi,"Bawana, Delhi - DPCC",2022,PM10,252.0,214
+Delhi,"Bawana, Delhi - DPCC",2023,PM10,240.0,209
+Delhi,"Bawana, Delhi - DPCC",2024,PM10,236.0,214
+Delhi,"Bawana, Delhi - DPCC",2025,PM10,207.0,201
+Delhi,"Bawana, Delhi - DPCC",2026,PM10,234.0,217
+Delhi,"Burari Crossing, Delhi - IMD",2015,PM10,705.0,278
+Delhi,"Burari Crossing, Delhi - IMD",2016,PM10,296.0,286
+Delhi,"Burari Crossing, Delhi - IMD",2017,PM10,199.0,253
+Delhi,"Burari Crossing, Delhi - IMD",2018,PM10,222.0,246
+Delhi,"Burari Crossing, Delhi - IMD",2019,PM10,176.0,217
+Delhi,"Burari Crossing, Delhi - IMD",2020,PM10,,190
+Delhi,"Burari Crossing, Delhi - IMD",2021,PM10,295.0,217
+Delhi,"Burari Crossing, Delhi - IMD",2022,PM10,250.0,214
+Delhi,"Burari Crossing, Delhi - IMD",2023,PM10,202.0,209
+Delhi,"Burari Crossing, Delhi - IMD",2024,PM10,215.0,214
+Delhi,"Burari Crossing, Delhi - IMD",2025,PM10,185.0,201
+Delhi,"Burari Crossing, Delhi - IMD",2026,PM10,212.0,217
+Delhi,"CRRI Mathura Road, Delhi - IMD",2015,PM10,206.0,278
+Delhi,"CRRI Mathura Road, Delhi - IMD",2016,PM10,352.0,286
+Delhi,"CRRI Mathura Road, Delhi - IMD",2017,PM10,284.0,253
+Delhi,"CRRI Mathura Road, Delhi - IMD",2018,PM10,252.0,246
+Delhi,"CRRI Mathura Road, Delhi - IMD",2019,PM10,212.0,217
+Delhi,"CRRI Mathura Road, Delhi - IMD",2020,PM10,197.0,190
+Delhi,"CRRI Mathura Road, Delhi - IMD",2021,PM10,234.0,217
+Delhi,"CRRI Mathura Road, Delhi - IMD",2022,PM10,204.0,214
+Delhi,"CRRI Mathura Road, Delhi - IMD",2023,PM10,179.0,209
+Delhi,"CRRI Mathura Road, Delhi - IMD",2024,PM10,205.0,214
+Delhi,"CRRI Mathura Road, Delhi - IMD",2025,PM10,211.0,201
+Delhi,"CRRI Mathura Road, Delhi - IMD",2026,PM10,215.0,217
+Delhi,"Cantonment Area, Delhi - DPCC",2015,PM10,,278
+Delhi,"Cantonment Area, Delhi - DPCC",2016,PM10,,286
+Delhi,"Cantonment Area, Delhi - DPCC",2017,PM10,,253
+Delhi,"Cantonment Area, Delhi - DPCC",2018,PM10,,246
+Delhi,"Cantonment Area, Delhi - DPCC",2019,PM10,,217
+Delhi,"Cantonment Area, Delhi - DPCC",2020,PM10,,190
+Delhi,"Cantonment Area, Delhi - DPCC",2021,PM10,,217
+Delhi,"Cantonment Area, Delhi - DPCC",2022,PM10,,214
+Delhi,"Cantonment Area, Delhi - DPCC",2023,PM10,,209
+Delhi,"Cantonment Area, Delhi - DPCC",2024,PM10,,214
+Delhi,"Cantonment Area, Delhi - DPCC",2025,PM10,,201
+Delhi,"Cantonment Area, Delhi - DPCC",2026,PM10,167.0,217
+Delhi,"Chandni Chowk, Delhi - IITM",2015,PM10,,278
+Delhi,"Chandni Chowk, Delhi - IITM",2016,PM10,,286
+Delhi,"Chandni Chowk, Delhi - IITM",2017,PM10,,253
+Delhi,"Chandni Chowk, Delhi - IITM",2018,PM10,,246
+Delhi,"Chandni Chowk, Delhi - IITM",2019,PM10,,217
+Delhi,"Chandni Chowk, Delhi - IITM",2020,PM10,372.0,190
+Delhi,"Chandni Chowk, Delhi - IITM",2021,PM10,302.0,217
+Delhi,"Chandni Chowk, Delhi - IITM",2022,PM10,255.0,214
+Delhi,"Chandni Chowk, Delhi - IITM",2023,PM10,222.0,209
+Delhi,"Chandni Chowk, Delhi - IITM",2024,PM10,199.0,214
+Delhi,"Chandni Chowk, Delhi - IITM",2025,PM10,204.0,201
+Delhi,"Chandni Chowk, Delhi - IITM",2026,PM10,267.0,217
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2015,PM10,,278
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2016,PM10,,286
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2017,PM10,,253
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2018,PM10,,246
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2019,PM10,,217
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2020,PM10,,190
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2021,PM10,,217
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2022,PM10,,214
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2023,PM10,,209
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2024,PM10,,214
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2025,PM10,,201
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2026,PM10,199.0,217
+Delhi,"DTU, Delhi - CPCB",2015,PM10,68.0,278
+Delhi,"DTU, Delhi - CPCB",2016,PM10,,286
+Delhi,"DTU, Delhi - CPCB",2017,PM10,,253
+Delhi,"DTU, Delhi - CPCB",2018,PM10,266.0,246
+Delhi,"DTU, Delhi - CPCB",2019,PM10,234.0,217
+Delhi,"DTU, Delhi - CPCB",2020,PM10,209.0,190
+Delhi,"DTU, Delhi - CPCB",2021,PM10,204.0,217
+Delhi,"DTU, Delhi - CPCB",2022,PM10,214.0,214
+Delhi,"DTU, Delhi - CPCB",2023,PM10,214.0,209
+Delhi,"DTU, Delhi - CPCB",2024,PM10,232.0,214
+Delhi,"DTU, Delhi - CPCB",2025,PM10,213.0,201
+Delhi,"DTU, Delhi - CPCB",2026,PM10,173.0,217
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2015,PM10,,278
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2016,PM10,,286
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2017,PM10,,253
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2018,PM10,200.0,246
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2019,PM10,194.0,217
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2020,PM10,164.0,190
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2021,PM10,186.0,217
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2022,PM10,178.0,214
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2023,PM10,184.0,209
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2024,PM10,197.0,214
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2025,PM10,179.0,201
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2026,PM10,209.0,217
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2015,PM10,,278
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2016,PM10,,286
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2017,PM10,,253
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2018,PM10,293.0,246
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2019,PM10,296.0,217
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2020,PM10,221.0,190
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2021,PM10,250.0,217
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2022,PM10,251.0,214
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2023,PM10,232.0,209
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2024,PM10,257.0,214
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2025,PM10,217.0,201
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2026,PM10,260.0,217
+Delhi,"IGI Airport (T3), Delhi - IMD",2015,PM10,241.0,278
+Delhi,"IGI Airport (T3), Delhi - IMD",2016,PM10,216.0,286
+Delhi,"IGI Airport (T3), Delhi - IMD",2017,PM10,220.0,253
+Delhi,"IGI Airport (T3), Delhi - IMD",2018,PM10,193.0,246
+Delhi,"IGI Airport (T3), Delhi - IMD",2019,PM10,204.0,217
+Delhi,"IGI Airport (T3), Delhi - IMD",2020,PM10,163.0,190
+Delhi,"IGI Airport (T3), Delhi - IMD",2021,PM10,196.0,217
+Delhi,"IGI Airport (T3), Delhi - IMD",2022,PM10,174.0,214
+Delhi,"IGI Airport (T3), Delhi - IMD",2023,PM10,184.0,209
+Delhi,"IGI Airport (T3), Delhi - IMD",2024,PM10,193.0,214
+Delhi,"IGI Airport (T3), Delhi - IMD",2025,PM10,191.0,201
+Delhi,"IGI Airport (T3), Delhi - IMD",2026,PM10,205.0,217
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2015,PM10,,278
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2016,PM10,,286
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2017,PM10,,253
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2018,PM10,,246
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2019,PM10,,217
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2020,PM10,,190
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2021,PM10,,217
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2022,PM10,,214
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2023,PM10,,209
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2024,PM10,,214
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2025,PM10,,201
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2026,PM10,183.0,217
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2015,PM10,,278
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2016,PM10,,286
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2017,PM10,,253
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2018,PM10,,246
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2019,PM10,,217
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2020,PM10,227.0,190
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2021,PM10,209.0,217
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2022,PM10,205.0,214
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2023,PM10,169.0,209
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2024,PM10,170.0,214
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2025,PM10,160.0,201
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2026,PM10,181.0,217
+Delhi,"IIT Delhi, Delhi - IITM",2015,PM10,,278
+Delhi,"IIT Delhi, Delhi - IITM",2016,PM10,,286
+Delhi,"IIT Delhi, Delhi - IITM",2017,PM10,,253
+Delhi,"IIT Delhi, Delhi - IITM",2018,PM10,,246
+Delhi,"IIT Delhi, Delhi - IITM",2019,PM10,,217
+Delhi,"IIT Delhi, Delhi - IITM",2020,PM10,,190
+Delhi,"IIT Delhi, Delhi - IITM",2021,PM10,,217
+Delhi,"IIT Delhi, Delhi - IITM",2022,PM10,,214
+Delhi,"IIT Delhi, Delhi - IITM",2023,PM10,,209
+Delhi,"IIT Delhi, Delhi - IITM",2024,PM10,,214
+Delhi,"IIT Delhi, Delhi - IITM",2025,PM10,261.0,201
+Delhi,"IIT Delhi, Delhi - IITM",2026,PM10,190.0,217
+Delhi,"ITO, Delhi - CPCB",2015,PM10,,278
+Delhi,"ITO, Delhi - CPCB",2016,PM10,307.0,286
+Delhi,"ITO, Delhi - CPCB",2017,PM10,202.0,253
+Delhi,"ITO, Delhi - CPCB",2018,PM10,198.0,246
+Delhi,"ITO, Delhi - CPCB",2019,PM10,173.0,217
+Delhi,"ITO, Delhi - CPCB",2020,PM10,161.0,190
+Delhi,"ITO, Delhi - CPCB",2021,PM10,201.0,217
+Delhi,"ITO, Delhi - CPCB",2022,PM10,173.0,214
+Delhi,"ITO, Delhi - CPCB",2023,PM10,174.0,209
+Delhi,"ITO, Delhi - CPCB",2024,PM10,149.0,214
+Delhi,"ITO, Delhi - CPCB",2025,PM10,161.0,201
+Delhi,"ITO, Delhi - CPCB",2026,PM10,171.0,217
+Delhi,"JNU, Delhi - DPCC",2015,PM10,,278
+Delhi,"JNU, Delhi - DPCC",2016,PM10,,286
+Delhi,"JNU, Delhi - DPCC",2017,PM10,,253
+Delhi,"JNU, Delhi - DPCC",2018,PM10,,246
+Delhi,"JNU, Delhi - DPCC",2019,PM10,,217
+Delhi,"JNU, Delhi - DPCC",2020,PM10,,190
+Delhi,"JNU, Delhi - DPCC",2021,PM10,,217
+Delhi,"JNU, Delhi - DPCC",2022,PM10,,214
+Delhi,"JNU, Delhi - DPCC",2023,PM10,,209
+Delhi,"JNU, Delhi - DPCC",2024,PM10,,214
+Delhi,"JNU, Delhi - DPCC",2025,PM10,,201
+Delhi,"JNU, Delhi - DPCC",2026,PM10,159.0,217
+Delhi,"Jahangirpuri, Delhi - DPCC",2015,PM10,,278
+Delhi,"Jahangirpuri, Delhi - DPCC",2016,PM10,,286
+Delhi,"Jahangirpuri, Delhi - DPCC",2017,PM10,,253
+Delhi,"Jahangirpuri, Delhi - DPCC",2018,PM10,302.0,246
+Delhi,"Jahangirpuri, Delhi - DPCC",2019,PM10,254.0,217
+Delhi,"Jahangirpuri, Delhi - DPCC",2020,PM10,226.0,190
+Delhi,"Jahangirpuri, Delhi - DPCC",2021,PM10,262.0,217
+Delhi,"Jahangirpuri, Delhi - DPCC",2022,PM10,256.0,214
+Delhi,"Jahangirpuri, Delhi - DPCC",2023,PM10,265.0,209
+Delhi,"Jahangirpuri, Delhi - DPCC",2024,PM10,288.0,214
+Delhi,"Jahangirpuri, Delhi - DPCC",2025,PM10,261.0,201
+Delhi,"Jahangirpuri, Delhi - DPCC",2026,PM10,259.0,217
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2015,PM10,,278
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2016,PM10,,286
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2017,PM10,,253
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2018,PM10,234.0,246
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2019,PM10,216.0,217
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2020,PM10,163.0,190
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2021,PM10,195.0,217
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2022,PM10,193.0,214
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2023,PM10,185.0,209
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2024,PM10,184.0,214
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2025,PM10,189.0,201
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2026,PM10,229.0,217
+Delhi,"Lodhi Road, Delhi - IMD",2015,PM10,181.0,278
+Delhi,"Lodhi Road, Delhi - IMD",2016,PM10,329.0,286
+Delhi,"Lodhi Road, Delhi - IMD",2017,PM10,263.0,253
+Delhi,"Lodhi Road, Delhi - IMD",2018,PM10,198.0,246
+Delhi,"Lodhi Road, Delhi - IMD",2019,PM10,165.0,217
+Delhi,"Lodhi Road, Delhi - IMD",2020,PM10,141.0,190
+Delhi,"Lodhi Road, Delhi - IMD",2021,PM10,176.0,217
+Delhi,"Lodhi Road, Delhi - IMD",2022,PM10,163.0,214
+Delhi,"Lodhi Road, Delhi - IMD",2023,PM10,154.0,209
+Delhi,"Lodhi Road, Delhi - IMD",2024,PM10,152.0,214
+Delhi,"Lodhi Road, Delhi - IMD",2025,PM10,182.0,201
+Delhi,"Lodhi Road, Delhi - IMD",2026,PM10,183.0,217
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2015,PM10,,278
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2016,PM10,,286
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2017,PM10,,253
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2018,PM10,238.0,246
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2019,PM10,205.0,217
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2020,PM10,157.0,190
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2021,PM10,196.0,217
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2022,PM10,206.0,214
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2023,PM10,193.0,209
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2024,PM10,186.0,214
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2025,PM10,174.0,201
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2026,PM10,201.0,217
+Delhi,"Mandir Marg, Delhi - DPCC",2015,PM10,190.0,278
+Delhi,"Mandir Marg, Delhi - DPCC",2016,PM10,242.0,286
+Delhi,"Mandir Marg, Delhi - DPCC",2017,PM10,193.0,253
+Delhi,"Mandir Marg, Delhi - DPCC",2018,PM10,202.0,246
+Delhi,"Mandir Marg, Delhi - DPCC",2019,PM10,201.0,217
+Delhi,"Mandir Marg, Delhi - DPCC",2020,PM10,144.0,190
+Delhi,"Mandir Marg, Delhi - DPCC",2021,PM10,167.0,217
+Delhi,"Mandir Marg, Delhi - DPCC",2022,PM10,180.0,214
+Delhi,"Mandir Marg, Delhi - DPCC",2023,PM10,178.0,209
+Delhi,"Mandir Marg, Delhi - DPCC",2024,PM10,156.0,214
+Delhi,"Mandir Marg, Delhi - DPCC",2025,PM10,153.0,201
+Delhi,"Mandir Marg, Delhi - DPCC",2026,PM10,191.0,217
+Delhi,"Mundka, Delhi - DPCC",2015,PM10,,278
+Delhi,"Mundka, Delhi - DPCC",2016,PM10,,286
+Delhi,"Mundka, Delhi - DPCC",2017,PM10,,253
+Delhi,"Mundka, Delhi - DPCC",2018,PM10,314.0,246
+Delhi,"Mundka, Delhi - DPCC",2019,PM10,283.0,217
+Delhi,"Mundka, Delhi - DPCC",2020,PM10,226.0,190
+Delhi,"Mundka, Delhi - DPCC",2021,PM10,260.0,217
+Delhi,"Mundka, Delhi - DPCC",2022,PM10,262.0,214
+Delhi,"Mundka, Delhi - DPCC",2023,PM10,281.0,209
+Delhi,"Mundka, Delhi - DPCC",2024,PM10,285.0,214
+Delhi,"Mundka, Delhi - DPCC",2025,PM10,268.0,201
+Delhi,"Mundka, Delhi - DPCC",2026,PM10,286.0,217
+Delhi,"NSIT Dwarka, Delhi - CPCB",2015,PM10,,278
+Delhi,"NSIT Dwarka, Delhi - CPCB",2016,PM10,,286
+Delhi,"NSIT Dwarka, Delhi - CPCB",2017,PM10,,253
+Delhi,"NSIT Dwarka, Delhi - CPCB",2018,PM10,,246
+Delhi,"NSIT Dwarka, Delhi - CPCB",2019,PM10,,217
+Delhi,"NSIT Dwarka, Delhi - CPCB",2020,PM10,226.0,190
+Delhi,"NSIT Dwarka, Delhi - CPCB",2021,PM10,221.0,217
+Delhi,"NSIT Dwarka, Delhi - CPCB",2022,PM10,238.0,214
+Delhi,"NSIT Dwarka, Delhi - CPCB",2023,PM10,228.0,209
+Delhi,"NSIT Dwarka, Delhi - CPCB",2024,PM10,221.0,214
+Delhi,"NSIT Dwarka, Delhi - CPCB",2025,PM10,166.0,201
+Delhi,"NSIT Dwarka, Delhi - CPCB",2026,PM10,216.0,217
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2015,PM10,,278
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2016,PM10,,286
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2017,PM10,,253
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2018,PM10,,246
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2019,PM10,,217
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2020,PM10,,190
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2021,PM10,,217
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2022,PM10,,214
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2023,PM10,,209
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2024,PM10,,214
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2025,PM10,,201
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2026,PM10,182.0,217
+Delhi,"Najafgarh, Delhi - DPCC",2015,PM10,,278
+Delhi,"Najafgarh, Delhi - DPCC",2016,PM10,,286
+Delhi,"Najafgarh, Delhi - DPCC",2017,PM10,,253
+Delhi,"Najafgarh, Delhi - DPCC",2018,PM10,199.0,246
+Delhi,"Najafgarh, Delhi - DPCC",2019,PM10,159.0,217
+Delhi,"Najafgarh, Delhi - DPCC",2020,PM10,153.0,190
+Delhi,"Najafgarh, Delhi - DPCC",2021,PM10,160.0,217
+Delhi,"Najafgarh, Delhi - DPCC",2022,PM10,160.0,214
+Delhi,"Najafgarh, Delhi - DPCC",2023,PM10,150.0,209
+Delhi,"Najafgarh, Delhi - DPCC",2024,PM10,160.0,214
+Delhi,"Najafgarh, Delhi - DPCC",2025,PM10,142.0,201
+Delhi,"Najafgarh, Delhi - DPCC",2026,PM10,151.0,217
+Delhi,"Narela, Delhi - DPCC",2015,PM10,,278
+Delhi,"Narela, Delhi - DPCC",2016,PM10,,286
+Delhi,"Narela, Delhi - DPCC",2017,PM10,,253
+Delhi,"Narela, Delhi - DPCC",2018,PM10,259.0,246
+Delhi,"Narela, Delhi - DPCC",2019,PM10,232.0,217
+Delhi,"Narela, Delhi - DPCC",2020,PM10,215.0,190
+Delhi,"Narela, Delhi - DPCC",2021,PM10,249.0,217
+Delhi,"Narela, Delhi - DPCC",2022,PM10,230.0,214
+Delhi,"Narela, Delhi - DPCC",2023,PM10,224.0,209
+Delhi,"Narela, Delhi - DPCC",2024,PM10,227.0,214
+Delhi,"Narela, Delhi - DPCC",2025,PM10,206.0,201
+Delhi,"Narela, Delhi - DPCC",2026,PM10,228.0,217
+Delhi,"Nehru Nagar, Delhi - DPCC",2015,PM10,,278
+Delhi,"Nehru Nagar, Delhi - DPCC",2016,PM10,,286
+Delhi,"Nehru Nagar, Delhi - DPCC",2017,PM10,,253
+Delhi,"Nehru Nagar, Delhi - DPCC",2018,PM10,234.0,246
+Delhi,"Nehru Nagar, Delhi - DPCC",2019,PM10,224.0,217
+Delhi,"Nehru Nagar, Delhi - DPCC",2020,PM10,185.0,190
+Delhi,"Nehru Nagar, Delhi - DPCC",2021,PM10,207.0,217
+Delhi,"Nehru Nagar, Delhi - DPCC",2022,PM10,210.0,214
+Delhi,"Nehru Nagar, Delhi - DPCC",2023,PM10,215.0,209
+Delhi,"Nehru Nagar, Delhi - DPCC",2024,PM10,215.0,214
+Delhi,"Nehru Nagar, Delhi - DPCC",2025,PM10,201.0,201
+Delhi,"Nehru Nagar, Delhi - DPCC",2026,PM10,241.0,217
+Delhi,"North Campus, DU, Delhi - IMD",2015,PM10,237.0,278
+Delhi,"North Campus, DU, Delhi - IMD",2016,PM10,191.0,286
+Delhi,"North Campus, DU, Delhi - IMD",2017,PM10,282.0,253
+Delhi,"North Campus, DU, Delhi - IMD",2018,PM10,242.0,246
+Delhi,"North Campus, DU, Delhi - IMD",2019,PM10,231.0,217
+Delhi,"North Campus, DU, Delhi - IMD",2020,PM10,175.0,190
+Delhi,"North Campus, DU, Delhi - IMD",2021,PM10,195.0,217
+Delhi,"North Campus, DU, Delhi - IMD",2022,PM10,182.0,214
+Delhi,"North Campus, DU, Delhi - IMD",2023,PM10,180.0,209
+Delhi,"North Campus, DU, Delhi - IMD",2024,PM10,205.0,214
+Delhi,"North Campus, DU, Delhi - IMD",2025,PM10,193.0,201
+Delhi,"North Campus, DU, Delhi - IMD",2026,PM10,213.0,217
+Delhi,"Okhla Phase-2, Delhi - DPCC",2015,PM10,,278
+Delhi,"Okhla Phase-2, Delhi - DPCC",2016,PM10,,286
+Delhi,"Okhla Phase-2, Delhi - DPCC",2017,PM10,,253
+Delhi,"Okhla Phase-2, Delhi - DPCC",2018,PM10,250.0,246
+Delhi,"Okhla Phase-2, Delhi - DPCC",2019,PM10,215.0,217
+Delhi,"Okhla Phase-2, Delhi - DPCC",2020,PM10,190.0,190
+Delhi,"Okhla Phase-2, Delhi - DPCC",2021,PM10,223.0,217
+Delhi,"Okhla Phase-2, Delhi - DPCC",2022,PM10,219.0,214
+Delhi,"Okhla Phase-2, Delhi - DPCC",2023,PM10,219.0,209
+Delhi,"Okhla Phase-2, Delhi - DPCC",2024,PM10,221.0,214
+Delhi,"Okhla Phase-2, Delhi - DPCC",2025,PM10,214.0,201
+Delhi,"Okhla Phase-2, Delhi - DPCC",2026,PM10,234.0,217
+Delhi,"Patparganj, Delhi - DPCC",2015,PM10,,278
+Delhi,"Patparganj, Delhi - DPCC",2016,PM10,,286
+Delhi,"Patparganj, Delhi - DPCC",2017,PM10,,253
+Delhi,"Patparganj, Delhi - DPCC",2018,PM10,212.0,246
+Delhi,"Patparganj, Delhi - DPCC",2019,PM10,191.0,217
+Delhi,"Patparganj, Delhi - DPCC",2020,PM10,163.0,190
+Delhi,"Patparganj, Delhi - DPCC",2021,PM10,201.0,217
+Delhi,"Patparganj, Delhi - DPCC",2022,PM10,211.0,214
+Delhi,"Patparganj, Delhi - DPCC",2023,PM10,218.0,209
+Delhi,"Patparganj, Delhi - DPCC",2024,PM10,242.0,214
+Delhi,"Patparganj, Delhi - DPCC",2025,PM10,219.0,201
+Delhi,"Patparganj, Delhi - DPCC",2026,PM10,227.0,217
+Delhi,"Punjabi Bagh, Delhi - DPCC",2015,PM10,252.0,278
+Delhi,"Punjabi Bagh, Delhi - DPCC",2016,PM10,254.0,286
+Delhi,"Punjabi Bagh, Delhi - DPCC",2017,PM10,286.0,253
+Delhi,"Punjabi Bagh, Delhi - DPCC",2018,PM10,250.0,246
+Delhi,"Punjabi Bagh, Delhi - DPCC",2019,PM10,210.0,217
+Delhi,"Punjabi Bagh, Delhi - DPCC",2020,PM10,184.0,190
+Delhi,"Punjabi Bagh, Delhi - DPCC",2021,PM10,203.0,217
+Delhi,"Punjabi Bagh, Delhi - DPCC",2022,PM10,231.0,214
+Delhi,"Punjabi Bagh, Delhi - DPCC",2023,PM10,224.0,209
+Delhi,"Punjabi Bagh, Delhi - DPCC",2024,PM10,221.0,214
+Delhi,"Punjabi Bagh, Delhi - DPCC",2025,PM10,202.0,201
+Delhi,"Punjabi Bagh, Delhi - DPCC",2026,PM10,239.0,217
+Delhi,"Pusa, Delhi - DPCC",2015,PM10,,278
+Delhi,"Pusa, Delhi - DPCC",2016,PM10,,286
+Delhi,"Pusa, Delhi - DPCC",2017,PM10,,253
+Delhi,"Pusa, Delhi - DPCC",2018,PM10,221.0,246
+Delhi,"Pusa, Delhi - DPCC",2019,PM10,212.0,217
+Delhi,"Pusa, Delhi - DPCC",2020,PM10,176.0,190
+Delhi,"Pusa, Delhi - DPCC",2021,PM10,209.0,217
+Delhi,"Pusa, Delhi - DPCC",2022,PM10,218.0,214
+Delhi,"Pusa, Delhi - DPCC",2023,PM10,228.0,209
+Delhi,"Pusa, Delhi - DPCC",2024,PM10,219.0,214
+Delhi,"Pusa, Delhi - DPCC",2025,PM10,196.0,201
+Delhi,"Pusa, Delhi - DPCC",2026,PM10,240.0,217
+Delhi,"Pusa, Delhi - IMD",2015,PM10,,278
+Delhi,"Pusa, Delhi - IMD",2016,PM10,,286
+Delhi,"Pusa, Delhi - IMD",2017,PM10,196.0,253
+Delhi,"Pusa, Delhi - IMD",2018,PM10,169.0,246
+Delhi,"Pusa, Delhi - IMD",2019,PM10,161.0,217
+Delhi,"Pusa, Delhi - IMD",2020,PM10,149.0,190
+Delhi,"Pusa, Delhi - IMD",2021,PM10,168.0,217
+Delhi,"Pusa, Delhi - IMD",2022,PM10,163.0,214
+Delhi,"Pusa, Delhi - IMD",2023,PM10,157.0,209
+Delhi,"Pusa, Delhi - IMD",2024,PM10,176.0,214
+Delhi,"Pusa, Delhi - IMD",2025,PM10,165.0,201
+Delhi,"Pusa, Delhi - IMD",2026,PM10,194.0,217
+Delhi,"R K Puram, Delhi - DPCC",2015,PM10,240.0,278
+Delhi,"R K Puram, Delhi - DPCC",2016,PM10,268.0,286
+Delhi,"R K Puram, Delhi - DPCC",2017,PM10,232.0,253
+Delhi,"R K Puram, Delhi - DPCC",2018,PM10,250.0,246
+Delhi,"R K Puram, Delhi - DPCC",2019,PM10,214.0,217
+Delhi,"R K Puram, Delhi - DPCC",2020,PM10,165.0,190
+Delhi,"R K Puram, Delhi - DPCC",2021,PM10,197.0,217
+Delhi,"R K Puram, Delhi - DPCC",2022,PM10,200.0,214
+Delhi,"R K Puram, Delhi - DPCC",2023,PM10,209.0,209
+Delhi,"R K Puram, Delhi - DPCC",2024,PM10,215.0,214
+Delhi,"R K Puram, Delhi - DPCC",2025,PM10,197.0,201
+Delhi,"R K Puram, Delhi - DPCC",2026,PM10,226.0,217
+Delhi,"Rohini, Delhi - DPCC",2015,PM10,,278
+Delhi,"Rohini, Delhi - DPCC",2016,PM10,,286
+Delhi,"Rohini, Delhi - DPCC",2017,PM10,,253
+Delhi,"Rohini, Delhi - DPCC",2018,PM10,291.0,246
+Delhi,"Rohini, Delhi - DPCC",2019,PM10,240.0,217
+Delhi,"Rohini, Delhi - DPCC",2020,PM10,213.0,190
+Delhi,"Rohini, Delhi - DPCC",2021,PM10,235.0,217
+Delhi,"Rohini, Delhi - DPCC",2022,PM10,232.0,214
+Delhi,"Rohini, Delhi - DPCC",2023,PM10,233.0,209
+Delhi,"Rohini, Delhi - DPCC",2024,PM10,241.0,214
+Delhi,"Rohini, Delhi - DPCC",2025,PM10,232.0,201
+Delhi,"Rohini, Delhi - DPCC",2026,PM10,266.0,217
+Delhi,"Shadipur, Delhi - CPCB",2015,PM10,,278
+Delhi,"Shadipur, Delhi - CPCB",2016,PM10,,286
+Delhi,"Shadipur, Delhi - CPCB",2017,PM10,,253
+Delhi,"Shadipur, Delhi - CPCB",2018,PM10,,246
+Delhi,"Shadipur, Delhi - CPCB",2019,PM10,,217
+Delhi,"Shadipur, Delhi - CPCB",2020,PM10,228.0,190
+Delhi,"Shadipur, Delhi - CPCB",2021,PM10,238.0,217
+Delhi,"Shadipur, Delhi - CPCB",2022,PM10,229.0,214
+Delhi,"Shadipur, Delhi - CPCB",2023,PM10,240.0,209
+Delhi,"Shadipur, Delhi - CPCB",2024,PM10,255.0,214
+Delhi,"Shadipur, Delhi - CPCB",2025,PM10,188.0,201
+Delhi,"Shadipur, Delhi - CPCB",2026,PM10,197.0,217
+Delhi,"Sirifort, Delhi - CPCB",2015,PM10,,278
+Delhi,"Sirifort, Delhi - CPCB",2016,PM10,,286
+Delhi,"Sirifort, Delhi - CPCB",2017,PM10,,253
+Delhi,"Sirifort, Delhi - CPCB",2018,PM10,271.0,246
+Delhi,"Sirifort, Delhi - CPCB",2019,PM10,284.0,217
+Delhi,"Sirifort, Delhi - CPCB",2020,PM10,182.0,190
+Delhi,"Sirifort, Delhi - CPCB",2021,PM10,210.0,217
+Delhi,"Sirifort, Delhi - CPCB",2022,PM10,212.0,214
+Delhi,"Sirifort, Delhi - CPCB",2023,PM10,205.0,209
+Delhi,"Sirifort, Delhi - CPCB",2024,PM10,200.0,214
+Delhi,"Sirifort, Delhi - CPCB",2025,PM10,211.0,201
+Delhi,"Sirifort, Delhi - CPCB",2026,PM10,246.0,217
+Delhi,"Sonia Vihar, Delhi - DPCC",2015,PM10,,278
+Delhi,"Sonia Vihar, Delhi - DPCC",2016,PM10,,286
+Delhi,"Sonia Vihar, Delhi - DPCC",2017,PM10,,253
+Delhi,"Sonia Vihar, Delhi - DPCC",2018,PM10,242.0,246
+Delhi,"Sonia Vihar, Delhi - DPCC",2019,PM10,211.0,217
+Delhi,"Sonia Vihar, Delhi - DPCC",2020,PM10,187.0,190
+Delhi,"Sonia Vihar, Delhi - DPCC",2021,PM10,228.0,217
+Delhi,"Sonia Vihar, Delhi - DPCC",2022,PM10,233.0,214
+Delhi,"Sonia Vihar, Delhi - DPCC",2023,PM10,223.0,209
+Delhi,"Sonia Vihar, Delhi - DPCC",2024,PM10,215.0,214
+Delhi,"Sonia Vihar, Delhi - DPCC",2025,PM10,192.0,201
+Delhi,"Sonia Vihar, Delhi - DPCC",2026,PM10,227.0,217
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2015,PM10,,278
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2016,PM10,,286
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2017,PM10,,253
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2018,PM10,167.0,246
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2019,PM10,169.0,217
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2020,PM10,118.0,190
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2021,PM10,143.0,217
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2022,PM10,164.0,214
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2023,PM10,155.0,209
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2024,PM10,177.0,214
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2025,PM10,150.0,201
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2026,PM10,167.0,217
+Delhi,"Talkatora Garden, Delhi - DPCC",2015,PM10,,278
+Delhi,"Talkatora Garden, Delhi - DPCC",2016,PM10,,286
+Delhi,"Talkatora Garden, Delhi - DPCC",2017,PM10,,253
+Delhi,"Talkatora Garden, Delhi - DPCC",2018,PM10,,246
+Delhi,"Talkatora Garden, Delhi - DPCC",2019,PM10,,217
+Delhi,"Talkatora Garden, Delhi - DPCC",2020,PM10,,190
+Delhi,"Talkatora Garden, Delhi - DPCC",2021,PM10,,217
+Delhi,"Talkatora Garden, Delhi - DPCC",2022,PM10,,214
+Delhi,"Talkatora Garden, Delhi - DPCC",2023,PM10,,209
+Delhi,"Talkatora Garden, Delhi - DPCC",2024,PM10,,214
+Delhi,"Talkatora Garden, Delhi - DPCC",2025,PM10,,201
+Delhi,"Talkatora Garden, Delhi - DPCC",2026,PM10,151.0,217
+Delhi,"Vivek Vihar, Delhi - DPCC",2015,PM10,,278
+Delhi,"Vivek Vihar, Delhi - DPCC",2016,PM10,,286
+Delhi,"Vivek Vihar, Delhi - DPCC",2017,PM10,,253
+Delhi,"Vivek Vihar, Delhi - DPCC",2018,PM10,251.0,246
+Delhi,"Vivek Vihar, Delhi - DPCC",2019,PM10,232.0,217
+Delhi,"Vivek Vihar, Delhi - DPCC",2020,PM10,197.0,190
+Delhi,"Vivek Vihar, Delhi - DPCC",2021,PM10,229.0,217
+Delhi,"Vivek Vihar, Delhi - DPCC",2022,PM10,240.0,214
+Delhi,"Vivek Vihar, Delhi - DPCC",2023,PM10,237.0,209
+Delhi,"Vivek Vihar, Delhi - DPCC",2024,PM10,228.0,214
+Delhi,"Vivek Vihar, Delhi - DPCC",2025,PM10,212.0,201
+Delhi,"Vivek Vihar, Delhi - DPCC",2026,PM10,241.0,217
+Delhi,"Wazirpur, Delhi - DPCC",2015,PM10,,278
+Delhi,"Wazirpur, Delhi - DPCC",2016,PM10,,286
+Delhi,"Wazirpur, Delhi - DPCC",2017,PM10,,253
+Delhi,"Wazirpur, Delhi - DPCC",2018,PM10,317.0,246
+Delhi,"Wazirpur, Delhi - DPCC",2019,PM10,289.0,217
+Delhi,"Wazirpur, Delhi - DPCC",2020,PM10,214.0,190
+Delhi,"Wazirpur, Delhi - DPCC",2021,PM10,269.0,217
+Delhi,"Wazirpur, Delhi - DPCC",2022,PM10,243.0,214
+Delhi,"Wazirpur, Delhi - DPCC",2023,PM10,270.0,209
+Delhi,"Wazirpur, Delhi - DPCC",2024,PM10,268.0,214
+Delhi,"Wazirpur, Delhi - DPCC",2025,PM10,282.0,201
+Delhi,"Wazirpur, Delhi - DPCC",2026,PM10,300.0,217
+Delhi,"Alipur, Delhi - DPCC",2015,SO2,,14
+Delhi,"Alipur, Delhi - DPCC",2016,SO2,,17
+Delhi,"Alipur, Delhi - DPCC",2017,SO2,,19
+Delhi,"Alipur, Delhi - DPCC",2018,SO2,22.0,14
+Delhi,"Alipur, Delhi - DPCC",2019,SO2,23.0,14
+Delhi,"Alipur, Delhi - DPCC",2020,SO2,13.0,13
+Delhi,"Alipur, Delhi - DPCC",2021,SO2,13.0,12
+Delhi,"Alipur, Delhi - DPCC",2022,SO2,11.0,11
+Delhi,"Alipur, Delhi - DPCC",2023,SO2,10.0,9
+Delhi,"Alipur, Delhi - DPCC",2024,SO2,11.0,15
+Delhi,"Alipur, Delhi - DPCC",2025,SO2,11.0,15
+Delhi,"Alipur, Delhi - DPCC",2026,SO2,9.0,21
+Delhi,"Anand Vihar, Delhi - DPCC",2015,SO2,21.0,14
+Delhi,"Anand Vihar, Delhi - DPCC",2016,SO2,20.0,17
+Delhi,"Anand Vihar, Delhi - DPCC",2017,SO2,29.0,19
+Delhi,"Anand Vihar, Delhi - DPCC",2018,SO2,16.0,14
+Delhi,"Anand Vihar, Delhi - DPCC",2019,SO2,13.0,14
+Delhi,"Anand Vihar, Delhi - DPCC",2020,SO2,14.0,13
+Delhi,"Anand Vihar, Delhi - DPCC",2021,SO2,17.0,12
+Delhi,"Anand Vihar, Delhi - DPCC",2022,SO2,21.0,11
+Delhi,"Anand Vihar, Delhi - DPCC",2023,SO2,14.0,9
+Delhi,"Anand Vihar, Delhi - DPCC",2024,SO2,18.0,15
+Delhi,"Anand Vihar, Delhi - DPCC",2025,SO2,26.0,15
+Delhi,"Anand Vihar, Delhi - DPCC",2026,SO2,21.0,21
+Delhi,"Ashok Vihar, Delhi - DPCC",2015,SO2,,14
+Delhi,"Ashok Vihar, Delhi - DPCC",2016,SO2,,17
+Delhi,"Ashok Vihar, Delhi - DPCC",2017,SO2,,19
+Delhi,"Ashok Vihar, Delhi - DPCC",2018,SO2,13.0,14
+Delhi,"Ashok Vihar, Delhi - DPCC",2019,SO2,20.0,14
+Delhi,"Ashok Vihar, Delhi - DPCC",2020,SO2,18.0,13
+Delhi,"Ashok Vihar, Delhi - DPCC",2021,SO2,23.0,12
+Delhi,"Ashok Vihar, Delhi - DPCC",2022,SO2,12.0,11
+Delhi,"Ashok Vihar, Delhi - DPCC",2023,SO2,6.0,9
+Delhi,"Ashok Vihar, Delhi - DPCC",2024,SO2,17.0,15
+Delhi,"Ashok Vihar, Delhi - DPCC",2025,SO2,15.0,15
+Delhi,"Ashok Vihar, Delhi - DPCC",2026,SO2,17.0,21
+Delhi,"Bawana, Delhi - DPCC",2015,SO2,,14
+Delhi,"Bawana, Delhi - DPCC",2016,SO2,,17
+Delhi,"Bawana, Delhi - DPCC",2017,SO2,,19
+Delhi,"Bawana, Delhi - DPCC",2018,SO2,14.0,14
+Delhi,"Bawana, Delhi - DPCC",2019,SO2,13.0,14
+Delhi,"Bawana, Delhi - DPCC",2020,SO2,12.0,13
+Delhi,"Bawana, Delhi - DPCC",2021,SO2,7.0,12
+Delhi,"Bawana, Delhi - DPCC",2022,SO2,5.0,11
+Delhi,"Bawana, Delhi - DPCC",2023,SO2,3.0,9
+Delhi,"Bawana, Delhi - DPCC",2024,SO2,12.0,15
+Delhi,"Bawana, Delhi - DPCC",2025,SO2,11.0,15
+Delhi,"Bawana, Delhi - DPCC",2026,SO2,13.0,21
+Delhi,"Cantonment Area, Delhi - DPCC",2015,SO2,,14
+Delhi,"Cantonment Area, Delhi - DPCC",2016,SO2,,17
+Delhi,"Cantonment Area, Delhi - DPCC",2017,SO2,,19
+Delhi,"Cantonment Area, Delhi - DPCC",2018,SO2,,14
+Delhi,"Cantonment Area, Delhi - DPCC",2019,SO2,,14
+Delhi,"Cantonment Area, Delhi - DPCC",2020,SO2,,13
+Delhi,"Cantonment Area, Delhi - DPCC",2021,SO2,,12
+Delhi,"Cantonment Area, Delhi - DPCC",2022,SO2,,11
+Delhi,"Cantonment Area, Delhi - DPCC",2023,SO2,,9
+Delhi,"Cantonment Area, Delhi - DPCC",2024,SO2,,15
+Delhi,"Cantonment Area, Delhi - DPCC",2025,SO2,,15
+Delhi,"Cantonment Area, Delhi - DPCC",2026,SO2,31.0,21
+Delhi,"Chandni Chowk, Delhi - IITM",2015,SO2,,14
+Delhi,"Chandni Chowk, Delhi - IITM",2016,SO2,,17
+Delhi,"Chandni Chowk, Delhi - IITM",2017,SO2,,19
+Delhi,"Chandni Chowk, Delhi - IITM",2018,SO2,,14
+Delhi,"Chandni Chowk, Delhi - IITM",2019,SO2,,14
+Delhi,"Chandni Chowk, Delhi - IITM",2020,SO2,6.0,13
+Delhi,"Chandni Chowk, Delhi - IITM",2021,SO2,6.0,12
+Delhi,"Chandni Chowk, Delhi - IITM",2022,SO2,7.0,11
+Delhi,"Chandni Chowk, Delhi - IITM",2023,SO2,19.0,9
+Delhi,"Chandni Chowk, Delhi - IITM",2024,SO2,26.0,15
+Delhi,"Chandni Chowk, Delhi - IITM",2025,SO2,16.0,15
+Delhi,"Chandni Chowk, Delhi - IITM",2026,SO2,18.0,21
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2015,SO2,,14
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2016,SO2,,17
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2017,SO2,,19
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2018,SO2,,14
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2019,SO2,,14
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2020,SO2,,13
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2021,SO2,,12
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2022,SO2,,11
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2023,SO2,,9
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2024,SO2,,15
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2025,SO2,,15
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2026,SO2,34.0,21
+Delhi,"DTU, Delhi - CPCB",2015,SO2,,14
+Delhi,"DTU, Delhi - CPCB",2016,SO2,,17
+Delhi,"DTU, Delhi - CPCB",2017,SO2,,19
+Delhi,"DTU, Delhi - CPCB",2018,SO2,11.0,14
+Delhi,"DTU, Delhi - CPCB",2019,SO2,12.0,14
+Delhi,"DTU, Delhi - CPCB",2020,SO2,9.0,13
+Delhi,"DTU, Delhi - CPCB",2021,SO2,8.0,12
+Delhi,"DTU, Delhi - CPCB",2022,SO2,17.0,11
+Delhi,"DTU, Delhi - CPCB",2023,SO2,20.0,9
+Delhi,"DTU, Delhi - CPCB",2024,SO2,37.0,15
+Delhi,"DTU, Delhi - CPCB",2025,SO2,42.0,15
+Delhi,"DTU, Delhi - CPCB",2026,SO2,25.0,21
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2015,SO2,,14
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2016,SO2,,17
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2017,SO2,,19
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2018,SO2,27.0,14
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2019,SO2,15.0,14
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2020,SO2,14.0,13
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2021,SO2,14.0,12
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2022,SO2,10.0,11
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2023,SO2,8.0,9
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2024,SO2,14.0,15
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2025,SO2,13.0,15
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2026,SO2,13.0,21
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2015,SO2,,14
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2016,SO2,,17
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2017,SO2,,19
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2018,SO2,11.0,14
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2019,SO2,20.0,14
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2020,SO2,13.0,13
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2021,SO2,6.0,12
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2022,SO2,4.0,11
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2023,SO2,3.0,9
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2024,SO2,9.0,15
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2025,SO2,14.0,15
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2026,SO2,21.0,21
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2015,SO2,,14
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2016,SO2,,17
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2017,SO2,,19
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2018,SO2,,14
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2019,SO2,,14
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2020,SO2,,13
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2021,SO2,,12
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2022,SO2,,11
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2023,SO2,,9
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2024,SO2,,15
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2025,SO2,,15
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2026,SO2,34.0,21
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2015,SO2,12.0,14
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2016,SO2,12.0,17
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2017,SO2,15.0,19
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2018,SO2,16.0,14
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2019,SO2,14.0,14
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2020,SO2,12.0,13
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2021,SO2,11.0,12
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2022,SO2,15.0,11
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2023,SO2,15.0,9
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2024,SO2,15.0,15
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2025,SO2,13.0,15
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2026,SO2,14.0,21
+Delhi,"ITO, Delhi - CPCB",2015,SO2,10.0,14
+Delhi,"ITO, Delhi - CPCB",2016,SO2,18.0,17
+Delhi,"ITO, Delhi - CPCB",2017,SO2,,19
+Delhi,"ITO, Delhi - CPCB",2018,SO2,5.0,14
+Delhi,"ITO, Delhi - CPCB",2019,SO2,9.0,14
+Delhi,"ITO, Delhi - CPCB",2020,SO2,12.0,13
+Delhi,"ITO, Delhi - CPCB",2021,SO2,17.0,12
+Delhi,"ITO, Delhi - CPCB",2022,SO2,16.0,11
+Delhi,"ITO, Delhi - CPCB",2023,SO2,12.0,9
+Delhi,"ITO, Delhi - CPCB",2024,SO2,13.0,15
+Delhi,"ITO, Delhi - CPCB",2025,SO2,14.0,15
+Delhi,"ITO, Delhi - CPCB",2026,SO2,17.0,21
+Delhi,"JNU, Delhi - DPCC",2015,SO2,,14
+Delhi,"JNU, Delhi - DPCC",2016,SO2,,17
+Delhi,"JNU, Delhi - DPCC",2017,SO2,,19
+Delhi,"JNU, Delhi - DPCC",2018,SO2,,14
+Delhi,"JNU, Delhi - DPCC",2019,SO2,,14
+Delhi,"JNU, Delhi - DPCC",2020,SO2,,13
+Delhi,"JNU, Delhi - DPCC",2021,SO2,,12
+Delhi,"JNU, Delhi - DPCC",2022,SO2,,11
+Delhi,"JNU, Delhi - DPCC",2023,SO2,,9
+Delhi,"JNU, Delhi - DPCC",2024,SO2,,15
+Delhi,"JNU, Delhi - DPCC",2025,SO2,,15
+Delhi,"JNU, Delhi - DPCC",2026,SO2,16.0,21
+Delhi,"Jahangirpuri, Delhi - DPCC",2015,SO2,,14
+Delhi,"Jahangirpuri, Delhi - DPCC",2016,SO2,,17
+Delhi,"Jahangirpuri, Delhi - DPCC",2017,SO2,,19
+Delhi,"Jahangirpuri, Delhi - DPCC",2018,SO2,16.0,14
+Delhi,"Jahangirpuri, Delhi - DPCC",2019,SO2,19.0,14
+Delhi,"Jahangirpuri, Delhi - DPCC",2020,SO2,7.0,13
+Delhi,"Jahangirpuri, Delhi - DPCC",2021,SO2,11.0,12
+Delhi,"Jahangirpuri, Delhi - DPCC",2022,SO2,17.0,11
+Delhi,"Jahangirpuri, Delhi - DPCC",2023,SO2,15.0,9
+Delhi,"Jahangirpuri, Delhi - DPCC",2024,SO2,19.0,15
+Delhi,"Jahangirpuri, Delhi - DPCC",2025,SO2,15.0,15
+Delhi,"Jahangirpuri, Delhi - DPCC",2026,SO2,35.0,21
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2015,SO2,,14
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2016,SO2,,17
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2017,SO2,,19
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2018,SO2,16.0,14
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2019,SO2,18.0,14
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2020,SO2,19.0,13
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2021,SO2,15.0,12
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2022,SO2,11.0,11
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2023,SO2,6.0,9
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2024,SO2,13.0,15
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2025,SO2,11.0,15
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2026,SO2,18.0,21
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2015,SO2,,14
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2016,SO2,,17
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2017,SO2,,19
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2018,SO2,15.0,14
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2019,SO2,13.0,14
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2020,SO2,16.0,13
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2021,SO2,7.0,12
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2022,SO2,5.0,11
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2023,SO2,5.0,9
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2024,SO2,10.0,15
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2025,SO2,11.0,15
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2026,SO2,16.0,21
+Delhi,"Mandir Marg, Delhi - DPCC",2015,SO2,16.0,14
+Delhi,"Mandir Marg, Delhi - DPCC",2016,SO2,16.0,17
+Delhi,"Mandir Marg, Delhi - DPCC",2017,SO2,12.0,19
+Delhi,"Mandir Marg, Delhi - DPCC",2018,SO2,12.0,14
+Delhi,"Mandir Marg, Delhi - DPCC",2019,SO2,6.0,14
+Delhi,"Mandir Marg, Delhi - DPCC",2020,SO2,15.0,13
+Delhi,"Mandir Marg, Delhi - DPCC",2021,SO2,14.0,12
+Delhi,"Mandir Marg, Delhi - DPCC",2022,SO2,14.0,11
+Delhi,"Mandir Marg, Delhi - DPCC",2023,SO2,8.0,9
+Delhi,"Mandir Marg, Delhi - DPCC",2024,SO2,8.0,15
+Delhi,"Mandir Marg, Delhi - DPCC",2025,SO2,19.0,15
+Delhi,"Mandir Marg, Delhi - DPCC",2026,SO2,23.0,21
+Delhi,"Mundka, Delhi - DPCC",2015,SO2,,14
+Delhi,"Mundka, Delhi - DPCC",2016,SO2,,17
+Delhi,"Mundka, Delhi - DPCC",2017,SO2,,19
+Delhi,"Mundka, Delhi - DPCC",2018,SO2,21.0,14
+Delhi,"Mundka, Delhi - DPCC",2019,SO2,16.0,14
+Delhi,"Mundka, Delhi - DPCC",2020,SO2,14.0,13
+Delhi,"Mundka, Delhi - DPCC",2021,SO2,22.0,12
+Delhi,"Mundka, Delhi - DPCC",2022,SO2,17.0,11
+Delhi,"Mundka, Delhi - DPCC",2023,SO2,15.0,9
+Delhi,"Mundka, Delhi - DPCC",2024,SO2,13.0,15
+Delhi,"Mundka, Delhi - DPCC",2025,SO2,12.0,15
+Delhi,"Mundka, Delhi - DPCC",2026,SO2,20.0,21
+Delhi,"NSIT Dwarka, Delhi - CPCB",2015,SO2,9.0,14
+Delhi,"NSIT Dwarka, Delhi - CPCB",2016,SO2,8.0,17
+Delhi,"NSIT Dwarka, Delhi - CPCB",2017,SO2,8.0,19
+Delhi,"NSIT Dwarka, Delhi - CPCB",2018,SO2,12.0,14
+Delhi,"NSIT Dwarka, Delhi - CPCB",2019,SO2,14.0,14
+Delhi,"NSIT Dwarka, Delhi - CPCB",2020,SO2,11.0,13
+Delhi,"NSIT Dwarka, Delhi - CPCB",2021,SO2,9.0,12
+Delhi,"NSIT Dwarka, Delhi - CPCB",2022,SO2,11.0,11
+Delhi,"NSIT Dwarka, Delhi - CPCB",2023,SO2,9.0,9
+Delhi,"NSIT Dwarka, Delhi - CPCB",2024,SO2,13.0,15
+Delhi,"NSIT Dwarka, Delhi - CPCB",2025,SO2,12.0,15
+Delhi,"NSIT Dwarka, Delhi - CPCB",2026,SO2,12.0,21
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2015,SO2,,14
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2016,SO2,,17
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2017,SO2,,19
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2018,SO2,,14
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2019,SO2,,14
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2020,SO2,,13
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2021,SO2,,12
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2022,SO2,,11
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2023,SO2,,9
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2024,SO2,,15
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2025,SO2,,15
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2026,SO2,51.0,21
+Delhi,"Najafgarh, Delhi - DPCC",2015,SO2,,14
+Delhi,"Najafgarh, Delhi - DPCC",2016,SO2,,17
+Delhi,"Najafgarh, Delhi - DPCC",2017,SO2,,19
+Delhi,"Najafgarh, Delhi - DPCC",2018,SO2,7.0,14
+Delhi,"Najafgarh, Delhi - DPCC",2019,SO2,14.0,14
+Delhi,"Najafgarh, Delhi - DPCC",2020,SO2,10.0,13
+Delhi,"Najafgarh, Delhi - DPCC",2021,SO2,5.0,12
+Delhi,"Najafgarh, Delhi - DPCC",2022,SO2,2.0,11
+Delhi,"Najafgarh, Delhi - DPCC",2023,SO2,2.0,9
+Delhi,"Najafgarh, Delhi - DPCC",2024,SO2,11.0,15
+Delhi,"Najafgarh, Delhi - DPCC",2025,SO2,13.0,15
+Delhi,"Najafgarh, Delhi - DPCC",2026,SO2,18.0,21
+Delhi,"Narela, Delhi - DPCC",2015,SO2,,14
+Delhi,"Narela, Delhi - DPCC",2016,SO2,,17
+Delhi,"Narela, Delhi - DPCC",2017,SO2,,19
+Delhi,"Narela, Delhi - DPCC",2018,SO2,10.0,14
+Delhi,"Narela, Delhi - DPCC",2019,SO2,15.0,14
+Delhi,"Narela, Delhi - DPCC",2020,SO2,11.0,13
+Delhi,"Narela, Delhi - DPCC",2021,SO2,13.0,12
+Delhi,"Narela, Delhi - DPCC",2022,SO2,14.0,11
+Delhi,"Narela, Delhi - DPCC",2023,SO2,5.0,9
+Delhi,"Narela, Delhi - DPCC",2024,SO2,12.0,15
+Delhi,"Narela, Delhi - DPCC",2025,SO2,10.0,15
+Delhi,"Narela, Delhi - DPCC",2026,SO2,13.0,21
+Delhi,"Nehru Nagar, Delhi - DPCC",2015,SO2,,14
+Delhi,"Nehru Nagar, Delhi - DPCC",2016,SO2,,17
+Delhi,"Nehru Nagar, Delhi - DPCC",2017,SO2,,19
+Delhi,"Nehru Nagar, Delhi - DPCC",2018,SO2,10.0,14
+Delhi,"Nehru Nagar, Delhi - DPCC",2019,SO2,18.0,14
+Delhi,"Nehru Nagar, Delhi - DPCC",2020,SO2,12.0,13
+Delhi,"Nehru Nagar, Delhi - DPCC",2021,SO2,14.0,12
+Delhi,"Nehru Nagar, Delhi - DPCC",2022,SO2,16.0,11
+Delhi,"Nehru Nagar, Delhi - DPCC",2023,SO2,12.0,9
+Delhi,"Nehru Nagar, Delhi - DPCC",2024,SO2,9.0,15
+Delhi,"Nehru Nagar, Delhi - DPCC",2025,SO2,12.0,15
+Delhi,"Nehru Nagar, Delhi - DPCC",2026,SO2,20.0,21
+Delhi,"Okhla Phase-2, Delhi - DPCC",2015,SO2,,14
+Delhi,"Okhla Phase-2, Delhi - DPCC",2016,SO2,,17
+Delhi,"Okhla Phase-2, Delhi - DPCC",2017,SO2,,19
+Delhi,"Okhla Phase-2, Delhi - DPCC",2018,SO2,12.0,14
+Delhi,"Okhla Phase-2, Delhi - DPCC",2019,SO2,13.0,14
+Delhi,"Okhla Phase-2, Delhi - DPCC",2020,SO2,15.0,13
+Delhi,"Okhla Phase-2, Delhi - DPCC",2021,SO2,15.0,12
+Delhi,"Okhla Phase-2, Delhi - DPCC",2022,SO2,9.0,11
+Delhi,"Okhla Phase-2, Delhi - DPCC",2023,SO2,9.0,9
+Delhi,"Okhla Phase-2, Delhi - DPCC",2024,SO2,9.0,15
+Delhi,"Okhla Phase-2, Delhi - DPCC",2025,SO2,10.0,15
+Delhi,"Okhla Phase-2, Delhi - DPCC",2026,SO2,15.0,21
+Delhi,"Patparganj, Delhi - DPCC",2015,SO2,,14
+Delhi,"Patparganj, Delhi - DPCC",2016,SO2,,17
+Delhi,"Patparganj, Delhi - DPCC",2017,SO2,,19
+Delhi,"Patparganj, Delhi - DPCC",2018,SO2,5.0,14
+Delhi,"Patparganj, Delhi - DPCC",2019,SO2,4.0,14
+Delhi,"Patparganj, Delhi - DPCC",2020,SO2,7.0,13
+Delhi,"Patparganj, Delhi - DPCC",2021,SO2,7.0,12
+Delhi,"Patparganj, Delhi - DPCC",2022,SO2,10.0,11
+Delhi,"Patparganj, Delhi - DPCC",2023,SO2,7.0,9
+Delhi,"Patparganj, Delhi - DPCC",2024,SO2,7.0,15
+Delhi,"Patparganj, Delhi - DPCC",2025,SO2,6.0,15
+Delhi,"Patparganj, Delhi - DPCC",2026,SO2,15.0,21
+Delhi,"Punjabi Bagh, Delhi - DPCC",2015,SO2,18.0,14
+Delhi,"Punjabi Bagh, Delhi - DPCC",2016,SO2,19.0,17
+Delhi,"Punjabi Bagh, Delhi - DPCC",2017,SO2,25.0,19
+Delhi,"Punjabi Bagh, Delhi - DPCC",2018,SO2,21.0,14
+Delhi,"Punjabi Bagh, Delhi - DPCC",2019,SO2,19.0,14
+Delhi,"Punjabi Bagh, Delhi - DPCC",2020,SO2,17.0,13
+Delhi,"Punjabi Bagh, Delhi - DPCC",2021,SO2,19.0,12
+Delhi,"Punjabi Bagh, Delhi - DPCC",2022,SO2,15.0,11
+Delhi,"Punjabi Bagh, Delhi - DPCC",2023,SO2,13.0,9
+Delhi,"Punjabi Bagh, Delhi - DPCC",2024,SO2,20.0,15
+Delhi,"Punjabi Bagh, Delhi - DPCC",2025,SO2,20.0,15
+Delhi,"Punjabi Bagh, Delhi - DPCC",2026,SO2,28.0,21
+Delhi,"Pusa, Delhi - DPCC",2015,SO2,,14
+Delhi,"Pusa, Delhi - DPCC",2016,SO2,,17
+Delhi,"Pusa, Delhi - DPCC",2017,SO2,,19
+Delhi,"Pusa, Delhi - DPCC",2018,SO2,11.0,14
+Delhi,"Pusa, Delhi - DPCC",2019,SO2,15.0,14
+Delhi,"Pusa, Delhi - DPCC",2020,SO2,15.0,13
+Delhi,"Pusa, Delhi - DPCC",2021,SO2,16.0,12
+Delhi,"Pusa, Delhi - DPCC",2022,SO2,10.0,11
+Delhi,"Pusa, Delhi - DPCC",2023,SO2,4.0,9
+Delhi,"Pusa, Delhi - DPCC",2024,SO2,9.0,15
+Delhi,"Pusa, Delhi - DPCC",2025,SO2,11.0,15
+Delhi,"Pusa, Delhi - DPCC",2026,SO2,13.0,21
+Delhi,"R K Puram, Delhi - DPCC",2015,SO2,18.0,14
+Delhi,"R K Puram, Delhi - DPCC",2016,SO2,28.0,17
+Delhi,"R K Puram, Delhi - DPCC",2017,SO2,28.0,19
+Delhi,"R K Puram, Delhi - DPCC",2018,SO2,20.0,14
+Delhi,"R K Puram, Delhi - DPCC",2019,SO2,10.0,14
+Delhi,"R K Puram, Delhi - DPCC",2020,SO2,14.0,13
+Delhi,"R K Puram, Delhi - DPCC",2021,SO2,18.0,12
+Delhi,"R K Puram, Delhi - DPCC",2022,SO2,10.0,11
+Delhi,"R K Puram, Delhi - DPCC",2023,SO2,15.0,9
+Delhi,"R K Puram, Delhi - DPCC",2024,SO2,19.0,15
+Delhi,"R K Puram, Delhi - DPCC",2025,SO2,19.0,15
+Delhi,"R K Puram, Delhi - DPCC",2026,SO2,25.0,21
+Delhi,"Rohini, Delhi - DPCC",2015,SO2,,14
+Delhi,"Rohini, Delhi - DPCC",2016,SO2,,17
+Delhi,"Rohini, Delhi - DPCC",2017,SO2,,19
+Delhi,"Rohini, Delhi - DPCC",2018,SO2,15.0,14
+Delhi,"Rohini, Delhi - DPCC",2019,SO2,13.0,14
+Delhi,"Rohini, Delhi - DPCC",2020,SO2,7.0,13
+Delhi,"Rohini, Delhi - DPCC",2021,SO2,7.0,12
+Delhi,"Rohini, Delhi - DPCC",2022,SO2,5.0,11
+Delhi,"Rohini, Delhi - DPCC",2023,SO2,5.0,9
+Delhi,"Rohini, Delhi - DPCC",2024,SO2,12.0,15
+Delhi,"Rohini, Delhi - DPCC",2025,SO2,8.0,15
+Delhi,"Rohini, Delhi - DPCC",2026,SO2,13.0,21
+Delhi,"Shadipur, Delhi - CPCB",2015,SO2,10.0,14
+Delhi,"Shadipur, Delhi - CPCB",2016,SO2,14.0,17
+Delhi,"Shadipur, Delhi - CPCB",2017,SO2,12.0,19
+Delhi,"Shadipur, Delhi - CPCB",2018,SO2,12.0,14
+Delhi,"Shadipur, Delhi - CPCB",2019,SO2,11.0,14
+Delhi,"Shadipur, Delhi - CPCB",2020,SO2,10.0,13
+Delhi,"Shadipur, Delhi - CPCB",2021,SO2,11.0,12
+Delhi,"Shadipur, Delhi - CPCB",2022,SO2,10.0,11
+Delhi,"Shadipur, Delhi - CPCB",2023,SO2,13.0,9
+Delhi,"Shadipur, Delhi - CPCB",2024,SO2,14.0,15
+Delhi,"Shadipur, Delhi - CPCB",2025,SO2,15.0,15
+Delhi,"Shadipur, Delhi - CPCB",2026,SO2,12.0,21
+Delhi,"Sirifort, Delhi - CPCB",2015,SO2,,14
+Delhi,"Sirifort, Delhi - CPCB",2016,SO2,,17
+Delhi,"Sirifort, Delhi - CPCB",2017,SO2,,19
+Delhi,"Sirifort, Delhi - CPCB",2018,SO2,11.0,14
+Delhi,"Sirifort, Delhi - CPCB",2019,SO2,9.0,14
+Delhi,"Sirifort, Delhi - CPCB",2020,SO2,13.0,13
+Delhi,"Sirifort, Delhi - CPCB",2021,SO2,7.0,12
+Delhi,"Sirifort, Delhi - CPCB",2022,SO2,11.0,11
+Delhi,"Sirifort, Delhi - CPCB",2023,SO2,15.0,9
+Delhi,"Sirifort, Delhi - CPCB",2024,SO2,35.0,15
+Delhi,"Sirifort, Delhi - CPCB",2025,SO2,33.0,15
+Delhi,"Sirifort, Delhi - CPCB",2026,SO2,25.0,21
+Delhi,"Sonia Vihar, Delhi - DPCC",2015,SO2,,14
+Delhi,"Sonia Vihar, Delhi - DPCC",2016,SO2,,17
+Delhi,"Sonia Vihar, Delhi - DPCC",2017,SO2,,19
+Delhi,"Sonia Vihar, Delhi - DPCC",2018,SO2,8.0,14
+Delhi,"Sonia Vihar, Delhi - DPCC",2019,SO2,12.0,14
+Delhi,"Sonia Vihar, Delhi - DPCC",2020,SO2,12.0,13
+Delhi,"Sonia Vihar, Delhi - DPCC",2021,SO2,13.0,12
+Delhi,"Sonia Vihar, Delhi - DPCC",2022,SO2,12.0,11
+Delhi,"Sonia Vihar, Delhi - DPCC",2023,SO2,4.0,9
+Delhi,"Sonia Vihar, Delhi - DPCC",2024,SO2,9.0,15
+Delhi,"Sonia Vihar, Delhi - DPCC",2025,SO2,12.0,15
+Delhi,"Sonia Vihar, Delhi - DPCC",2026,SO2,27.0,21
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2015,SO2,,14
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2016,SO2,,17
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2017,SO2,,19
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2018,SO2,10.0,14
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2019,SO2,9.0,14
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2020,SO2,8.0,13
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2021,SO2,8.0,12
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2022,SO2,6.0,11
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2023,SO2,7.0,9
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2024,SO2,17.0,15
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2025,SO2,12.0,15
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2026,SO2,8.0,21
+Delhi,"Talkatora Garden, Delhi - DPCC",2015,SO2,,14
+Delhi,"Talkatora Garden, Delhi - DPCC",2016,SO2,,17
+Delhi,"Talkatora Garden, Delhi - DPCC",2017,SO2,,19
+Delhi,"Talkatora Garden, Delhi - DPCC",2018,SO2,,14
+Delhi,"Talkatora Garden, Delhi - DPCC",2019,SO2,,14
+Delhi,"Talkatora Garden, Delhi - DPCC",2020,SO2,,13
+Delhi,"Talkatora Garden, Delhi - DPCC",2021,SO2,,12
+Delhi,"Talkatora Garden, Delhi - DPCC",2022,SO2,,11
+Delhi,"Talkatora Garden, Delhi - DPCC",2023,SO2,,9
+Delhi,"Talkatora Garden, Delhi - DPCC",2024,SO2,,15
+Delhi,"Talkatora Garden, Delhi - DPCC",2025,SO2,,15
+Delhi,"Talkatora Garden, Delhi - DPCC",2026,SO2,44.0,21
+Delhi,"Vivek Vihar, Delhi - DPCC",2015,SO2,,14
+Delhi,"Vivek Vihar, Delhi - DPCC",2016,SO2,,17
+Delhi,"Vivek Vihar, Delhi - DPCC",2017,SO2,,19
+Delhi,"Vivek Vihar, Delhi - DPCC",2018,SO2,12.0,14
+Delhi,"Vivek Vihar, Delhi - DPCC",2019,SO2,19.0,14
+Delhi,"Vivek Vihar, Delhi - DPCC",2020,SO2,25.0,13
+Delhi,"Vivek Vihar, Delhi - DPCC",2021,SO2,11.0,12
+Delhi,"Vivek Vihar, Delhi - DPCC",2022,SO2,5.0,11
+Delhi,"Vivek Vihar, Delhi - DPCC",2023,SO2,7.0,9
+Delhi,"Vivek Vihar, Delhi - DPCC",2024,SO2,16.0,15
+Delhi,"Vivek Vihar, Delhi - DPCC",2025,SO2,12.0,15
+Delhi,"Vivek Vihar, Delhi - DPCC",2026,SO2,15.0,21
+Delhi,"Wazirpur, Delhi - DPCC",2015,SO2,,14
+Delhi,"Wazirpur, Delhi - DPCC",2016,SO2,,17
+Delhi,"Wazirpur, Delhi - DPCC",2017,SO2,,19
+Delhi,"Wazirpur, Delhi - DPCC",2018,SO2,20.0,14
+Delhi,"Wazirpur, Delhi - DPCC",2019,SO2,16.0,14
+Delhi,"Wazirpur, Delhi - DPCC",2020,SO2,18.0,13
+Delhi,"Wazirpur, Delhi - DPCC",2021,SO2,9.0,12
+Delhi,"Wazirpur, Delhi - DPCC",2022,SO2,7.0,11
+Delhi,"Wazirpur, Delhi - DPCC",2023,SO2,7.0,9
+Delhi,"Wazirpur, Delhi - DPCC",2024,SO2,16.0,15
+Delhi,"Wazirpur, Delhi - DPCC",2025,SO2,12.0,15
+Delhi,"Wazirpur, Delhi - DPCC",2026,SO2,11.0,21
+Delhi,"Alipur, Delhi - DPCC",2015,CO,,3
+Delhi,"Alipur, Delhi - DPCC",2016,CO,,3
+Delhi,"Alipur, Delhi - DPCC",2017,CO,,2
+Delhi,"Alipur, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Alipur, Delhi - DPCC",2019,CO,1.0,2
+Delhi,"Alipur, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Alipur, Delhi - DPCC",2021,CO,1.0,2
+Delhi,"Alipur, Delhi - DPCC",2022,CO,1.0,2
+Delhi,"Alipur, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Alipur, Delhi - DPCC",2024,CO,1.0,2
+Delhi,"Alipur, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Alipur, Delhi - DPCC",2026,CO,1.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2015,CO,2.0,3
+Delhi,"Anand Vihar, Delhi - DPCC",2016,CO,3.0,3
+Delhi,"Anand Vihar, Delhi - DPCC",2017,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2018,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2019,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2020,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2021,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2023,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2024,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2025,CO,3.0,2
+Delhi,"Anand Vihar, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2015,CO,,3
+Delhi,"Ashok Vihar, Delhi - DPCC",2016,CO,,3
+Delhi,"Ashok Vihar, Delhi - DPCC",2017,CO,,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Ashok Vihar, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2015,CO,,3
+Delhi,"Aya Nagar, Delhi - IMD",2016,CO,,3
+Delhi,"Aya Nagar, Delhi - IMD",2017,CO,1.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2018,CO,2.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2019,CO,1.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2020,CO,1.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2021,CO,1.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2022,CO,1.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2023,CO,2.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2024,CO,2.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2025,CO,1.0,2
+Delhi,"Aya Nagar, Delhi - IMD",2026,CO,1.0,2
+Delhi,"Bawana, Delhi - DPCC",2015,CO,,3
+Delhi,"Bawana, Delhi - DPCC",2016,CO,,3
+Delhi,"Bawana, Delhi - DPCC",2017,CO,,2
+Delhi,"Bawana, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Bawana, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Bawana, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Bawana, Delhi - DPCC",2021,CO,1.0,2
+Delhi,"Bawana, Delhi - DPCC",2022,CO,1.0,2
+Delhi,"Bawana, Delhi - DPCC",2023,CO,1.0,2
+Delhi,"Bawana, Delhi - DPCC",2024,CO,1.0,2
+Delhi,"Bawana, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Bawana, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2015,CO,1.0,3
+Delhi,"Burari Crossing, Delhi - IMD",2016,CO,1.0,3
+Delhi,"Burari Crossing, Delhi - IMD",2017,CO,1.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2018,CO,1.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2019,CO,1.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2020,CO,,2
+Delhi,"Burari Crossing, Delhi - IMD",2021,CO,0.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2022,CO,2.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2023,CO,2.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2024,CO,2.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2025,CO,2.0,2
+Delhi,"Burari Crossing, Delhi - IMD",2026,CO,1.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2015,CO,2.0,3
+Delhi,"CRRI Mathura Road, Delhi - IMD",2016,CO,1.0,3
+Delhi,"CRRI Mathura Road, Delhi - IMD",2017,CO,1.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2018,CO,2.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2019,CO,2.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2020,CO,2.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2021,CO,3.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2022,CO,3.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2023,CO,3.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2024,CO,2.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2025,CO,2.0,2
+Delhi,"CRRI Mathura Road, Delhi - IMD",2026,CO,2.0,2
+Delhi,"Cantonment Area, Delhi - DPCC",2015,CO,,3
+Delhi,"Cantonment Area, Delhi - DPCC",2016,CO,,3
+Delhi,"Cantonment Area, Delhi - DPCC",2017,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2018,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2019,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2020,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2021,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2022,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2023,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2024,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2025,CO,,2
+Delhi,"Cantonment Area, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Chandni Chowk, Delhi - IITM",2015,CO,,3
+Delhi,"Chandni Chowk, Delhi - IITM",2016,CO,,3
+Delhi,"Chandni Chowk, Delhi - IITM",2017,CO,,2
+Delhi,"Chandni Chowk, Delhi - IITM",2018,CO,,2
+Delhi,"Chandni Chowk, Delhi - IITM",2019,CO,,2
+Delhi,"Chandni Chowk, Delhi - IITM",2020,CO,3.0,2
+Delhi,"Chandni Chowk, Delhi - IITM",2021,CO,2.0,2
+Delhi,"Chandni Chowk, Delhi - IITM",2022,CO,2.0,2
+Delhi,"Chandni Chowk, Delhi - IITM",2023,CO,2.0,2
+Delhi,"Chandni Chowk, Delhi - IITM",2024,CO,2.0,2
+Delhi,"Chandni Chowk, Delhi - IITM",2025,CO,2.0,2
+Delhi,"Chandni Chowk, Delhi - IITM",2026,CO,3.0,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2015,CO,,3
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2016,CO,,3
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2017,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2018,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2019,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2020,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2021,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2022,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2023,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2024,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2025,CO,,2
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"DTU, Delhi - CPCB",2015,CO,,3
+Delhi,"DTU, Delhi - CPCB",2016,CO,,3
+Delhi,"DTU, Delhi - CPCB",2017,CO,,2
+Delhi,"DTU, Delhi - CPCB",2018,CO,3.0,2
+Delhi,"DTU, Delhi - CPCB",2019,CO,2.0,2
+Delhi,"DTU, Delhi - CPCB",2020,CO,1.0,2
+Delhi,"DTU, Delhi - CPCB",2021,CO,2.0,2
+Delhi,"DTU, Delhi - CPCB",2022,CO,1.0,2
+Delhi,"DTU, Delhi - CPCB",2023,CO,1.0,2
+Delhi,"DTU, Delhi - CPCB",2024,CO,1.0,2
+Delhi,"DTU, Delhi - CPCB",2025,CO,1.0,2
+Delhi,"DTU, Delhi - CPCB",2026,CO,1.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2015,CO,,3
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2016,CO,,3
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2017,CO,,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2015,CO,,3
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2016,CO,,3
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2017,CO,,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2015,CO,2.0,3
+Delhi,"IGI Airport (T3), Delhi - IMD",2016,CO,1.0,3
+Delhi,"IGI Airport (T3), Delhi - IMD",2017,CO,1.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2018,CO,1.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2019,CO,2.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2020,CO,2.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2021,CO,2.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2022,CO,2.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2023,CO,3.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2024,CO,1.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2025,CO,2.0,2
+Delhi,"IGI Airport (T3), Delhi - IMD",2026,CO,2.0,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2015,CO,,3
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2016,CO,,3
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2017,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2018,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2019,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2020,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2021,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2022,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2023,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2024,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2025,CO,,2
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2015,CO,2.0,3
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2016,CO,6.0,3
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2017,CO,3.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2018,CO,1.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2019,CO,1.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2020,CO,1.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2021,CO,2.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2022,CO,1.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2023,CO,1.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2024,CO,2.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2025,CO,2.0,2
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2026,CO,2.0,2
+Delhi,"IIT Delhi, Delhi - IITM",2015,CO,,3
+Delhi,"IIT Delhi, Delhi - IITM",2016,CO,,3
+Delhi,"IIT Delhi, Delhi - IITM",2017,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2018,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2019,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2020,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2021,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2022,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2023,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2024,CO,,2
+Delhi,"IIT Delhi, Delhi - IITM",2025,CO,2.0,2
+Delhi,"IIT Delhi, Delhi - IITM",2026,CO,2.0,2
+Delhi,"ITO, Delhi - CPCB",2015,CO,5.0,3
+Delhi,"ITO, Delhi - CPCB",2016,CO,8.0,3
+Delhi,"ITO, Delhi - CPCB",2017,CO,0.0,2
+Delhi,"ITO, Delhi - CPCB",2018,CO,2.0,2
+Delhi,"ITO, Delhi - CPCB",2019,CO,2.0,2
+Delhi,"ITO, Delhi - CPCB",2020,CO,3.0,2
+Delhi,"ITO, Delhi - CPCB",2021,CO,3.0,2
+Delhi,"ITO, Delhi - CPCB",2022,CO,2.0,2
+Delhi,"ITO, Delhi - CPCB",2023,CO,2.0,2
+Delhi,"ITO, Delhi - CPCB",2024,CO,2.0,2
+Delhi,"ITO, Delhi - CPCB",2025,CO,2.0,2
+Delhi,"ITO, Delhi - CPCB",2026,CO,2.0,2
+Delhi,"JNU, Delhi - DPCC",2015,CO,,3
+Delhi,"JNU, Delhi - DPCC",2016,CO,,3
+Delhi,"JNU, Delhi - DPCC",2017,CO,,2
+Delhi,"JNU, Delhi - DPCC",2018,CO,,2
+Delhi,"JNU, Delhi - DPCC",2019,CO,,2
+Delhi,"JNU, Delhi - DPCC",2020,CO,,2
+Delhi,"JNU, Delhi - DPCC",2021,CO,,2
+Delhi,"JNU, Delhi - DPCC",2022,CO,,2
+Delhi,"JNU, Delhi - DPCC",2023,CO,,2
+Delhi,"JNU, Delhi - DPCC",2024,CO,,2
+Delhi,"JNU, Delhi - DPCC",2025,CO,,2
+Delhi,"JNU, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2015,CO,,3
+Delhi,"Jahangirpuri, Delhi - DPCC",2016,CO,,3
+Delhi,"Jahangirpuri, Delhi - DPCC",2017,CO,,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Jahangirpuri, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2015,CO,,3
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2016,CO,,3
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2017,CO,,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2019,CO,3.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2022,CO,3.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2025,CO,3.0,2
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2015,CO,3.0,3
+Delhi,"Lodhi Road, Delhi - IMD",2016,CO,2.0,3
+Delhi,"Lodhi Road, Delhi - IMD",2017,CO,1.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2018,CO,2.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2019,CO,2.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2020,CO,1.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2021,CO,2.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2022,CO,2.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2023,CO,2.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2024,CO,1.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2025,CO,1.0,2
+Delhi,"Lodhi Road, Delhi - IMD",2026,CO,1.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2015,CO,,3
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2016,CO,,3
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2017,CO,,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2018,CO,3.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2015,CO,1.0,3
+Delhi,"Mandir Marg, Delhi - DPCC",2016,CO,2.0,3
+Delhi,"Mandir Marg, Delhi - DPCC",2017,CO,3.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2019,CO,1.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2021,CO,1.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2023,CO,1.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Mandir Marg, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Mundka, Delhi - DPCC",2015,CO,,3
+Delhi,"Mundka, Delhi - DPCC",2016,CO,,3
+Delhi,"Mundka, Delhi - DPCC",2017,CO,,2
+Delhi,"Mundka, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Mundka, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Mundka, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Mundka, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Mundka, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Mundka, Delhi - DPCC",2023,CO,1.0,2
+Delhi,"Mundka, Delhi - DPCC",2024,CO,1.0,2
+Delhi,"Mundka, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Mundka, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2015,CO,4.0,3
+Delhi,"NSIT Dwarka, Delhi - CPCB",2016,CO,2.0,3
+Delhi,"NSIT Dwarka, Delhi - CPCB",2017,CO,1.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2018,CO,1.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2019,CO,1.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2020,CO,1.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2021,CO,2.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2022,CO,1.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2023,CO,1.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2024,CO,1.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2025,CO,2.0,2
+Delhi,"NSIT Dwarka, Delhi - CPCB",2026,CO,1.0,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2015,CO,,3
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2016,CO,,3
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2017,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2018,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2019,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2020,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2021,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2022,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2023,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2024,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2025,CO,,2
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2015,CO,,3
+Delhi,"Najafgarh, Delhi - DPCC",2016,CO,,3
+Delhi,"Najafgarh, Delhi - DPCC",2017,CO,,2
+Delhi,"Najafgarh, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2019,CO,1.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2021,CO,1.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2022,CO,1.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2023,CO,1.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2024,CO,1.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Najafgarh, Delhi - DPCC",2026,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2015,CO,,3
+Delhi,"Narela, Delhi - DPCC",2016,CO,,3
+Delhi,"Narela, Delhi - DPCC",2017,CO,,2
+Delhi,"Narela, Delhi - DPCC",2018,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Narela, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2021,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2022,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2023,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2024,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Narela, Delhi - DPCC",2026,CO,1.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2015,CO,,3
+Delhi,"Nehru Nagar, Delhi - DPCC",2016,CO,,3
+Delhi,"Nehru Nagar, Delhi - DPCC",2017,CO,,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2021,CO,3.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Nehru Nagar, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2015,CO,,3
+Delhi,"New Moti Bagh, Delhi - MHUA",2016,CO,,3
+Delhi,"New Moti Bagh, Delhi - MHUA",2017,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2018,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2019,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2020,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2021,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2022,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2023,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2024,CO,,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2025,CO,4.0,2
+Delhi,"New Moti Bagh, Delhi - MHUA",2026,CO,2.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2015,CO,1.0,3
+Delhi,"North Campus, DU, Delhi - IMD",2016,CO,2.0,3
+Delhi,"North Campus, DU, Delhi - IMD",2017,CO,1.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2018,CO,2.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2019,CO,3.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2020,CO,2.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2021,CO,2.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2022,CO,3.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2023,CO,3.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2024,CO,2.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2025,CO,2.0,2
+Delhi,"North Campus, DU, Delhi - IMD",2026,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2015,CO,,3
+Delhi,"Okhla Phase-2, Delhi - DPCC",2016,CO,,3
+Delhi,"Okhla Phase-2, Delhi - DPCC",2017,CO,,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Okhla Phase-2, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Patparganj, Delhi - DPCC",2015,CO,,3
+Delhi,"Patparganj, Delhi - DPCC",2016,CO,,3
+Delhi,"Patparganj, Delhi - DPCC",2017,CO,,2
+Delhi,"Patparganj, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Patparganj, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Patparganj, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Patparganj, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Patparganj, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Patparganj, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Patparganj, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Patparganj, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Patparganj, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2015,CO,2.0,3
+Delhi,"Punjabi Bagh, Delhi - DPCC",2016,CO,2.0,3
+Delhi,"Punjabi Bagh, Delhi - DPCC",2017,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Punjabi Bagh, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2015,CO,,3
+Delhi,"Pusa, Delhi - DPCC",2016,CO,,3
+Delhi,"Pusa, Delhi - DPCC",2017,CO,,2
+Delhi,"Pusa, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Pusa, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Pusa, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2015,CO,,3
+Delhi,"Pusa, Delhi - IMD",2016,CO,,3
+Delhi,"Pusa, Delhi - IMD",2017,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2018,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2019,CO,1.0,2
+Delhi,"Pusa, Delhi - IMD",2020,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2021,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2022,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2023,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2024,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2025,CO,2.0,2
+Delhi,"Pusa, Delhi - IMD",2026,CO,3.0,2
+Delhi,"R K Puram, Delhi - DPCC",2015,CO,3.0,3
+Delhi,"R K Puram, Delhi - DPCC",2016,CO,3.0,3
+Delhi,"R K Puram, Delhi - DPCC",2017,CO,3.0,2
+Delhi,"R K Puram, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"R K Puram, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"R K Puram, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"R K Puram, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"R K Puram, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"R K Puram, Delhi - DPCC",2023,CO,1.0,2
+Delhi,"R K Puram, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"R K Puram, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"R K Puram, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Rohini, Delhi - DPCC",2015,CO,,3
+Delhi,"Rohini, Delhi - DPCC",2016,CO,,3
+Delhi,"Rohini, Delhi - DPCC",2017,CO,,2
+Delhi,"Rohini, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Rohini, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Shadipur, Delhi - CPCB",2015,CO,5.0,3
+Delhi,"Shadipur, Delhi - CPCB",2016,CO,7.0,3
+Delhi,"Shadipur, Delhi - CPCB",2017,CO,2.0,2
+Delhi,"Shadipur, Delhi - CPCB",2018,CO,2.0,2
+Delhi,"Shadipur, Delhi - CPCB",2019,CO,2.0,2
+Delhi,"Shadipur, Delhi - CPCB",2020,CO,2.0,2
+Delhi,"Shadipur, Delhi - CPCB",2021,CO,2.0,2
+Delhi,"Shadipur, Delhi - CPCB",2022,CO,2.0,2
+Delhi,"Shadipur, Delhi - CPCB",2023,CO,1.0,2
+Delhi,"Shadipur, Delhi - CPCB",2024,CO,1.0,2
+Delhi,"Shadipur, Delhi - CPCB",2025,CO,1.0,2
+Delhi,"Shadipur, Delhi - CPCB",2026,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2015,CO,,3
+Delhi,"Sirifort, Delhi - CPCB",2016,CO,,3
+Delhi,"Sirifort, Delhi - CPCB",2017,CO,,2
+Delhi,"Sirifort, Delhi - CPCB",2018,CO,4.0,2
+Delhi,"Sirifort, Delhi - CPCB",2019,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2020,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2021,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2022,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2023,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2024,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2025,CO,2.0,2
+Delhi,"Sirifort, Delhi - CPCB",2026,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2015,CO,,3
+Delhi,"Sonia Vihar, Delhi - DPCC",2016,CO,,3
+Delhi,"Sonia Vihar, Delhi - DPCC",2017,CO,,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Sonia Vihar, Delhi - DPCC",2026,CO,3.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2015,CO,,3
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2016,CO,,3
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2017,CO,,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2020,CO,1.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2022,CO,1.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2023,CO,1.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2024,CO,1.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2025,CO,1.0,2
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2026,CO,1.0,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2015,CO,,3
+Delhi,"Talkatora Garden, Delhi - DPCC",2016,CO,,3
+Delhi,"Talkatora Garden, Delhi - DPCC",2017,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2018,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2019,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2020,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2021,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2022,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2023,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2024,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2025,CO,,2
+Delhi,"Talkatora Garden, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2015,CO,,3
+Delhi,"Vivek Vihar, Delhi - DPCC",2016,CO,,3
+Delhi,"Vivek Vihar, Delhi - DPCC",2017,CO,,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Vivek Vihar, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2015,CO,,3
+Delhi,"Wazirpur, Delhi - DPCC",2016,CO,,3
+Delhi,"Wazirpur, Delhi - DPCC",2017,CO,,2
+Delhi,"Wazirpur, Delhi - DPCC",2018,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2019,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2020,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2021,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2022,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2023,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2024,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2025,CO,2.0,2
+Delhi,"Wazirpur, Delhi - DPCC",2026,CO,2.0,2
+Delhi,"Alipur, Delhi - DPCC",2015,O3,,76
+Delhi,"Alipur, Delhi - DPCC",2016,O3,,62
+Delhi,"Alipur, Delhi - DPCC",2017,O3,,57
+Delhi,"Alipur, Delhi - DPCC",2018,O3,69.0,66
+Delhi,"Alipur, Delhi - DPCC",2019,O3,68.0,62
+Delhi,"Alipur, Delhi - DPCC",2020,O3,54.0,58
+Delhi,"Alipur, Delhi - DPCC",2021,O3,53.0,52
+Delhi,"Alipur, Delhi - DPCC",2022,O3,48.0,55
+Delhi,"Alipur, Delhi - DPCC",2023,O3,78.0,48
+Delhi,"Alipur, Delhi - DPCC",2024,O3,88.0,60
+Delhi,"Alipur, Delhi - DPCC",2025,O3,49.0,66
+Delhi,"Alipur, Delhi - DPCC",2026,O3,39.0,68
+Delhi,"Anand Vihar, Delhi - DPCC",2015,O3,45.0,76
+Delhi,"Anand Vihar, Delhi - DPCC",2016,O3,39.0,62
+Delhi,"Anand Vihar, Delhi - DPCC",2017,O3,56.0,57
+Delhi,"Anand Vihar, Delhi - DPCC",2018,O3,46.0,66
+Delhi,"Anand Vihar, Delhi - DPCC",2019,O3,43.0,62
+Delhi,"Anand Vihar, Delhi - DPCC",2020,O3,63.0,58
+Delhi,"Anand Vihar, Delhi - DPCC",2021,O3,43.0,52
+Delhi,"Anand Vihar, Delhi - DPCC",2022,O3,53.0,55
+Delhi,"Anand Vihar, Delhi - DPCC",2023,O3,29.0,48
+Delhi,"Anand Vihar, Delhi - DPCC",2024,O3,60.0,60
+Delhi,"Anand Vihar, Delhi - DPCC",2025,O3,22.0,66
+Delhi,"Anand Vihar, Delhi - DPCC",2026,O3,25.0,68
+Delhi,"Ashok Vihar, Delhi - DPCC",2015,O3,,76
+Delhi,"Ashok Vihar, Delhi - DPCC",2016,O3,,62
+Delhi,"Ashok Vihar, Delhi - DPCC",2017,O3,,57
+Delhi,"Ashok Vihar, Delhi - DPCC",2018,O3,89.0,66
+Delhi,"Ashok Vihar, Delhi - DPCC",2019,O3,71.0,62
+Delhi,"Ashok Vihar, Delhi - DPCC",2020,O3,62.0,58
+Delhi,"Ashok Vihar, Delhi - DPCC",2021,O3,77.0,52
+Delhi,"Ashok Vihar, Delhi - DPCC",2022,O3,42.0,55
+Delhi,"Ashok Vihar, Delhi - DPCC",2023,O3,16.0,48
+Delhi,"Ashok Vihar, Delhi - DPCC",2024,O3,53.0,60
+Delhi,"Ashok Vihar, Delhi - DPCC",2025,O3,89.0,66
+Delhi,"Ashok Vihar, Delhi - DPCC",2026,O3,74.0,68
+Delhi,"Aya Nagar, Delhi - IMD",2015,O3,,76
+Delhi,"Aya Nagar, Delhi - IMD",2016,O3,,62
+Delhi,"Aya Nagar, Delhi - IMD",2017,O3,57.0,57
+Delhi,"Aya Nagar, Delhi - IMD",2018,O3,53.0,66
+Delhi,"Aya Nagar, Delhi - IMD",2019,O3,61.0,62
+Delhi,"Aya Nagar, Delhi - IMD",2020,O3,39.0,58
+Delhi,"Aya Nagar, Delhi - IMD",2021,O3,34.0,52
+Delhi,"Aya Nagar, Delhi - IMD",2022,O3,55.0,55
+Delhi,"Aya Nagar, Delhi - IMD",2023,O3,52.0,48
+Delhi,"Aya Nagar, Delhi - IMD",2024,O3,55.0,60
+Delhi,"Aya Nagar, Delhi - IMD",2025,O3,96.0,66
+Delhi,"Aya Nagar, Delhi - IMD",2026,O3,67.0,68
+Delhi,"Bawana, Delhi - DPCC",2015,O3,,76
+Delhi,"Bawana, Delhi - DPCC",2016,O3,,62
+Delhi,"Bawana, Delhi - DPCC",2017,O3,,57
+Delhi,"Bawana, Delhi - DPCC",2018,O3,73.0,66
+Delhi,"Bawana, Delhi - DPCC",2019,O3,90.0,62
+Delhi,"Bawana, Delhi - DPCC",2020,O3,78.0,58
+Delhi,"Bawana, Delhi - DPCC",2021,O3,41.0,52
+Delhi,"Bawana, Delhi - DPCC",2022,O3,42.0,55
+Delhi,"Bawana, Delhi - DPCC",2023,O3,42.0,48
+Delhi,"Bawana, Delhi - DPCC",2024,O3,79.0,60
+Delhi,"Bawana, Delhi - DPCC",2025,O3,72.0,66
+Delhi,"Bawana, Delhi - DPCC",2026,O3,65.0,68
+Delhi,"Burari Crossing, Delhi - IMD",2015,O3,22.0,76
+Delhi,"Burari Crossing, Delhi - IMD",2016,O3,82.0,62
+Delhi,"Burari Crossing, Delhi - IMD",2017,O3,44.0,57
+Delhi,"Burari Crossing, Delhi - IMD",2018,O3,78.0,66
+Delhi,"Burari Crossing, Delhi - IMD",2019,O3,53.0,62
+Delhi,"Burari Crossing, Delhi - IMD",2020,O3,,58
+Delhi,"Burari Crossing, Delhi - IMD",2021,O3,,52
+Delhi,"Burari Crossing, Delhi - IMD",2022,O3,40.0,55
+Delhi,"Burari Crossing, Delhi - IMD",2023,O3,53.0,48
+Delhi,"Burari Crossing, Delhi - IMD",2024,O3,56.0,60
+Delhi,"Burari Crossing, Delhi - IMD",2025,O3,72.0,66
+Delhi,"Burari Crossing, Delhi - IMD",2026,O3,108.0,68
+Delhi,"CRRI Mathura Road, Delhi - IMD",2015,O3,106.0,76
+Delhi,"CRRI Mathura Road, Delhi - IMD",2016,O3,52.0,62
+Delhi,"CRRI Mathura Road, Delhi - IMD",2017,O3,45.0,57
+Delhi,"CRRI Mathura Road, Delhi - IMD",2018,O3,63.0,66
+Delhi,"CRRI Mathura Road, Delhi - IMD",2019,O3,51.0,62
+Delhi,"CRRI Mathura Road, Delhi - IMD",2020,O3,28.0,58
+Delhi,"CRRI Mathura Road, Delhi - IMD",2021,O3,40.0,52
+Delhi,"CRRI Mathura Road, Delhi - IMD",2022,O3,39.0,55
+Delhi,"CRRI Mathura Road, Delhi - IMD",2023,O3,46.0,48
+Delhi,"CRRI Mathura Road, Delhi - IMD",2024,O3,55.0,60
+Delhi,"CRRI Mathura Road, Delhi - IMD",2025,O3,86.0,66
+Delhi,"CRRI Mathura Road, Delhi - IMD",2026,O3,52.0,68
+Delhi,"Cantonment Area, Delhi - DPCC",2015,O3,,76
+Delhi,"Cantonment Area, Delhi - DPCC",2016,O3,,62
+Delhi,"Cantonment Area, Delhi - DPCC",2017,O3,,57
+Delhi,"Cantonment Area, Delhi - DPCC",2018,O3,,66
+Delhi,"Cantonment Area, Delhi - DPCC",2019,O3,,62
+Delhi,"Cantonment Area, Delhi - DPCC",2020,O3,,58
+Delhi,"Cantonment Area, Delhi - DPCC",2021,O3,,52
+Delhi,"Cantonment Area, Delhi - DPCC",2022,O3,,55
+Delhi,"Cantonment Area, Delhi - DPCC",2023,O3,,48
+Delhi,"Cantonment Area, Delhi - DPCC",2024,O3,,60
+Delhi,"Cantonment Area, Delhi - DPCC",2025,O3,,66
+Delhi,"Cantonment Area, Delhi - DPCC",2026,O3,38.0,68
+Delhi,"Chandni Chowk, Delhi - IITM",2015,O3,,76
+Delhi,"Chandni Chowk, Delhi - IITM",2016,O3,,62
+Delhi,"Chandni Chowk, Delhi - IITM",2017,O3,,57
+Delhi,"Chandni Chowk, Delhi - IITM",2018,O3,,66
+Delhi,"Chandni Chowk, Delhi - IITM",2019,O3,,62
+Delhi,"Chandni Chowk, Delhi - IITM",2020,O3,28.0,58
+Delhi,"Chandni Chowk, Delhi - IITM",2021,O3,33.0,52
+Delhi,"Chandni Chowk, Delhi - IITM",2022,O3,40.0,55
+Delhi,"Chandni Chowk, Delhi - IITM",2023,O3,27.0,48
+Delhi,"Chandni Chowk, Delhi - IITM",2024,O3,31.0,60
+Delhi,"Chandni Chowk, Delhi - IITM",2025,O3,55.0,66
+Delhi,"Chandni Chowk, Delhi - IITM",2026,O3,78.0,68
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2015,O3,,76
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2016,O3,,62
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2017,O3,,57
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2018,O3,,66
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2019,O3,,62
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2020,O3,,58
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2021,O3,,52
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2022,O3,,55
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2023,O3,,48
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2024,O3,,60
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2025,O3,,66
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2026,O3,95.0,68
+Delhi,"DTU, Delhi - CPCB",2015,O3,33.0,76
+Delhi,"DTU, Delhi - CPCB",2016,O3,,62
+Delhi,"DTU, Delhi - CPCB",2017,O3,,57
+Delhi,"DTU, Delhi - CPCB",2018,O3,38.0,66
+Delhi,"DTU, Delhi - CPCB",2019,O3,80.0,62
+Delhi,"DTU, Delhi - CPCB",2020,O3,88.0,58
+Delhi,"DTU, Delhi - CPCB",2021,O3,56.0,52
+Delhi,"DTU, Delhi - CPCB",2022,O3,51.0,55
+Delhi,"DTU, Delhi - CPCB",2023,O3,53.0,48
+Delhi,"DTU, Delhi - CPCB",2024,O3,52.0,60
+Delhi,"DTU, Delhi - CPCB",2025,O3,32.0,66
+Delhi,"DTU, Delhi - CPCB",2026,O3,27.0,68
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2015,O3,,76
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2016,O3,,62
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2017,O3,,57
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2018,O3,101.0,66
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2019,O3,38.0,62
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2020,O3,107.0,58
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2021,O3,97.0,52
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2022,O3,92.0,55
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2023,O3,70.0,48
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2024,O3,105.0,60
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2025,O3,74.0,66
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2026,O3,97.0,68
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2015,O3,,76
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2016,O3,,62
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2017,O3,,57
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2018,O3,81.0,66
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2019,O3,80.0,62
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2020,O3,77.0,58
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2021,O3,43.0,52
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2022,O3,38.0,55
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2023,O3,39.0,48
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2024,O3,63.0,60
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2025,O3,78.0,66
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2026,O3,74.0,68
+Delhi,"IGI Airport (T3), Delhi - IMD",2015,O3,98.0,76
+Delhi,"IGI Airport (T3), Delhi - IMD",2016,O3,62.0,62
+Delhi,"IGI Airport (T3), Delhi - IMD",2017,O3,63.0,57
+Delhi,"IGI Airport (T3), Delhi - IMD",2018,O3,66.0,66
+Delhi,"IGI Airport (T3), Delhi - IMD",2019,O3,32.0,62
+Delhi,"IGI Airport (T3), Delhi - IMD",2020,O3,50.0,58
+Delhi,"IGI Airport (T3), Delhi - IMD",2021,O3,24.0,52
+Delhi,"IGI Airport (T3), Delhi - IMD",2022,O3,29.0,55
+Delhi,"IGI Airport (T3), Delhi - IMD",2023,O3,34.0,48
+Delhi,"IGI Airport (T3), Delhi - IMD",2024,O3,38.0,60
+Delhi,"IGI Airport (T3), Delhi - IMD",2025,O3,54.0,66
+Delhi,"IGI Airport (T3), Delhi - IMD",2026,O3,54.0,68
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2015,O3,,76
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2016,O3,,62
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2017,O3,,57
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2018,O3,,66
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2019,O3,,62
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2020,O3,,58
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2021,O3,,52
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2022,O3,,55
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2023,O3,,48
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2024,O3,,60
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2025,O3,,66
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2026,O3,81.0,68
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2015,O3,,76
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2016,O3,,62
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2017,O3,,57
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2018,O3,,66
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2019,O3,,62
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2020,O3,41.0,58
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2021,O3,27.0,52
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2022,O3,42.0,55
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2023,O3,53.0,48
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2024,O3,28.0,60
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2025,O3,31.0,66
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2026,O3,37.0,68
+Delhi,"IIT Delhi, Delhi - IITM",2015,O3,,76
+Delhi,"IIT Delhi, Delhi - IITM",2016,O3,,62
+Delhi,"IIT Delhi, Delhi - IITM",2017,O3,,57
+Delhi,"IIT Delhi, Delhi - IITM",2018,O3,,66
+Delhi,"IIT Delhi, Delhi - IITM",2019,O3,,62
+Delhi,"IIT Delhi, Delhi - IITM",2020,O3,,58
+Delhi,"IIT Delhi, Delhi - IITM",2021,O3,,52
+Delhi,"IIT Delhi, Delhi - IITM",2022,O3,,55
+Delhi,"IIT Delhi, Delhi - IITM",2023,O3,,48
+Delhi,"IIT Delhi, Delhi - IITM",2024,O3,,60
+Delhi,"IIT Delhi, Delhi - IITM",2025,O3,31.0,66
+Delhi,"IIT Delhi, Delhi - IITM",2026,O3,45.0,68
+Delhi,"ITO, Delhi - CPCB",2015,O3,55.0,76
+Delhi,"ITO, Delhi - CPCB",2016,O3,32.0,62
+Delhi,"ITO, Delhi - CPCB",2017,O3,,57
+Delhi,"ITO, Delhi - CPCB",2018,O3,43.0,66
+Delhi,"ITO, Delhi - CPCB",2019,O3,44.0,62
+Delhi,"ITO, Delhi - CPCB",2020,O3,44.0,58
+Delhi,"ITO, Delhi - CPCB",2021,O3,28.0,52
+Delhi,"ITO, Delhi - CPCB",2022,O3,46.0,55
+Delhi,"ITO, Delhi - CPCB",2023,O3,49.0,48
+Delhi,"ITO, Delhi - CPCB",2024,O3,46.0,60
+Delhi,"ITO, Delhi - CPCB",2025,O3,32.0,66
+Delhi,"ITO, Delhi - CPCB",2026,O3,53.0,68
+Delhi,"JNU, Delhi - DPCC",2015,O3,,76
+Delhi,"JNU, Delhi - DPCC",2016,O3,,62
+Delhi,"JNU, Delhi - DPCC",2017,O3,,57
+Delhi,"JNU, Delhi - DPCC",2018,O3,,66
+Delhi,"JNU, Delhi - DPCC",2019,O3,,62
+Delhi,"JNU, Delhi - DPCC",2020,O3,,58
+Delhi,"JNU, Delhi - DPCC",2021,O3,,52
+Delhi,"JNU, Delhi - DPCC",2022,O3,,55
+Delhi,"JNU, Delhi - DPCC",2023,O3,,48
+Delhi,"JNU, Delhi - DPCC",2024,O3,,60
+Delhi,"JNU, Delhi - DPCC",2025,O3,,66
+Delhi,"JNU, Delhi - DPCC",2026,O3,41.0,68
+Delhi,"Jahangirpuri, Delhi - DPCC",2015,O3,,76
+Delhi,"Jahangirpuri, Delhi - DPCC",2016,O3,,62
+Delhi,"Jahangirpuri, Delhi - DPCC",2017,O3,,57
+Delhi,"Jahangirpuri, Delhi - DPCC",2018,O3,47.0,66
+Delhi,"Jahangirpuri, Delhi - DPCC",2019,O3,72.0,62
+Delhi,"Jahangirpuri, Delhi - DPCC",2020,O3,33.0,58
+Delhi,"Jahangirpuri, Delhi - DPCC",2021,O3,42.0,52
+Delhi,"Jahangirpuri, Delhi - DPCC",2022,O3,59.0,55
+Delhi,"Jahangirpuri, Delhi - DPCC",2023,O3,42.0,48
+Delhi,"Jahangirpuri, Delhi - DPCC",2024,O3,52.0,60
+Delhi,"Jahangirpuri, Delhi - DPCC",2025,O3,71.0,66
+Delhi,"Jahangirpuri, Delhi - DPCC",2026,O3,54.0,68
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2015,O3,,76
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2016,O3,,62
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2017,O3,,57
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2018,O3,84.0,66
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2019,O3,78.0,62
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2020,O3,78.0,58
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2021,O3,63.0,52
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2022,O3,89.0,55
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2023,O3,46.0,48
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2024,O3,73.0,60
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2025,O3,70.0,66
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2026,O3,99.0,68
+Delhi,"Lodhi Road, Delhi - IMD",2015,O3,145.0,76
+Delhi,"Lodhi Road, Delhi - IMD",2016,O3,53.0,62
+Delhi,"Lodhi Road, Delhi - IMD",2017,O3,34.0,57
+Delhi,"Lodhi Road, Delhi - IMD",2018,O3,70.0,66
+Delhi,"Lodhi Road, Delhi - IMD",2019,O3,49.0,62
+Delhi,"Lodhi Road, Delhi - IMD",2020,O3,60.0,58
+Delhi,"Lodhi Road, Delhi - IMD",2021,O3,29.0,52
+Delhi,"Lodhi Road, Delhi - IMD",2022,O3,47.0,55
+Delhi,"Lodhi Road, Delhi - IMD",2023,O3,49.0,48
+Delhi,"Lodhi Road, Delhi - IMD",2024,O3,51.0,60
+Delhi,"Lodhi Road, Delhi - IMD",2025,O3,80.0,66
+Delhi,"Lodhi Road, Delhi - IMD",2026,O3,95.0,68
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2015,O3,,76
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2016,O3,,62
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2017,O3,,57
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2018,O3,81.0,66
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2019,O3,54.0,62
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2020,O3,64.0,58
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2021,O3,46.0,52
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2022,O3,45.0,55
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2023,O3,47.0,48
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2024,O3,69.0,60
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2025,O3,87.0,66
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2026,O3,87.0,68
+Delhi,"Mandir Marg, Delhi - DPCC",2015,O3,83.0,76
+Delhi,"Mandir Marg, Delhi - DPCC",2016,O3,53.0,62
+Delhi,"Mandir Marg, Delhi - DPCC",2017,O3,48.0,57
+Delhi,"Mandir Marg, Delhi - DPCC",2018,O3,39.0,66
+Delhi,"Mandir Marg, Delhi - DPCC",2019,O3,26.0,62
+Delhi,"Mandir Marg, Delhi - DPCC",2020,O3,25.0,58
+Delhi,"Mandir Marg, Delhi - DPCC",2021,O3,34.0,52
+Delhi,"Mandir Marg, Delhi - DPCC",2022,O3,75.0,55
+Delhi,"Mandir Marg, Delhi - DPCC",2023,O3,64.0,48
+Delhi,"Mandir Marg, Delhi - DPCC",2024,O3,38.0,60
+Delhi,"Mandir Marg, Delhi - DPCC",2025,O3,71.0,66
+Delhi,"Mandir Marg, Delhi - DPCC",2026,O3,85.0,68
+Delhi,"Mundka, Delhi - DPCC",2015,O3,,76
+Delhi,"Mundka, Delhi - DPCC",2016,O3,,62
+Delhi,"Mundka, Delhi - DPCC",2017,O3,,57
+Delhi,"Mundka, Delhi - DPCC",2018,O3,48.0,66
+Delhi,"Mundka, Delhi - DPCC",2019,O3,45.0,62
+Delhi,"Mundka, Delhi - DPCC",2020,O3,65.0,58
+Delhi,"Mundka, Delhi - DPCC",2021,O3,61.0,52
+Delhi,"Mundka, Delhi - DPCC",2022,O3,80.0,55
+Delhi,"Mundka, Delhi - DPCC",2023,O3,68.0,48
+Delhi,"Mundka, Delhi - DPCC",2024,O3,58.0,60
+Delhi,"Mundka, Delhi - DPCC",2025,O3,64.0,66
+Delhi,"Mundka, Delhi - DPCC",2026,O3,59.0,68
+Delhi,"NSIT Dwarka, Delhi - CPCB",2015,O3,71.0,76
+Delhi,"NSIT Dwarka, Delhi - CPCB",2016,O3,74.0,62
+Delhi,"NSIT Dwarka, Delhi - CPCB",2017,O3,65.0,57
+Delhi,"NSIT Dwarka, Delhi - CPCB",2018,O3,63.0,66
+Delhi,"NSIT Dwarka, Delhi - CPCB",2019,O3,62.0,62
+Delhi,"NSIT Dwarka, Delhi - CPCB",2020,O3,61.0,58
+Delhi,"NSIT Dwarka, Delhi - CPCB",2021,O3,43.0,52
+Delhi,"NSIT Dwarka, Delhi - CPCB",2022,O3,42.0,55
+Delhi,"NSIT Dwarka, Delhi - CPCB",2023,O3,54.0,48
+Delhi,"NSIT Dwarka, Delhi - CPCB",2024,O3,43.0,60
+Delhi,"NSIT Dwarka, Delhi - CPCB",2025,O3,36.0,66
+Delhi,"NSIT Dwarka, Delhi - CPCB",2026,O3,53.0,68
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2015,O3,,76
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2016,O3,,62
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2017,O3,,57
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2018,O3,,66
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2019,O3,,62
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2020,O3,,58
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2021,O3,,52
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2022,O3,,55
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2023,O3,,48
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2024,O3,,60
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2025,O3,,66
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2026,O3,98.0,68
+Delhi,"Najafgarh, Delhi - DPCC",2015,O3,,76
+Delhi,"Najafgarh, Delhi - DPCC",2016,O3,,62
+Delhi,"Najafgarh, Delhi - DPCC",2017,O3,,57
+Delhi,"Najafgarh, Delhi - DPCC",2018,O3,97.0,66
+Delhi,"Najafgarh, Delhi - DPCC",2019,O3,91.0,62
+Delhi,"Najafgarh, Delhi - DPCC",2020,O3,59.0,58
+Delhi,"Najafgarh, Delhi - DPCC",2021,O3,51.0,52
+Delhi,"Najafgarh, Delhi - DPCC",2022,O3,45.0,55
+Delhi,"Najafgarh, Delhi - DPCC",2023,O3,51.0,48
+Delhi,"Najafgarh, Delhi - DPCC",2024,O3,81.0,60
+Delhi,"Najafgarh, Delhi - DPCC",2025,O3,79.0,66
+Delhi,"Najafgarh, Delhi - DPCC",2026,O3,72.0,68
+Delhi,"Narela, Delhi - DPCC",2015,O3,,76
+Delhi,"Narela, Delhi - DPCC",2016,O3,,62
+Delhi,"Narela, Delhi - DPCC",2017,O3,,57
+Delhi,"Narela, Delhi - DPCC",2018,O3,71.0,66
+Delhi,"Narela, Delhi - DPCC",2019,O3,77.0,62
+Delhi,"Narela, Delhi - DPCC",2020,O3,67.0,58
+Delhi,"Narela, Delhi - DPCC",2021,O3,77.0,52
+Delhi,"Narela, Delhi - DPCC",2022,O3,88.0,55
+Delhi,"Narela, Delhi - DPCC",2023,O3,53.0,48
+Delhi,"Narela, Delhi - DPCC",2024,O3,90.0,60
+Delhi,"Narela, Delhi - DPCC",2025,O3,56.0,66
+Delhi,"Narela, Delhi - DPCC",2026,O3,65.0,68
+Delhi,"Nehru Nagar, Delhi - DPCC",2015,O3,,76
+Delhi,"Nehru Nagar, Delhi - DPCC",2016,O3,,62
+Delhi,"Nehru Nagar, Delhi - DPCC",2017,O3,,57
+Delhi,"Nehru Nagar, Delhi - DPCC",2018,O3,87.0,66
+Delhi,"Nehru Nagar, Delhi - DPCC",2019,O3,80.0,62
+Delhi,"Nehru Nagar, Delhi - DPCC",2020,O3,94.0,58
+Delhi,"Nehru Nagar, Delhi - DPCC",2021,O3,85.0,52
+Delhi,"Nehru Nagar, Delhi - DPCC",2022,O3,90.0,55
+Delhi,"Nehru Nagar, Delhi - DPCC",2023,O3,91.0,48
+Delhi,"Nehru Nagar, Delhi - DPCC",2024,O3,100.0,60
+Delhi,"Nehru Nagar, Delhi - DPCC",2025,O3,123.0,66
+Delhi,"Nehru Nagar, Delhi - DPCC",2026,O3,98.0,68
+Delhi,"North Campus, DU, Delhi - IMD",2015,O3,38.0,76
+Delhi,"North Campus, DU, Delhi - IMD",2016,O3,32.0,62
+Delhi,"North Campus, DU, Delhi - IMD",2017,O3,42.0,57
+Delhi,"North Campus, DU, Delhi - IMD",2018,O3,40.0,66
+Delhi,"North Campus, DU, Delhi - IMD",2019,O3,75.0,62
+Delhi,"North Campus, DU, Delhi - IMD",2020,O3,38.0,58
+Delhi,"North Campus, DU, Delhi - IMD",2021,O3,45.0,52
+Delhi,"North Campus, DU, Delhi - IMD",2022,O3,36.0,55
+Delhi,"North Campus, DU, Delhi - IMD",2023,O3,37.0,48
+Delhi,"North Campus, DU, Delhi - IMD",2024,O3,45.0,60
+Delhi,"North Campus, DU, Delhi - IMD",2025,O3,98.0,66
+Delhi,"North Campus, DU, Delhi - IMD",2026,O3,96.0,68
+Delhi,"Okhla Phase-2, Delhi - DPCC",2015,O3,,76
+Delhi,"Okhla Phase-2, Delhi - DPCC",2016,O3,,62
+Delhi,"Okhla Phase-2, Delhi - DPCC",2017,O3,,57
+Delhi,"Okhla Phase-2, Delhi - DPCC",2018,O3,44.0,66
+Delhi,"Okhla Phase-2, Delhi - DPCC",2019,O3,54.0,62
+Delhi,"Okhla Phase-2, Delhi - DPCC",2020,O3,55.0,58
+Delhi,"Okhla Phase-2, Delhi - DPCC",2021,O3,61.0,52
+Delhi,"Okhla Phase-2, Delhi - DPCC",2022,O3,63.0,55
+Delhi,"Okhla Phase-2, Delhi - DPCC",2023,O3,55.0,48
+Delhi,"Okhla Phase-2, Delhi - DPCC",2024,O3,64.0,60
+Delhi,"Okhla Phase-2, Delhi - DPCC",2025,O3,103.0,66
+Delhi,"Okhla Phase-2, Delhi - DPCC",2026,O3,99.0,68
+Delhi,"Patparganj, Delhi - DPCC",2015,O3,,76
+Delhi,"Patparganj, Delhi - DPCC",2016,O3,,62
+Delhi,"Patparganj, Delhi - DPCC",2017,O3,,57
+Delhi,"Patparganj, Delhi - DPCC",2018,O3,81.0,66
+Delhi,"Patparganj, Delhi - DPCC",2019,O3,45.0,62
+Delhi,"Patparganj, Delhi - DPCC",2020,O3,30.0,58
+Delhi,"Patparganj, Delhi - DPCC",2021,O3,51.0,52
+Delhi,"Patparganj, Delhi - DPCC",2022,O3,92.0,55
+Delhi,"Patparganj, Delhi - DPCC",2023,O3,71.0,48
+Delhi,"Patparganj, Delhi - DPCC",2024,O3,70.0,60
+Delhi,"Patparganj, Delhi - DPCC",2025,O3,91.0,66
+Delhi,"Patparganj, Delhi - DPCC",2026,O3,95.0,68
+Delhi,"Punjabi Bagh, Delhi - DPCC",2015,O3,109.0,76
+Delhi,"Punjabi Bagh, Delhi - DPCC",2016,O3,94.0,62
+Delhi,"Punjabi Bagh, Delhi - DPCC",2017,O3,95.0,57
+Delhi,"Punjabi Bagh, Delhi - DPCC",2018,O3,72.0,66
+Delhi,"Punjabi Bagh, Delhi - DPCC",2019,O3,45.0,62
+Delhi,"Punjabi Bagh, Delhi - DPCC",2020,O3,48.0,58
+Delhi,"Punjabi Bagh, Delhi - DPCC",2021,O3,84.0,52
+Delhi,"Punjabi Bagh, Delhi - DPCC",2022,O3,39.0,55
+Delhi,"Punjabi Bagh, Delhi - DPCC",2023,O3,22.0,48
+Delhi,"Punjabi Bagh, Delhi - DPCC",2024,O3,56.0,60
+Delhi,"Punjabi Bagh, Delhi - DPCC",2025,O3,73.0,66
+Delhi,"Punjabi Bagh, Delhi - DPCC",2026,O3,58.0,68
+Delhi,"Pusa, Delhi - DPCC",2015,O3,,76
+Delhi,"Pusa, Delhi - DPCC",2016,O3,,62
+Delhi,"Pusa, Delhi - DPCC",2017,O3,,57
+Delhi,"Pusa, Delhi - DPCC",2018,O3,45.0,66
+Delhi,"Pusa, Delhi - DPCC",2019,O3,55.0,62
+Delhi,"Pusa, Delhi - DPCC",2020,O3,55.0,58
+Delhi,"Pusa, Delhi - DPCC",2021,O3,46.0,52
+Delhi,"Pusa, Delhi - DPCC",2022,O3,43.0,55
+Delhi,"Pusa, Delhi - DPCC",2023,O3,21.0,48
+Delhi,"Pusa, Delhi - DPCC",2024,O3,38.0,60
+Delhi,"Pusa, Delhi - DPCC",2025,O3,44.0,66
+Delhi,"Pusa, Delhi - DPCC",2026,O3,62.0,68
+Delhi,"Pusa, Delhi - IMD",2015,O3,,76
+Delhi,"Pusa, Delhi - IMD",2016,O3,,62
+Delhi,"Pusa, Delhi - IMD",2017,O3,45.0,57
+Delhi,"Pusa, Delhi - IMD",2018,O3,50.0,66
+Delhi,"Pusa, Delhi - IMD",2019,O3,47.0,62
+Delhi,"Pusa, Delhi - IMD",2020,O3,51.0,58
+Delhi,"Pusa, Delhi - IMD",2021,O3,42.0,52
+Delhi,"Pusa, Delhi - IMD",2022,O3,47.0,55
+Delhi,"Pusa, Delhi - IMD",2023,O3,37.0,48
+Delhi,"Pusa, Delhi - IMD",2024,O3,38.0,60
+Delhi,"Pusa, Delhi - IMD",2025,O3,64.0,66
+Delhi,"Pusa, Delhi - IMD",2026,O3,145.0,68
+Delhi,"R K Puram, Delhi - DPCC",2015,O3,93.0,76
+Delhi,"R K Puram, Delhi - DPCC",2016,O3,96.0,62
+Delhi,"R K Puram, Delhi - DPCC",2017,O3,103.0,57
+Delhi,"R K Puram, Delhi - DPCC",2018,O3,76.0,66
+Delhi,"R K Puram, Delhi - DPCC",2019,O3,64.0,62
+Delhi,"R K Puram, Delhi - DPCC",2020,O3,64.0,58
+Delhi,"R K Puram, Delhi - DPCC",2021,O3,86.0,52
+Delhi,"R K Puram, Delhi - DPCC",2022,O3,94.0,55
+Delhi,"R K Puram, Delhi - DPCC",2023,O3,83.0,48
+Delhi,"R K Puram, Delhi - DPCC",2024,O3,84.0,60
+Delhi,"R K Puram, Delhi - DPCC",2025,O3,58.0,66
+Delhi,"R K Puram, Delhi - DPCC",2026,O3,76.0,68
+Delhi,"Rohini, Delhi - DPCC",2015,O3,,76
+Delhi,"Rohini, Delhi - DPCC",2016,O3,,62
+Delhi,"Rohini, Delhi - DPCC",2017,O3,,57
+Delhi,"Rohini, Delhi - DPCC",2018,O3,69.0,66
+Delhi,"Rohini, Delhi - DPCC",2019,O3,65.0,62
+Delhi,"Rohini, Delhi - DPCC",2020,O3,34.0,58
+Delhi,"Rohini, Delhi - DPCC",2021,O3,38.0,52
+Delhi,"Rohini, Delhi - DPCC",2022,O3,40.0,55
+Delhi,"Rohini, Delhi - DPCC",2023,O3,36.0,48
+Delhi,"Rohini, Delhi - DPCC",2024,O3,70.0,60
+Delhi,"Rohini, Delhi - DPCC",2025,O3,82.0,66
+Delhi,"Rohini, Delhi - DPCC",2026,O3,80.0,68
+Delhi,"Shadipur, Delhi - CPCB",2015,O3,86.0,76
+Delhi,"Shadipur, Delhi - CPCB",2016,O3,73.0,62
+Delhi,"Shadipur, Delhi - CPCB",2017,O3,47.0,57
+Delhi,"Shadipur, Delhi - CPCB",2018,O3,63.0,66
+Delhi,"Shadipur, Delhi - CPCB",2019,O3,58.0,62
+Delhi,"Shadipur, Delhi - CPCB",2020,O3,51.0,58
+Delhi,"Shadipur, Delhi - CPCB",2021,O3,38.0,52
+Delhi,"Shadipur, Delhi - CPCB",2022,O3,46.0,55
+Delhi,"Shadipur, Delhi - CPCB",2023,O3,48.0,48
+Delhi,"Shadipur, Delhi - CPCB",2024,O3,48.0,60
+Delhi,"Shadipur, Delhi - CPCB",2025,O3,29.0,66
+Delhi,"Shadipur, Delhi - CPCB",2026,O3,33.0,68
+Delhi,"Sirifort, Delhi - CPCB",2015,O3,,76
+Delhi,"Sirifort, Delhi - CPCB",2016,O3,,62
+Delhi,"Sirifort, Delhi - CPCB",2017,O3,,57
+Delhi,"Sirifort, Delhi - CPCB",2018,O3,64.0,66
+Delhi,"Sirifort, Delhi - CPCB",2019,O3,76.0,62
+Delhi,"Sirifort, Delhi - CPCB",2020,O3,102.0,58
+Delhi,"Sirifort, Delhi - CPCB",2021,O3,84.0,52
+Delhi,"Sirifort, Delhi - CPCB",2022,O3,54.0,55
+Delhi,"Sirifort, Delhi - CPCB",2023,O3,39.0,48
+Delhi,"Sirifort, Delhi - CPCB",2024,O3,40.0,60
+Delhi,"Sirifort, Delhi - CPCB",2025,O3,35.0,66
+Delhi,"Sirifort, Delhi - CPCB",2026,O3,22.0,68
+Delhi,"Sonia Vihar, Delhi - DPCC",2015,O3,,76
+Delhi,"Sonia Vihar, Delhi - DPCC",2016,O3,,62
+Delhi,"Sonia Vihar, Delhi - DPCC",2017,O3,,57
+Delhi,"Sonia Vihar, Delhi - DPCC",2018,O3,94.0,66
+Delhi,"Sonia Vihar, Delhi - DPCC",2019,O3,77.0,62
+Delhi,"Sonia Vihar, Delhi - DPCC",2020,O3,86.0,58
+Delhi,"Sonia Vihar, Delhi - DPCC",2021,O3,75.0,52
+Delhi,"Sonia Vihar, Delhi - DPCC",2022,O3,68.0,55
+Delhi,"Sonia Vihar, Delhi - DPCC",2023,O3,39.0,48
+Delhi,"Sonia Vihar, Delhi - DPCC",2024,O3,68.0,60
+Delhi,"Sonia Vihar, Delhi - DPCC",2025,O3,70.0,66
+Delhi,"Sonia Vihar, Delhi - DPCC",2026,O3,86.0,68
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2015,O3,,76
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2016,O3,,62
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2017,O3,,57
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2018,O3,75.0,66
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2019,O3,94.0,62
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2020,O3,82.0,58
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2021,O3,91.0,52
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2022,O3,77.0,55
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2023,O3,62.0,48
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2024,O3,58.0,60
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2025,O3,77.0,66
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2026,O3,70.0,68
+Delhi,"Talkatora Garden, Delhi - DPCC",2015,O3,,76
+Delhi,"Talkatora Garden, Delhi - DPCC",2016,O3,,62
+Delhi,"Talkatora Garden, Delhi - DPCC",2017,O3,,57
+Delhi,"Talkatora Garden, Delhi - DPCC",2018,O3,,66
+Delhi,"Talkatora Garden, Delhi - DPCC",2019,O3,,62
+Delhi,"Talkatora Garden, Delhi - DPCC",2020,O3,,58
+Delhi,"Talkatora Garden, Delhi - DPCC",2021,O3,,52
+Delhi,"Talkatora Garden, Delhi - DPCC",2022,O3,,55
+Delhi,"Talkatora Garden, Delhi - DPCC",2023,O3,,48
+Delhi,"Talkatora Garden, Delhi - DPCC",2024,O3,,60
+Delhi,"Talkatora Garden, Delhi - DPCC",2025,O3,,66
+Delhi,"Talkatora Garden, Delhi - DPCC",2026,O3,19.0,68
+Delhi,"Vivek Vihar, Delhi - DPCC",2015,O3,,76
+Delhi,"Vivek Vihar, Delhi - DPCC",2016,O3,,62
+Delhi,"Vivek Vihar, Delhi - DPCC",2017,O3,,57
+Delhi,"Vivek Vihar, Delhi - DPCC",2018,O3,70.0,66
+Delhi,"Vivek Vihar, Delhi - DPCC",2019,O3,75.0,62
+Delhi,"Vivek Vihar, Delhi - DPCC",2020,O3,55.0,58
+Delhi,"Vivek Vihar, Delhi - DPCC",2021,O3,36.0,52
+Delhi,"Vivek Vihar, Delhi - DPCC",2022,O3,33.0,55
+Delhi,"Vivek Vihar, Delhi - DPCC",2023,O3,33.0,48
+Delhi,"Vivek Vihar, Delhi - DPCC",2024,O3,56.0,60
+Delhi,"Vivek Vihar, Delhi - DPCC",2025,O3,57.0,66
+Delhi,"Vivek Vihar, Delhi - DPCC",2026,O3,69.0,68
+Delhi,"Wazirpur, Delhi - DPCC",2015,O3,,76
+Delhi,"Wazirpur, Delhi - DPCC",2016,O3,,62
+Delhi,"Wazirpur, Delhi - DPCC",2017,O3,,57
+Delhi,"Wazirpur, Delhi - DPCC",2018,O3,59.0,66
+Delhi,"Wazirpur, Delhi - DPCC",2019,O3,55.0,62
+Delhi,"Wazirpur, Delhi - DPCC",2020,O3,31.0,58
+Delhi,"Wazirpur, Delhi - DPCC",2021,O3,27.0,52
+Delhi,"Wazirpur, Delhi - DPCC",2022,O3,29.0,55
+Delhi,"Wazirpur, Delhi - DPCC",2023,O3,36.0,48
+Delhi,"Wazirpur, Delhi - DPCC",2024,O3,63.0,60
+Delhi,"Wazirpur, Delhi - DPCC",2025,O3,85.0,66
+Delhi,"Wazirpur, Delhi - DPCC",2026,O3,56.0,68
+Delhi,"Alipur, Delhi - DPCC",2015,NO2,,44
+Delhi,"Alipur, Delhi - DPCC",2016,NO2,,54
+Delhi,"Alipur, Delhi - DPCC",2017,NO2,,45
+Delhi,"Alipur, Delhi - DPCC",2018,NO2,89.0,48
+Delhi,"Alipur, Delhi - DPCC",2019,NO2,55.0,45
+Delhi,"Alipur, Delhi - DPCC",2020,NO2,31.0,39
+Delhi,"Alipur, Delhi - DPCC",2021,NO2,27.0,41
+Delhi,"Alipur, Delhi - DPCC",2022,NO2,25.0,39
+Delhi,"Alipur, Delhi - DPCC",2023,NO2,27.0,35
+Delhi,"Alipur, Delhi - DPCC",2024,NO2,31.0,43
+Delhi,"Alipur, Delhi - DPCC",2025,NO2,36.0,45
+Delhi,"Alipur, Delhi - DPCC",2026,NO2,34.0,47
+Delhi,"Anand Vihar, Delhi - DPCC",2015,NO2,76.0,44
+Delhi,"Anand Vihar, Delhi - DPCC",2016,NO2,81.0,54
+Delhi,"Anand Vihar, Delhi - DPCC",2017,NO2,107.0,45
+Delhi,"Anand Vihar, Delhi - DPCC",2018,NO2,107.0,48
+Delhi,"Anand Vihar, Delhi - DPCC",2019,NO2,88.0,45
+Delhi,"Anand Vihar, Delhi - DPCC",2020,NO2,60.0,39
+Delhi,"Anand Vihar, Delhi - DPCC",2021,NO2,74.0,41
+Delhi,"Anand Vihar, Delhi - DPCC",2022,NO2,82.0,39
+Delhi,"Anand Vihar, Delhi - DPCC",2023,NO2,76.0,35
+Delhi,"Anand Vihar, Delhi - DPCC",2024,NO2,80.0,43
+Delhi,"Anand Vihar, Delhi - DPCC",2025,NO2,65.0,45
+Delhi,"Anand Vihar, Delhi - DPCC",2026,NO2,48.0,47
+Delhi,"Ashok Vihar, Delhi - DPCC",2015,NO2,,44
+Delhi,"Ashok Vihar, Delhi - DPCC",2016,NO2,,54
+Delhi,"Ashok Vihar, Delhi - DPCC",2017,NO2,,45
+Delhi,"Ashok Vihar, Delhi - DPCC",2018,NO2,40.0,48
+Delhi,"Ashok Vihar, Delhi - DPCC",2019,NO2,49.0,45
+Delhi,"Ashok Vihar, Delhi - DPCC",2020,NO2,37.0,39
+Delhi,"Ashok Vihar, Delhi - DPCC",2021,NO2,44.0,41
+Delhi,"Ashok Vihar, Delhi - DPCC",2022,NO2,31.0,39
+Delhi,"Ashok Vihar, Delhi - DPCC",2023,NO2,25.0,35
+Delhi,"Ashok Vihar, Delhi - DPCC",2024,NO2,47.0,43
+Delhi,"Ashok Vihar, Delhi - DPCC",2025,NO2,46.0,45
+Delhi,"Ashok Vihar, Delhi - DPCC",2026,NO2,49.0,47
+Delhi,"Aya Nagar, Delhi - IMD",2015,NO2,,44
+Delhi,"Aya Nagar, Delhi - IMD",2016,NO2,,54
+Delhi,"Aya Nagar, Delhi - IMD",2017,NO2,18.0,45
+Delhi,"Aya Nagar, Delhi - IMD",2018,NO2,28.0,48
+Delhi,"Aya Nagar, Delhi - IMD",2019,NO2,25.0,45
+Delhi,"Aya Nagar, Delhi - IMD",2020,NO2,18.0,39
+Delhi,"Aya Nagar, Delhi - IMD",2021,NO2,15.0,41
+Delhi,"Aya Nagar, Delhi - IMD",2022,NO2,20.0,39
+Delhi,"Aya Nagar, Delhi - IMD",2023,NO2,13.0,35
+Delhi,"Aya Nagar, Delhi - IMD",2024,NO2,24.0,43
+Delhi,"Aya Nagar, Delhi - IMD",2025,NO2,31.0,45
+Delhi,"Aya Nagar, Delhi - IMD",2026,NO2,33.0,47
+Delhi,"Bawana, Delhi - DPCC",2015,NO2,,44
+Delhi,"Bawana, Delhi - DPCC",2016,NO2,,54
+Delhi,"Bawana, Delhi - DPCC",2017,NO2,,45
+Delhi,"Bawana, Delhi - DPCC",2018,NO2,27.0,48
+Delhi,"Bawana, Delhi - DPCC",2019,NO2,48.0,45
+Delhi,"Bawana, Delhi - DPCC",2020,NO2,32.0,39
+Delhi,"Bawana, Delhi - DPCC",2021,NO2,16.0,41
+Delhi,"Bawana, Delhi - DPCC",2022,NO2,13.0,39
+Delhi,"Bawana, Delhi - DPCC",2023,NO2,12.0,35
+Delhi,"Bawana, Delhi - DPCC",2024,NO2,28.0,43
+Delhi,"Bawana, Delhi - DPCC",2025,NO2,22.0,45
+Delhi,"Bawana, Delhi - DPCC",2026,NO2,22.0,47
+Delhi,"Burari Crossing, Delhi - IMD",2015,NO2,17.0,44
+Delhi,"Burari Crossing, Delhi - IMD",2016,NO2,28.0,54
+Delhi,"Burari Crossing, Delhi - IMD",2017,NO2,35.0,45
+Delhi,"Burari Crossing, Delhi - IMD",2018,NO2,65.0,48
+Delhi,"Burari Crossing, Delhi - IMD",2019,NO2,37.0,45
+Delhi,"Burari Crossing, Delhi - IMD",2020,NO2,,39
+Delhi,"Burari Crossing, Delhi - IMD",2021,NO2,,41
+Delhi,"Burari Crossing, Delhi - IMD",2022,NO2,37.0,39
+Delhi,"Burari Crossing, Delhi - IMD",2023,NO2,24.0,35
+Delhi,"Burari Crossing, Delhi - IMD",2024,NO2,13.0,43
+Delhi,"Burari Crossing, Delhi - IMD",2025,NO2,34.0,45
+Delhi,"Burari Crossing, Delhi - IMD",2026,NO2,65.0,47
+Delhi,"CRRI Mathura Road, Delhi - IMD",2015,NO2,30.0,44
+Delhi,"CRRI Mathura Road, Delhi - IMD",2016,NO2,17.0,54
+Delhi,"CRRI Mathura Road, Delhi - IMD",2017,NO2,31.0,45
+Delhi,"CRRI Mathura Road, Delhi - IMD",2018,NO2,47.0,48
+Delhi,"CRRI Mathura Road, Delhi - IMD",2019,NO2,52.0,45
+Delhi,"CRRI Mathura Road, Delhi - IMD",2020,NO2,38.0,39
+Delhi,"CRRI Mathura Road, Delhi - IMD",2021,NO2,50.0,41
+Delhi,"CRRI Mathura Road, Delhi - IMD",2022,NO2,14.0,39
+Delhi,"CRRI Mathura Road, Delhi - IMD",2023,NO2,22.0,35
+Delhi,"CRRI Mathura Road, Delhi - IMD",2024,NO2,24.0,43
+Delhi,"CRRI Mathura Road, Delhi - IMD",2025,NO2,38.0,45
+Delhi,"CRRI Mathura Road, Delhi - IMD",2026,NO2,40.0,47
+Delhi,"Cantonment Area, Delhi - DPCC",2015,NO2,,44
+Delhi,"Cantonment Area, Delhi - DPCC",2016,NO2,,54
+Delhi,"Cantonment Area, Delhi - DPCC",2017,NO2,,45
+Delhi,"Cantonment Area, Delhi - DPCC",2018,NO2,,48
+Delhi,"Cantonment Area, Delhi - DPCC",2019,NO2,,45
+Delhi,"Cantonment Area, Delhi - DPCC",2020,NO2,,39
+Delhi,"Cantonment Area, Delhi - DPCC",2021,NO2,,41
+Delhi,"Cantonment Area, Delhi - DPCC",2022,NO2,,39
+Delhi,"Cantonment Area, Delhi - DPCC",2023,NO2,,35
+Delhi,"Cantonment Area, Delhi - DPCC",2024,NO2,,43
+Delhi,"Cantonment Area, Delhi - DPCC",2025,NO2,,45
+Delhi,"Cantonment Area, Delhi - DPCC",2026,NO2,46.0,47
+Delhi,"Chandni Chowk, Delhi - IITM",2015,NO2,,44
+Delhi,"Chandni Chowk, Delhi - IITM",2016,NO2,,54
+Delhi,"Chandni Chowk, Delhi - IITM",2017,NO2,,45
+Delhi,"Chandni Chowk, Delhi - IITM",2018,NO2,,48
+Delhi,"Chandni Chowk, Delhi - IITM",2019,NO2,,45
+Delhi,"Chandni Chowk, Delhi - IITM",2020,NO2,35.0,39
+Delhi,"Chandni Chowk, Delhi - IITM",2021,NO2,33.0,41
+Delhi,"Chandni Chowk, Delhi - IITM",2022,NO2,58.0,39
+Delhi,"Chandni Chowk, Delhi - IITM",2023,NO2,47.0,35
+Delhi,"Chandni Chowk, Delhi - IITM",2024,NO2,62.0,43
+Delhi,"Chandni Chowk, Delhi - IITM",2025,NO2,53.0,45
+Delhi,"Chandni Chowk, Delhi - IITM",2026,NO2,56.0,47
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2015,NO2,,44
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2016,NO2,,54
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2017,NO2,,45
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2018,NO2,,48
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2019,NO2,,45
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2020,NO2,,39
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2021,NO2,,41
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2022,NO2,,39
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2023,NO2,,35
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2024,NO2,,43
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2025,NO2,,45
+Delhi,"Commonwealth Sports Complex, Delhi - DPCC",2026,NO2,46.0,47
+Delhi,"DTU, Delhi - CPCB",2015,NO2,12.0,44
+Delhi,"DTU, Delhi - CPCB",2016,NO2,108.0,54
+Delhi,"DTU, Delhi - CPCB",2017,NO2,33.0,45
+Delhi,"DTU, Delhi - CPCB",2018,NO2,30.0,48
+Delhi,"DTU, Delhi - CPCB",2019,NO2,49.0,45
+Delhi,"DTU, Delhi - CPCB",2020,NO2,34.0,39
+Delhi,"DTU, Delhi - CPCB",2021,NO2,56.0,41
+Delhi,"DTU, Delhi - CPCB",2022,NO2,31.0,39
+Delhi,"DTU, Delhi - CPCB",2023,NO2,39.0,35
+Delhi,"DTU, Delhi - CPCB",2024,NO2,37.0,43
+Delhi,"DTU, Delhi - CPCB",2025,NO2,39.0,45
+Delhi,"DTU, Delhi - CPCB",2026,NO2,36.0,47
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2015,NO2,,44
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2016,NO2,,54
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2017,NO2,,45
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2018,NO2,55.0,48
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2019,NO2,43.0,45
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2020,NO2,46.0,39
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2021,NO2,64.0,41
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2022,NO2,60.0,39
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2023,NO2,43.0,35
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2024,NO2,52.0,43
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2025,NO2,50.0,45
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2026,NO2,35.0,47
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2015,NO2,,44
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2016,NO2,,54
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2017,NO2,,45
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2018,NO2,37.0,48
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2019,NO2,43.0,45
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2020,NO2,45.0,39
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2021,NO2,31.0,41
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2022,NO2,27.0,39
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2023,NO2,29.0,35
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2024,NO2,45.0,43
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2025,NO2,56.0,45
+Delhi,"Dwarka-Sector 8, Delhi - DPCC",2026,NO2,60.0,47
+Delhi,"IGI Airport (T3), Delhi - IMD",2015,NO2,14.0,44
+Delhi,"IGI Airport (T3), Delhi - IMD",2016,NO2,13.0,54
+Delhi,"IGI Airport (T3), Delhi - IMD",2017,NO2,25.0,45
+Delhi,"IGI Airport (T3), Delhi - IMD",2018,NO2,37.0,48
+Delhi,"IGI Airport (T3), Delhi - IMD",2019,NO2,47.0,45
+Delhi,"IGI Airport (T3), Delhi - IMD",2020,NO2,58.0,39
+Delhi,"IGI Airport (T3), Delhi - IMD",2021,NO2,55.0,41
+Delhi,"IGI Airport (T3), Delhi - IMD",2022,NO2,38.0,39
+Delhi,"IGI Airport (T3), Delhi - IMD",2023,NO2,23.0,35
+Delhi,"IGI Airport (T3), Delhi - IMD",2024,NO2,38.0,43
+Delhi,"IGI Airport (T3), Delhi - IMD",2025,NO2,71.0,45
+Delhi,"IGI Airport (T3), Delhi - IMD",2026,NO2,47.0,47
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2015,NO2,,44
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2016,NO2,,54
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2017,NO2,,45
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2018,NO2,,48
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2019,NO2,,45
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2020,NO2,,39
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2021,NO2,,41
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2022,NO2,,39
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2023,NO2,,35
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2024,NO2,,43
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2025,NO2,,45
+Delhi,"IGNOU_Maidan Garhi, Delhi - DPCC",2026,NO2,18.0,47
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2015,NO2,47.0,44
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2016,NO2,50.0,54
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2017,NO2,50.0,45
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2018,NO2,47.0,48
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2019,NO2,44.0,45
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2020,NO2,49.0,39
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2021,NO2,51.0,41
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2022,NO2,57.0,39
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2023,NO2,22.0,35
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2024,NO2,31.0,43
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2025,NO2,45.0,45
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2026,NO2,52.0,47
+Delhi,"IIT Delhi, Delhi - IITM",2015,NO2,,44
+Delhi,"IIT Delhi, Delhi - IITM",2016,NO2,,54
+Delhi,"IIT Delhi, Delhi - IITM",2017,NO2,,45
+Delhi,"IIT Delhi, Delhi - IITM",2018,NO2,,48
+Delhi,"IIT Delhi, Delhi - IITM",2019,NO2,,45
+Delhi,"IIT Delhi, Delhi - IITM",2020,NO2,,39
+Delhi,"IIT Delhi, Delhi - IITM",2021,NO2,,41
+Delhi,"IIT Delhi, Delhi - IITM",2022,NO2,,39
+Delhi,"IIT Delhi, Delhi - IITM",2023,NO2,,35
+Delhi,"IIT Delhi, Delhi - IITM",2024,NO2,,43
+Delhi,"IIT Delhi, Delhi - IITM",2025,NO2,58.0,45
+Delhi,"IIT Delhi, Delhi - IITM",2026,NO2,38.0,47
+Delhi,"ITO, Delhi - CPCB",2015,NO2,79.0,44
+Delhi,"ITO, Delhi - CPCB",2016,NO2,69.0,54
+Delhi,"ITO, Delhi - CPCB",2017,NO2,43.0,45
+Delhi,"ITO, Delhi - CPCB",2018,NO2,73.0,48
+Delhi,"ITO, Delhi - CPCB",2019,NO2,40.0,45
+Delhi,"ITO, Delhi - CPCB",2020,NO2,32.0,39
+Delhi,"ITO, Delhi - CPCB",2021,NO2,24.0,41
+Delhi,"ITO, Delhi - CPCB",2022,NO2,51.0,39
+Delhi,"ITO, Delhi - CPCB",2023,NO2,84.0,35
+Delhi,"ITO, Delhi - CPCB",2024,NO2,78.0,43
+Delhi,"ITO, Delhi - CPCB",2025,NO2,68.0,45
+Delhi,"ITO, Delhi - CPCB",2026,NO2,45.0,47
+Delhi,"JNU, Delhi - DPCC",2015,NO2,,44
+Delhi,"JNU, Delhi - DPCC",2016,NO2,,54
+Delhi,"JNU, Delhi - DPCC",2017,NO2,,45
+Delhi,"JNU, Delhi - DPCC",2018,NO2,,48
+Delhi,"JNU, Delhi - DPCC",2019,NO2,,45
+Delhi,"JNU, Delhi - DPCC",2020,NO2,,39
+Delhi,"JNU, Delhi - DPCC",2021,NO2,,41
+Delhi,"JNU, Delhi - DPCC",2022,NO2,,39
+Delhi,"JNU, Delhi - DPCC",2023,NO2,,35
+Delhi,"JNU, Delhi - DPCC",2024,NO2,,43
+Delhi,"JNU, Delhi - DPCC",2025,NO2,,45
+Delhi,"JNU, Delhi - DPCC",2026,NO2,24.0,47
+Delhi,"Jahangirpuri, Delhi - DPCC",2015,NO2,,44
+Delhi,"Jahangirpuri, Delhi - DPCC",2016,NO2,,54
+Delhi,"Jahangirpuri, Delhi - DPCC",2017,NO2,,45
+Delhi,"Jahangirpuri, Delhi - DPCC",2018,NO2,57.0,48
+Delhi,"Jahangirpuri, Delhi - DPCC",2019,NO2,65.0,45
+Delhi,"Jahangirpuri, Delhi - DPCC",2020,NO2,68.0,39
+Delhi,"Jahangirpuri, Delhi - DPCC",2021,NO2,54.0,41
+Delhi,"Jahangirpuri, Delhi - DPCC",2022,NO2,53.0,39
+Delhi,"Jahangirpuri, Delhi - DPCC",2023,NO2,34.0,35
+Delhi,"Jahangirpuri, Delhi - DPCC",2024,NO2,41.0,43
+Delhi,"Jahangirpuri, Delhi - DPCC",2025,NO2,51.0,45
+Delhi,"Jahangirpuri, Delhi - DPCC",2026,NO2,69.0,47
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2015,NO2,,44
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2016,NO2,,54
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2017,NO2,,45
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2018,NO2,68.0,48
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2019,NO2,70.0,45
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2020,NO2,43.0,39
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2021,NO2,66.0,41
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2022,NO2,62.0,39
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2023,NO2,29.0,35
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2024,NO2,56.0,43
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2025,NO2,61.0,45
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2026,NO2,59.0,47
+Delhi,"Lodhi Road, Delhi - IMD",2015,NO2,24.0,44
+Delhi,"Lodhi Road, Delhi - IMD",2016,NO2,30.0,54
+Delhi,"Lodhi Road, Delhi - IMD",2017,NO2,15.0,45
+Delhi,"Lodhi Road, Delhi - IMD",2018,NO2,36.0,48
+Delhi,"Lodhi Road, Delhi - IMD",2019,NO2,16.0,45
+Delhi,"Lodhi Road, Delhi - IMD",2020,NO2,20.0,39
+Delhi,"Lodhi Road, Delhi - IMD",2021,NO2,13.0,41
+Delhi,"Lodhi Road, Delhi - IMD",2022,NO2,9.0,39
+Delhi,"Lodhi Road, Delhi - IMD",2023,NO2,14.0,35
+Delhi,"Lodhi Road, Delhi - IMD",2024,NO2,10.0,43
+Delhi,"Lodhi Road, Delhi - IMD",2025,NO2,36.0,45
+Delhi,"Lodhi Road, Delhi - IMD",2026,NO2,26.0,47
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2015,NO2,,44
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2016,NO2,,54
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2017,NO2,,45
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2018,NO2,66.0,48
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2019,NO2,63.0,45
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2020,NO2,42.0,39
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2021,NO2,30.0,41
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2022,NO2,33.0,39
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2023,NO2,29.0,35
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2024,NO2,54.0,43
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2025,NO2,52.0,45
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2026,NO2,62.0,47
+Delhi,"Mandir Marg, Delhi - DPCC",2015,NO2,57.0,44
+Delhi,"Mandir Marg, Delhi - DPCC",2016,NO2,57.0,54
+Delhi,"Mandir Marg, Delhi - DPCC",2017,NO2,52.0,45
+Delhi,"Mandir Marg, Delhi - DPCC",2018,NO2,55.0,48
+Delhi,"Mandir Marg, Delhi - DPCC",2019,NO2,54.0,45
+Delhi,"Mandir Marg, Delhi - DPCC",2020,NO2,42.0,39
+Delhi,"Mandir Marg, Delhi - DPCC",2021,NO2,64.0,41
+Delhi,"Mandir Marg, Delhi - DPCC",2022,NO2,57.0,39
+Delhi,"Mandir Marg, Delhi - DPCC",2023,NO2,57.0,35
+Delhi,"Mandir Marg, Delhi - DPCC",2024,NO2,72.0,43
+Delhi,"Mandir Marg, Delhi - DPCC",2025,NO2,56.0,45
+Delhi,"Mandir Marg, Delhi - DPCC",2026,NO2,62.0,47
+Delhi,"Mundka, Delhi - DPCC",2015,NO2,,44
+Delhi,"Mundka, Delhi - DPCC",2016,NO2,,54
+Delhi,"Mundka, Delhi - DPCC",2017,NO2,,45
+Delhi,"Mundka, Delhi - DPCC",2018,NO2,43.0,48
+Delhi,"Mundka, Delhi - DPCC",2019,NO2,34.0,45
+Delhi,"Mundka, Delhi - DPCC",2020,NO2,37.0,39
+Delhi,"Mundka, Delhi - DPCC",2021,NO2,40.0,41
+Delhi,"Mundka, Delhi - DPCC",2022,NO2,42.0,39
+Delhi,"Mundka, Delhi - DPCC",2023,NO2,39.0,35
+Delhi,"Mundka, Delhi - DPCC",2024,NO2,48.0,43
+Delhi,"Mundka, Delhi - DPCC",2025,NO2,48.0,45
+Delhi,"Mundka, Delhi - DPCC",2026,NO2,66.0,47
+Delhi,"NSIT Dwarka, Delhi - CPCB",2015,NO2,41.0,44
+Delhi,"NSIT Dwarka, Delhi - CPCB",2016,NO2,23.0,54
+Delhi,"NSIT Dwarka, Delhi - CPCB",2017,NO2,31.0,45
+Delhi,"NSIT Dwarka, Delhi - CPCB",2018,NO2,34.0,48
+Delhi,"NSIT Dwarka, Delhi - CPCB",2019,NO2,28.0,45
+Delhi,"NSIT Dwarka, Delhi - CPCB",2020,NO2,27.0,39
+Delhi,"NSIT Dwarka, Delhi - CPCB",2021,NO2,31.0,41
+Delhi,"NSIT Dwarka, Delhi - CPCB",2022,NO2,32.0,39
+Delhi,"NSIT Dwarka, Delhi - CPCB",2023,NO2,29.0,35
+Delhi,"NSIT Dwarka, Delhi - CPCB",2024,NO2,30.0,43
+Delhi,"NSIT Dwarka, Delhi - CPCB",2025,NO2,44.0,45
+Delhi,"NSIT Dwarka, Delhi - CPCB",2026,NO2,72.0,47
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2015,NO2,,44
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2016,NO2,,54
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2017,NO2,,45
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2018,NO2,,48
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2019,NO2,,45
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2020,NO2,,39
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2021,NO2,,41
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2022,NO2,,39
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2023,NO2,,35
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2024,NO2,,43
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2025,NO2,,45
+Delhi,"NSUT Jaffarpur, Delhi - DPCC",2026,NO2,32.0,47
+Delhi,"Najafgarh, Delhi - DPCC",2015,NO2,,44
+Delhi,"Najafgarh, Delhi - DPCC",2016,NO2,,54
+Delhi,"Najafgarh, Delhi - DPCC",2017,NO2,,45
+Delhi,"Najafgarh, Delhi - DPCC",2018,NO2,24.0,48
+Delhi,"Najafgarh, Delhi - DPCC",2019,NO2,31.0,45
+Delhi,"Najafgarh, Delhi - DPCC",2020,NO2,20.0,39
+Delhi,"Najafgarh, Delhi - DPCC",2021,NO2,18.0,41
+Delhi,"Najafgarh, Delhi - DPCC",2022,NO2,14.0,39
+Delhi,"Najafgarh, Delhi - DPCC",2023,NO2,11.0,35
+Delhi,"Najafgarh, Delhi - DPCC",2024,NO2,20.0,43
+Delhi,"Najafgarh, Delhi - DPCC",2025,NO2,52.0,45
+Delhi,"Najafgarh, Delhi - DPCC",2026,NO2,63.0,47
+Delhi,"Narela, Delhi - DPCC",2015,NO2,,44
+Delhi,"Narela, Delhi - DPCC",2016,NO2,,54
+Delhi,"Narela, Delhi - DPCC",2017,NO2,,45
+Delhi,"Narela, Delhi - DPCC",2018,NO2,31.0,48
+Delhi,"Narela, Delhi - DPCC",2019,NO2,40.0,45
+Delhi,"Narela, Delhi - DPCC",2020,NO2,40.0,39
+Delhi,"Narela, Delhi - DPCC",2021,NO2,36.0,41
+Delhi,"Narela, Delhi - DPCC",2022,NO2,38.0,39
+Delhi,"Narela, Delhi - DPCC",2023,NO2,21.0,35
+Delhi,"Narela, Delhi - DPCC",2024,NO2,32.0,43
+Delhi,"Narela, Delhi - DPCC",2025,NO2,24.0,45
+Delhi,"Narela, Delhi - DPCC",2026,NO2,23.0,47
+Delhi,"Nehru Nagar, Delhi - DPCC",2015,NO2,,44
+Delhi,"Nehru Nagar, Delhi - DPCC",2016,NO2,,54
+Delhi,"Nehru Nagar, Delhi - DPCC",2017,NO2,,45
+Delhi,"Nehru Nagar, Delhi - DPCC",2018,NO2,48.0,48
+Delhi,"Nehru Nagar, Delhi - DPCC",2019,NO2,46.0,45
+Delhi,"Nehru Nagar, Delhi - DPCC",2020,NO2,46.0,39
+Delhi,"Nehru Nagar, Delhi - DPCC",2021,NO2,66.0,41
+Delhi,"Nehru Nagar, Delhi - DPCC",2022,NO2,64.0,39
+Delhi,"Nehru Nagar, Delhi - DPCC",2023,NO2,59.0,35
+Delhi,"Nehru Nagar, Delhi - DPCC",2024,NO2,29.0,43
+Delhi,"Nehru Nagar, Delhi - DPCC",2025,NO2,38.0,45
+Delhi,"Nehru Nagar, Delhi - DPCC",2026,NO2,48.0,47
+Delhi,"New Moti Bagh, Delhi - MHUA",2015,NO2,,44
+Delhi,"New Moti Bagh, Delhi - MHUA",2016,NO2,,54
+Delhi,"New Moti Bagh, Delhi - MHUA",2017,NO2,,45
+Delhi,"New Moti Bagh, Delhi - MHUA",2018,NO2,,48
+Delhi,"New Moti Bagh, Delhi - MHUA",2019,NO2,,45
+Delhi,"New Moti Bagh, Delhi - MHUA",2020,NO2,,39
+Delhi,"New Moti Bagh, Delhi - MHUA",2021,NO2,,41
+Delhi,"New Moti Bagh, Delhi - MHUA",2022,NO2,,39
+Delhi,"New Moti Bagh, Delhi - MHUA",2023,NO2,,35
+Delhi,"New Moti Bagh, Delhi - MHUA",2024,NO2,,43
+Delhi,"New Moti Bagh, Delhi - MHUA",2025,NO2,4.0,45
+Delhi,"New Moti Bagh, Delhi - MHUA",2026,NO2,7.0,47
+Delhi,"North Campus, DU, Delhi - IMD",2015,NO2,13.0,44
+Delhi,"North Campus, DU, Delhi - IMD",2016,NO2,13.0,54
+Delhi,"North Campus, DU, Delhi - IMD",2017,NO2,31.0,45
+Delhi,"North Campus, DU, Delhi - IMD",2018,NO2,31.0,48
+Delhi,"North Campus, DU, Delhi - IMD",2019,NO2,31.0,45
+Delhi,"North Campus, DU, Delhi - IMD",2020,NO2,36.0,39
+Delhi,"North Campus, DU, Delhi - IMD",2021,NO2,35.0,41
+Delhi,"North Campus, DU, Delhi - IMD",2022,NO2,15.0,39
+Delhi,"North Campus, DU, Delhi - IMD",2023,NO2,21.0,35
+Delhi,"North Campus, DU, Delhi - IMD",2024,NO2,26.0,43
+Delhi,"North Campus, DU, Delhi - IMD",2025,NO2,44.0,45
+Delhi,"North Campus, DU, Delhi - IMD",2026,NO2,60.0,47
+Delhi,"Okhla Phase-2, Delhi - DPCC",2015,NO2,,44
+Delhi,"Okhla Phase-2, Delhi - DPCC",2016,NO2,,54
+Delhi,"Okhla Phase-2, Delhi - DPCC",2017,NO2,,45
+Delhi,"Okhla Phase-2, Delhi - DPCC",2018,NO2,39.0,48
+Delhi,"Okhla Phase-2, Delhi - DPCC",2019,NO2,40.0,45
+Delhi,"Okhla Phase-2, Delhi - DPCC",2020,NO2,41.0,39
+Delhi,"Okhla Phase-2, Delhi - DPCC",2021,NO2,54.0,41
+Delhi,"Okhla Phase-2, Delhi - DPCC",2022,NO2,63.0,39
+Delhi,"Okhla Phase-2, Delhi - DPCC",2023,NO2,57.0,35
+Delhi,"Okhla Phase-2, Delhi - DPCC",2024,NO2,60.0,43
+Delhi,"Okhla Phase-2, Delhi - DPCC",2025,NO2,59.0,45
+Delhi,"Okhla Phase-2, Delhi - DPCC",2026,NO2,79.0,47
+Delhi,"Patparganj, Delhi - DPCC",2015,NO2,,44
+Delhi,"Patparganj, Delhi - DPCC",2016,NO2,,54
+Delhi,"Patparganj, Delhi - DPCC",2017,NO2,,45
+Delhi,"Patparganj, Delhi - DPCC",2018,NO2,34.0,48
+Delhi,"Patparganj, Delhi - DPCC",2019,NO2,20.0,45
+Delhi,"Patparganj, Delhi - DPCC",2020,NO2,21.0,39
+Delhi,"Patparganj, Delhi - DPCC",2021,NO2,36.0,41
+Delhi,"Patparganj, Delhi - DPCC",2022,NO2,50.0,39
+Delhi,"Patparganj, Delhi - DPCC",2023,NO2,50.0,35
+Delhi,"Patparganj, Delhi - DPCC",2024,NO2,42.0,43
+Delhi,"Patparganj, Delhi - DPCC",2025,NO2,50.0,45
+Delhi,"Patparganj, Delhi - DPCC",2026,NO2,57.0,47
+Delhi,"Punjabi Bagh, Delhi - DPCC",2015,NO2,74.0,44
+Delhi,"Punjabi Bagh, Delhi - DPCC",2016,NO2,75.0,54
+Delhi,"Punjabi Bagh, Delhi - DPCC",2017,NO2,108.0,45
+Delhi,"Punjabi Bagh, Delhi - DPCC",2018,NO2,80.0,48
+Delhi,"Punjabi Bagh, Delhi - DPCC",2019,NO2,60.0,45
+Delhi,"Punjabi Bagh, Delhi - DPCC",2020,NO2,52.0,39
+Delhi,"Punjabi Bagh, Delhi - DPCC",2021,NO2,50.0,41
+Delhi,"Punjabi Bagh, Delhi - DPCC",2022,NO2,45.0,39
+Delhi,"Punjabi Bagh, Delhi - DPCC",2023,NO2,49.0,35
+Delhi,"Punjabi Bagh, Delhi - DPCC",2024,NO2,40.0,43
+Delhi,"Punjabi Bagh, Delhi - DPCC",2025,NO2,36.0,45
+Delhi,"Punjabi Bagh, Delhi - DPCC",2026,NO2,35.0,47
+Delhi,"Pusa, Delhi - DPCC",2015,NO2,,44
+Delhi,"Pusa, Delhi - DPCC",2016,NO2,,54
+Delhi,"Pusa, Delhi - DPCC",2017,NO2,,45
+Delhi,"Pusa, Delhi - DPCC",2018,NO2,68.0,48
+Delhi,"Pusa, Delhi - DPCC",2019,NO2,61.0,45
+Delhi,"Pusa, Delhi - DPCC",2020,NO2,51.0,39
+Delhi,"Pusa, Delhi - DPCC",2021,NO2,48.0,41
+Delhi,"Pusa, Delhi - DPCC",2022,NO2,55.0,39
+Delhi,"Pusa, Delhi - DPCC",2023,NO2,33.0,35
+Delhi,"Pusa, Delhi - DPCC",2024,NO2,72.0,43
+Delhi,"Pusa, Delhi - DPCC",2025,NO2,53.0,45
+Delhi,"Pusa, Delhi - DPCC",2026,NO2,66.0,47
+Delhi,"Pusa, Delhi - IMD",2015,NO2,,44
+Delhi,"Pusa, Delhi - IMD",2016,NO2,,54
+Delhi,"Pusa, Delhi - IMD",2017,NO2,15.0,45
+Delhi,"Pusa, Delhi - IMD",2018,NO2,36.0,48
+Delhi,"Pusa, Delhi - IMD",2019,NO2,30.0,45
+Delhi,"Pusa, Delhi - IMD",2020,NO2,33.0,39
+Delhi,"Pusa, Delhi - IMD",2021,NO2,46.0,41
+Delhi,"Pusa, Delhi - IMD",2022,NO2,41.0,39
+Delhi,"Pusa, Delhi - IMD",2023,NO2,28.0,35
+Delhi,"Pusa, Delhi - IMD",2024,NO2,29.0,43
+Delhi,"Pusa, Delhi - IMD",2025,NO2,34.0,45
+Delhi,"Pusa, Delhi - IMD",2026,NO2,80.0,47
+Delhi,"R K Puram, Delhi - DPCC",2015,NO2,70.0,44
+Delhi,"R K Puram, Delhi - DPCC",2016,NO2,73.0,54
+Delhi,"R K Puram, Delhi - DPCC",2017,NO2,63.0,45
+Delhi,"R K Puram, Delhi - DPCC",2018,NO2,67.0,48
+Delhi,"R K Puram, Delhi - DPCC",2019,NO2,52.0,45
+Delhi,"R K Puram, Delhi - DPCC",2020,NO2,40.0,39
+Delhi,"R K Puram, Delhi - DPCC",2021,NO2,40.0,41
+Delhi,"R K Puram, Delhi - DPCC",2022,NO2,45.0,39
+Delhi,"R K Puram, Delhi - DPCC",2023,NO2,45.0,35
+Delhi,"R K Puram, Delhi - DPCC",2024,NO2,37.0,43
+Delhi,"R K Puram, Delhi - DPCC",2025,NO2,42.0,45
+Delhi,"R K Puram, Delhi - DPCC",2026,NO2,46.0,47
+Delhi,"Rohini, Delhi - DPCC",2015,NO2,,44
+Delhi,"Rohini, Delhi - DPCC",2016,NO2,,54
+Delhi,"Rohini, Delhi - DPCC",2017,NO2,,45
+Delhi,"Rohini, Delhi - DPCC",2018,NO2,38.0,48
+Delhi,"Rohini, Delhi - DPCC",2019,NO2,34.0,45
+Delhi,"Rohini, Delhi - DPCC",2020,NO2,23.0,39
+Delhi,"Rohini, Delhi - DPCC",2021,NO2,22.0,41
+Delhi,"Rohini, Delhi - DPCC",2022,NO2,23.0,39
+Delhi,"Rohini, Delhi - DPCC",2023,NO2,23.0,35
+Delhi,"Rohini, Delhi - DPCC",2024,NO2,43.0,43
+Delhi,"Rohini, Delhi - DPCC",2025,NO2,36.0,45
+Delhi,"Rohini, Delhi - DPCC",2026,NO2,35.0,47
+Delhi,"Shadipur, Delhi - CPCB",2015,NO2,57.0,44
+Delhi,"Shadipur, Delhi - CPCB",2016,NO2,49.0,54
+Delhi,"Shadipur, Delhi - CPCB",2017,NO2,33.0,45
+Delhi,"Shadipur, Delhi - CPCB",2018,NO2,55.0,48
+Delhi,"Shadipur, Delhi - CPCB",2019,NO2,62.0,45
+Delhi,"Shadipur, Delhi - CPCB",2020,NO2,56.0,39
+Delhi,"Shadipur, Delhi - CPCB",2021,NO2,45.0,41
+Delhi,"Shadipur, Delhi - CPCB",2022,NO2,42.0,39
+Delhi,"Shadipur, Delhi - CPCB",2023,NO2,49.0,35
+Delhi,"Shadipur, Delhi - CPCB",2024,NO2,56.0,43
+Delhi,"Shadipur, Delhi - CPCB",2025,NO2,65.0,45
+Delhi,"Shadipur, Delhi - CPCB",2026,NO2,56.0,47
+Delhi,"Sirifort, Delhi - CPCB",2015,NO2,,44
+Delhi,"Sirifort, Delhi - CPCB",2016,NO2,126.0,54
+Delhi,"Sirifort, Delhi - CPCB",2017,NO2,70.0,45
+Delhi,"Sirifort, Delhi - CPCB",2018,NO2,48.0,48
+Delhi,"Sirifort, Delhi - CPCB",2019,NO2,54.0,45
+Delhi,"Sirifort, Delhi - CPCB",2020,NO2,40.0,39
+Delhi,"Sirifort, Delhi - CPCB",2021,NO2,32.0,41
+Delhi,"Sirifort, Delhi - CPCB",2022,NO2,21.0,39
+Delhi,"Sirifort, Delhi - CPCB",2023,NO2,39.0,35
+Delhi,"Sirifort, Delhi - CPCB",2024,NO2,60.0,43
+Delhi,"Sirifort, Delhi - CPCB",2025,NO2,37.0,45
+Delhi,"Sirifort, Delhi - CPCB",2026,NO2,26.0,47
+Delhi,"Sonia Vihar, Delhi - DPCC",2015,NO2,,44
+Delhi,"Sonia Vihar, Delhi - DPCC",2016,NO2,,54
+Delhi,"Sonia Vihar, Delhi - DPCC",2017,NO2,,45
+Delhi,"Sonia Vihar, Delhi - DPCC",2018,NO2,29.0,48
+Delhi,"Sonia Vihar, Delhi - DPCC",2019,NO2,35.0,45
+Delhi,"Sonia Vihar, Delhi - DPCC",2020,NO2,36.0,39
+Delhi,"Sonia Vihar, Delhi - DPCC",2021,NO2,39.0,41
+Delhi,"Sonia Vihar, Delhi - DPCC",2022,NO2,35.0,39
+Delhi,"Sonia Vihar, Delhi - DPCC",2023,NO2,19.0,35
+Delhi,"Sonia Vihar, Delhi - DPCC",2024,NO2,37.0,43
+Delhi,"Sonia Vihar, Delhi - DPCC",2025,NO2,34.0,45
+Delhi,"Sonia Vihar, Delhi - DPCC",2026,NO2,33.0,47
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2015,NO2,,44
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2016,NO2,,54
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2017,NO2,,45
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2018,NO2,27.0,48
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2019,NO2,37.0,45
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2020,NO2,23.0,39
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2021,NO2,26.0,41
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2022,NO2,31.0,39
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2023,NO2,24.0,35
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2024,NO2,34.0,43
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2025,NO2,30.0,45
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2026,NO2,34.0,47
+Delhi,"Talkatora Garden, Delhi - DPCC",2015,NO2,,44
+Delhi,"Talkatora Garden, Delhi - DPCC",2016,NO2,,54
+Delhi,"Talkatora Garden, Delhi - DPCC",2017,NO2,,45
+Delhi,"Talkatora Garden, Delhi - DPCC",2018,NO2,,48
+Delhi,"Talkatora Garden, Delhi - DPCC",2019,NO2,,45
+Delhi,"Talkatora Garden, Delhi - DPCC",2020,NO2,,39
+Delhi,"Talkatora Garden, Delhi - DPCC",2021,NO2,,41
+Delhi,"Talkatora Garden, Delhi - DPCC",2022,NO2,,39
+Delhi,"Talkatora Garden, Delhi - DPCC",2023,NO2,,35
+Delhi,"Talkatora Garden, Delhi - DPCC",2024,NO2,,43
+Delhi,"Talkatora Garden, Delhi - DPCC",2025,NO2,,45
+Delhi,"Talkatora Garden, Delhi - DPCC",2026,NO2,16.0,47
+Delhi,"Vivek Vihar, Delhi - DPCC",2015,NO2,,44
+Delhi,"Vivek Vihar, Delhi - DPCC",2016,NO2,,54
+Delhi,"Vivek Vihar, Delhi - DPCC",2017,NO2,,45
+Delhi,"Vivek Vihar, Delhi - DPCC",2018,NO2,32.0,48
+Delhi,"Vivek Vihar, Delhi - DPCC",2019,NO2,32.0,45
+Delhi,"Vivek Vihar, Delhi - DPCC",2020,NO2,37.0,39
+Delhi,"Vivek Vihar, Delhi - DPCC",2021,NO2,29.0,41
+Delhi,"Vivek Vihar, Delhi - DPCC",2022,NO2,22.0,39
+Delhi,"Vivek Vihar, Delhi - DPCC",2023,NO2,28.0,35
+Delhi,"Vivek Vihar, Delhi - DPCC",2024,NO2,38.0,43
+Delhi,"Vivek Vihar, Delhi - DPCC",2025,NO2,39.0,45
+Delhi,"Vivek Vihar, Delhi - DPCC",2026,NO2,46.0,47
+Delhi,"Wazirpur, Delhi - DPCC",2015,NO2,,44
+Delhi,"Wazirpur, Delhi - DPCC",2016,NO2,,54
+Delhi,"Wazirpur, Delhi - DPCC",2017,NO2,,45
+Delhi,"Wazirpur, Delhi - DPCC",2018,NO2,48.0,48
+Delhi,"Wazirpur, Delhi - DPCC",2019,NO2,60.0,45
+Delhi,"Wazirpur, Delhi - DPCC",2020,NO2,43.0,39
+Delhi,"Wazirpur, Delhi - DPCC",2021,NO2,39.0,41
+Delhi,"Wazirpur, Delhi - DPCC",2022,NO2,25.0,39
+Delhi,"Wazirpur, Delhi - DPCC",2023,NO2,39.0,35
+Delhi,"Wazirpur, Delhi - DPCC",2024,NO2,69.0,43
+Delhi,"Wazirpur, Delhi - DPCC",2025,NO2,65.0,45
+Delhi,"Wazirpur, Delhi - DPCC",2026,NO2,103.0,47
