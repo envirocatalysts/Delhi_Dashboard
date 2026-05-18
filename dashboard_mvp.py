@@ -34,10 +34,13 @@ EV_TARGET = 25.0
 NAAQS_PM25 = 60.0
 # Tight centre on NCT boundary — Delhi fills the map panel (reference layout).
 DELHI_MAP_CENTER = {"lat": 28.652, "lon": 77.143}
-DELHI_MAP_ZOOM = 10.55
-DELHI_MAP_PAD = 0.028
+DELHI_MAP_ZOOM = 10.58
+DELHI_MAP_PAD = 0.022
 AQI_MAP_HEIGHT = 260
-TRANSPORT_MAP_HEIGHT = 220
+TRANSPORT_MAP_HEIGHT = 260
+AQI_MAP_WIDTH = 380.0
+TRANSPORT_MAP_WIDTH = 520.0
+TRANSPORT_MAP_ZOOM_BUMP = 0.38
 
 NAAQS        = {"PM2.5": 60,  "PM10": 100, "NO2": 80,  "SO2": 80,  "O3": 100}
 NAAQS_ANNUAL = {"PM2.5": 40,  "PM10": 60,  "NO2": 40,  "SO2": 50}
@@ -219,6 +222,7 @@ def _zoom_for_panel(
     bounds: dict[str, float],
     height_px: int,
     width_px: float = 420.0,
+    zoom_bump: float = 0.0,
 ) -> float:
     """Mapbox zoom so Delhi boundary fills the panel (reference screenshot)."""
     lat_c = (bounds["north"] + bounds["south"]) / 2
@@ -228,26 +232,36 @@ def _zoom_for_panel(
     world = 256.0
     z_lon = math.log2(360 * width_px / (world * lon_span * math.cos(lat_rad)))
     z_lat = math.log2(180 * height_px / (world * lat_span))
-    return float(np.clip(min(z_lon, z_lat) - 0.08, 10.25, 10.75))
+    return float(np.clip(min(z_lon, z_lat) - 0.05 + zoom_bump, 10.35, 10.9))
+
+
+def _delhi_map_bounds(
+    geojson: dict,
+    boundary_rings: list[list[tuple[float, float]]] | None = None,
+) -> dict[str, float] | None:
+    bounds = _bounds_from_rings(boundary_rings or [], DELHI_MAP_PAD)
+    if bounds is None:
+        bounds = _geojson_bounds(geojson, pad=DELHI_MAP_PAD)
+    return bounds
 
 
 def _delhi_map_view(
     geojson: dict,
     map_height: int = AQI_MAP_HEIGHT,
+    map_width: float = AQI_MAP_WIDTH,
     boundary_rings: list[list[tuple[float, float]]] | None = None,
-) -> tuple[dict[str, float], float]:
+    zoom_bump: float = 0.0,
+) -> tuple[dict[str, float], float, dict[str, float] | None]:
     """Centre on NCT Delhi; prefer state outline bounds over district geojson."""
-    bounds = _bounds_from_rings(boundary_rings or [], DELHI_MAP_PAD)
-    if bounds is None:
-        bounds = _geojson_bounds(geojson, pad=DELHI_MAP_PAD)
+    bounds = _delhi_map_bounds(geojson, boundary_rings)
     if bounds:
         center = {
             "lat": (bounds["north"] + bounds["south"]) / 2,
             "lon": (bounds["east"] + bounds["west"]) / 2,
         }
-        zoom = _zoom_for_panel(bounds, map_height)
-        return center, zoom
-    return DELHI_MAP_CENTER, DELHI_MAP_ZOOM
+        zoom = _zoom_for_panel(bounds, map_height, map_width, zoom_bump=zoom_bump)
+        return center, zoom, bounds
+    return DELHI_MAP_CENTER, DELHI_MAP_ZOOM, None
 
 
 def _transport_pie_figure(
@@ -846,10 +860,18 @@ def main() -> None:
 
     delhi_district_geojson = load_delhi_district_geojson()
     delhi_boundary_rings = load_delhi_boundary()
-    delhi_map_center, delhi_map_zoom = _delhi_map_view(
+    delhi_map_center, aqi_map_zoom, _delhi_map_bounds = _delhi_map_view(
         delhi_district_geojson,
-        map_height=max(AQI_MAP_HEIGHT, TRANSPORT_MAP_HEIGHT),
+        map_height=AQI_MAP_HEIGHT,
+        map_width=AQI_MAP_WIDTH,
         boundary_rings=delhi_boundary_rings,
+    )
+    _, transport_map_zoom, _ = _delhi_map_view(
+        delhi_district_geojson,
+        map_height=TRANSPORT_MAP_HEIGHT,
+        map_width=TRANSPORT_MAP_WIDTH,
+        boundary_rings=delhi_boundary_rings,
+        zoom_bump=TRANSPORT_MAP_ZOOM_BUMP,
     )
 
     # ══════════════════════ RENDER ═════════════════════════════════════════
@@ -907,12 +929,12 @@ def main() -> None:
                 aqi_map_cfg: dict = {
                     "style": "open-street-map",
                     "center": delhi_map_center,
-                    "zoom": delhi_map_zoom,
+                    "zoom": aqi_map_zoom,
                 }
                 fig_map.update_layout(
                     map=aqi_map_cfg,
                     map_center=delhi_map_center,
-                    map_zoom=delhi_map_zoom,
+                    map_zoom=aqi_map_zoom,
                     dragmode="pan",
                     clickmode="event+select",
                     height=AQI_MAP_HEIGHT,
@@ -1163,7 +1185,7 @@ def main() -> None:
                         ],
                         mapbox_style="open-street-map",
                         center=delhi_map_center,
-                        zoom=delhi_map_zoom,
+                        zoom=transport_map_zoom,
                         opacity=0.78,
                         hover_name="district",
                         hover_data={"total_vehicles": ":,.0f", "district_geo": False},
@@ -1178,6 +1200,18 @@ def main() -> None:
                         borderpad=3,
                         xanchor="left", yanchor="top",
                     )
+                    if delhi_boundary_rings:
+                        for ring in delhi_boundary_rings:
+                            fig_transport_map.add_trace(
+                                go.Scattermapbox(
+                                    lon=[pt[0] for pt in ring],
+                                    lat=[pt[1] for pt in ring],
+                                    mode="lines",
+                                    line=dict(color="#1f2937", width=2.2),
+                                    hoverinfo="skip",
+                                    showlegend=False,
+                                )
+                            )
                     fig_transport_map.update_layout(
                         dragmode="pan",
                         height=TRANSPORT_MAP_HEIGHT,
@@ -1185,10 +1219,10 @@ def main() -> None:
                         mapbox=dict(
                             style="open-street-map",
                             center=delhi_map_center,
-                            zoom=delhi_map_zoom,
+                            zoom=transport_map_zoom,
                         ),
                         mapbox_center=delhi_map_center,
-                        mapbox_zoom=delhi_map_zoom,
+                        mapbox_zoom=transport_map_zoom,
                         uirevision="delhi-transport-map",
                         coloraxis=dict(cmin=cb_min, cmax=cb_max),
                         coloraxis_colorbar=dict(
