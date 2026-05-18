@@ -32,10 +32,10 @@ AQI_DASH_URL = "https://envirocatalysts-delhi-aq-dashboard.streamlit.app/"
 TRANSPORT_DASH_URL = "https://www.envirocatalysts.com/changing-gears-dashboard"
 EV_TARGET = 25.0
 NAAQS_PM25 = 60.0
-# Punjab-style: one centre + zoom so full NCT Delhi fits the panel (not West-only crop).
+# Tight centre on NCT boundary — Delhi fills the map panel (reference layout).
 DELHI_MAP_CENTER = {"lat": 28.652, "lon": 77.143}
-DELHI_MAP_ZOOM = 9.45
-DELHI_MAP_PAD = 0.07
+DELHI_MAP_ZOOM = 10.55
+DELHI_MAP_PAD = 0.028
 AQI_MAP_HEIGHT = 260
 TRANSPORT_MAP_HEIGHT = 220
 
@@ -196,12 +196,31 @@ def _geojson_bounds(geojson: dict, pad: float = 0.055) -> dict[str, float] | Non
     }
 
 
+def _bounds_from_rings(
+    rings: list[list[tuple[float, float]]],
+    pad: float,
+) -> dict[str, float] | None:
+    """BBox from NCT outline rings (same geometry as the AQI map border)."""
+    if not rings:
+        return None
+    lons = [pt[0] for ring in rings for pt in ring]
+    lats = [pt[1] for ring in rings for pt in ring]
+    if not lons:
+        return None
+    return {
+        "west": min(lons) - pad,
+        "east": max(lons) + pad,
+        "south": min(lats) - pad,
+        "north": max(lats) + pad,
+    }
+
+
 def _zoom_for_panel(
     bounds: dict[str, float],
     height_px: int,
     width_px: float = 420.0,
 ) -> float:
-    """Mapbox zoom so geojson bbox fits panel (lower zoom = wider view)."""
+    """Mapbox zoom so Delhi boundary fills the panel (reference screenshot)."""
     lat_c = (bounds["north"] + bounds["south"]) / 2
     lat_rad = math.radians(lat_c)
     lat_span = max(bounds["north"] - bounds["south"], 1e-6)
@@ -209,15 +228,18 @@ def _zoom_for_panel(
     world = 256.0
     z_lon = math.log2(360 * width_px / (world * lon_span * math.cos(lat_rad)))
     z_lat = math.log2(180 * height_px / (world * lat_span))
-    return float(np.clip(min(z_lon, z_lat) - 0.3, 9.1, 10.2))
+    return float(np.clip(min(z_lon, z_lat) - 0.08, 10.25, 10.75))
 
 
 def _delhi_map_view(
     geojson: dict,
     map_height: int = AQI_MAP_HEIGHT,
+    boundary_rings: list[list[tuple[float, float]]] | None = None,
 ) -> tuple[dict[str, float], float]:
-    """Centre on NCT Delhi with panel-fit zoom (Punjab-style state view)."""
-    bounds = _geojson_bounds(geojson, pad=DELHI_MAP_PAD)
+    """Centre on NCT Delhi; prefer state outline bounds over district geojson."""
+    bounds = _bounds_from_rings(boundary_rings or [], DELHI_MAP_PAD)
+    if bounds is None:
+        bounds = _geojson_bounds(geojson, pad=DELHI_MAP_PAD)
     if bounds:
         center = {
             "lat": (bounds["north"] + bounds["south"]) / 2,
@@ -823,9 +845,11 @@ def main() -> None:
     imd_chart = imd_daily.dropna(subset=["tmax_c"]).copy() if not imd_daily.empty else imd_daily
 
     delhi_district_geojson = load_delhi_district_geojson()
+    delhi_boundary_rings = load_delhi_boundary()
     delhi_map_center, delhi_map_zoom = _delhi_map_view(
         delhi_district_geojson,
         map_height=max(AQI_MAP_HEIGHT, TRANSPORT_MAP_HEIGHT),
+        boundary_rings=delhi_boundary_rings,
     )
 
     # ══════════════════════ RENDER ═════════════════════════════════════════
@@ -859,7 +883,7 @@ def main() -> None:
         with st.container(border=True):
             st.markdown("<div class='sector-title' style='margin:0 0 8px 0;'>AIR QUALITY ANALYTICS</div>", unsafe_allow_html=True)
             if not map_df.empty:
-                delhi_rings = load_delhi_boundary()
+                delhi_rings = delhi_boundary_rings
                 fig_map = px.scatter_map(
                     map_df,
                     lat="lat_plot",
@@ -1314,7 +1338,7 @@ def main() -> None:
                 f"""
                 <div class="sector-head-row">
                   <span class="sector-icon">🌦️</span>
-                  <h4 class="sector-title" style="margin:0;color:#111827 !important;">METEOROLOGY · IMD NEW DELHI</h4>
+                  <h4 class="sector-title" style="margin:0;color:#111827 !important;">METEOROLOGY · DELHI</h4>
                 </div>
                 <div class="ncap-fy">{met_month} {met_year} · as of {met_as_of}</div>
                 <div class="fund-compact">
@@ -1448,20 +1472,37 @@ def main() -> None:
                 unsafe_allow_html=True,
             )
             if pd.notna(petrol_kt) and pd.notna(diesel_kt) and (petrol_kt + diesel_kt) > 0:
+                pol_pie_labels = [
+                    f"Petrol {petrol_kt:,.0f} kt",
+                    f"Diesel {diesel_kt:,.0f} kt",
+                ]
                 fig_pol_pie = go.Figure(
                     go.Pie(
-                        labels=["Petrol", "Diesel"],
+                        labels=pol_pie_labels,
                         values=[petrol_kt, diesel_kt],
-                        hole=0.55,
-                        marker=dict(colors=["#1d4ed8", "#e03131"], line=dict(color="#fff", width=1)),
+                        hole=0.52,
+                        marker=dict(colors=["#1d4ed8", "#e03131"], line=dict(color="#fff", width=1.5)),
                         textinfo="percent",
                         textposition="inside",
+                        textfont=dict(size=12, color="#ffffff", family="Arial Black"),
+                        insidetextorientation="horizontal",
+                        showlegend=True,
+                        hovertemplate="%{label}<br>%{percent}<extra></extra>",
                     )
                 )
                 fig_pol_pie.update_layout(
-                    height=130,
-                    margin=dict(l=0, r=0, t=0, b=0),
+                    height=168,
+                    margin=dict(l=4, r=4, t=8, b=36),
                     paper_bgcolor="rgba(0,0,0,0)",
+                    uniformtext_minsize=11,
+                    uniformtext_mode="hide",
+                    legend=dict(
+                        orientation="h",
+                        y=-0.12,
+                        x=0.5,
+                        xanchor="center",
+                        font=dict(size=11, color="#111827"),
+                    ),
                 )
                 st.plotly_chart(fig_pol_pie, use_container_width=True, config={"displayModeBar": False})
 
@@ -1469,25 +1510,55 @@ def main() -> None:
                 trend = pol_trend.pivot_table(
                     index="fy", columns="product", values="consumption_kt", aggfunc="sum"
                 ).reset_index()
-                trend = trend.sort_values("fy").tail(8)
+                trend = trend.sort_values("fy").tail(6)
+                trend["fy_short"] = trend["fy"].astype(str).apply(
+                    lambda s: f"'{s[2:4]}-{s[7:9]}" if len(s) >= 9 and "-" in s else s
+                )
                 fig_pol_trend = go.Figure()
                 if "Petrol" in trend.columns:
                     fig_pol_trend.add_bar(
-                        x=trend["fy"], y=trend["Petrol"], name="Petrol", marker_color="#1d4ed8"
+                        x=trend["fy_short"],
+                        y=trend["Petrol"],
+                        name="Petrol",
+                        marker_color="#1d4ed8",
+                        hovertemplate="%{x}<br>Petrol: %{y:,.0f} kt<extra></extra>",
                     )
                 if "Diesel" in trend.columns:
                     fig_pol_trend.add_bar(
-                        x=trend["fy"], y=trend["Diesel"], name="Diesel", marker_color="#e03131"
+                        x=trend["fy_short"],
+                        y=trend["Diesel"],
+                        name="Diesel",
+                        marker_color="#e03131",
+                        hovertemplate="%{x}<br>Diesel: %{y:,.0f} kt<extra></extra>",
                     )
                 fig_pol_trend.update_layout(
                     barmode="group",
-                    height=150,
-                    margin=dict(l=0, r=0, t=4, b=0),
+                    height=188,
+                    margin=dict(l=44, r=8, t=32, b=48),
                     paper_bgcolor="rgba(0,0,0,0)",
                     plot_bgcolor="rgba(0,0,0,0)",
-                    legend=dict(orientation="h", y=1.15, x=0, font=dict(size=8)),
-                    yaxis=dict(title="kt", gridcolor="#d1d5db"),
-                    xaxis=dict(tickangle=-30, tickfont=dict(size=8)),
+                    bargap=0.22,
+                    legend=dict(
+                        orientation="h",
+                        y=1.08,
+                        yanchor="bottom",
+                        x=0.5,
+                        xanchor="center",
+                        font=dict(size=11, color="#111827"),
+                    ),
+                    yaxis=dict(
+                        title=dict(text="kt", font=dict(size=11, color="#111827")),
+                        tickfont=dict(size=10, color="#111827"),
+                        gridcolor="#d1d5db",
+                        color="#111827",
+                    ),
+                    xaxis=dict(
+                        title=None,
+                        tickangle=-35,
+                        tickfont=dict(size=10, color="#111827"),
+                        color="#111827",
+                        automargin=True,
+                    ),
                 )
                 st.plotly_chart(fig_pol_trend, use_container_width=True, config={"displayModeBar": False})
 
