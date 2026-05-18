@@ -32,15 +32,14 @@ AQI_DASH_URL = "https://envirocatalysts-delhi-aq-dashboard.streamlit.app/"
 TRANSPORT_DASH_URL = "https://www.envirocatalysts.com/changing-gears-dashboard"
 EV_TARGET = 25.0
 NAAQS_PM25 = 60.0
-# Tight centre on NCT boundary — Delhi fills the map panel (reference layout).
-DELHI_MAP_CENTER = {"lat": 28.652, "lon": 77.143}
-DELHI_MAP_ZOOM = 10.58
-DELHI_MAP_PAD = 0.022
+# Punjab-style: fit full NCT outline in panel on first load (do not force high zoom floor).
+DELHI_MAP_CENTER = MAP_CENTER
+DELHI_MAP_ZOOM = 9.95
+DELHI_MAP_PAD = 0.055
 AQI_MAP_HEIGHT = 260
 TRANSPORT_MAP_HEIGHT = 260
 AQI_MAP_WIDTH = 380.0
 TRANSPORT_MAP_WIDTH = 520.0
-TRANSPORT_MAP_ZOOM_BUMP = 0.38
 
 NAAQS        = {"PM2.5": 60,  "PM10": 100, "NO2": 80,  "SO2": 80,  "O3": 100}
 NAAQS_ANNUAL = {"PM2.5": 40,  "PM10": 60,  "NO2": 40,  "SO2": 50}
@@ -222,9 +221,8 @@ def _zoom_for_panel(
     bounds: dict[str, float],
     height_px: int,
     width_px: float = 420.0,
-    zoom_bump: float = 0.0,
 ) -> float:
-    """Mapbox zoom so Delhi boundary fills the panel (reference screenshot)."""
+    """Mapbox zoom so full NCT fits the panel (same idea as Punjab MAP_ZOOM)."""
     lat_c = (bounds["north"] + bounds["south"]) / 2
     lat_rad = math.radians(lat_c)
     lat_span = max(bounds["north"] - bounds["south"], 1e-6)
@@ -232,7 +230,7 @@ def _zoom_for_panel(
     world = 256.0
     z_lon = math.log2(360 * width_px / (world * lon_span * math.cos(lat_rad)))
     z_lat = math.log2(180 * height_px / (world * lat_span))
-    return float(np.clip(min(z_lon, z_lat) - 0.05 + zoom_bump, 10.35, 10.9))
+    return float(min(z_lon, z_lat) - 0.08)
 
 
 def _delhi_map_bounds(
@@ -250,7 +248,6 @@ def _delhi_map_view(
     map_height: int = AQI_MAP_HEIGHT,
     map_width: float = AQI_MAP_WIDTH,
     boundary_rings: list[list[tuple[float, float]]] | None = None,
-    zoom_bump: float = 0.0,
 ) -> tuple[dict[str, float], float, dict[str, float] | None]:
     """Centre on NCT Delhi; prefer state outline bounds over district geojson."""
     bounds = _delhi_map_bounds(geojson, boundary_rings)
@@ -259,7 +256,7 @@ def _delhi_map_view(
             "lat": (bounds["north"] + bounds["south"]) / 2,
             "lon": (bounds["east"] + bounds["west"]) / 2,
         }
-        zoom = _zoom_for_panel(bounds, map_height, map_width, zoom_bump=zoom_bump)
+        zoom = _zoom_for_panel(bounds, map_height, map_width)
         return center, zoom, bounds
     return DELHI_MAP_CENTER, DELHI_MAP_ZOOM, None
 
@@ -871,7 +868,6 @@ def main() -> None:
         map_height=TRANSPORT_MAP_HEIGHT,
         map_width=TRANSPORT_MAP_WIDTH,
         boundary_rings=delhi_boundary_rings,
-        zoom_bump=TRANSPORT_MAP_ZOOM_BUMP,
     )
 
     # ══════════════════════ RENDER ═════════════════════════════════════════
@@ -926,15 +922,12 @@ def main() -> None:
                     },
                     size_max=24,
                 )
-                aqi_map_cfg: dict = {
-                    "style": "open-street-map",
-                    "center": delhi_map_center,
-                    "zoom": aqi_map_zoom,
-                }
                 fig_map.update_layout(
-                    map=aqi_map_cfg,
-                    map_center=delhi_map_center,
-                    map_zoom=aqi_map_zoom,
+                    map={
+                        "style": "open-street-map",
+                        "center": delhi_map_center,
+                        "zoom": aqi_map_zoom,
+                    },
                     dragmode="pan",
                     clickmode="event+select",
                     height=AQI_MAP_HEIGHT,
