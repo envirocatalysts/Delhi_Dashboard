@@ -418,6 +418,16 @@ def main() -> None:
             data["yearly"].to_csv(_out_dir / "yearly_all.csv", index=False)
         print(f"  yearly_all.csv       {len(data['yearly']):,} rows")
 
+    if MASTER_CSV.is_file():
+        m = pd.read_csv(
+            MASTER_CSV,
+            usecols=["date", "city", "index_value", "air_quality_category"],
+            low_memory=False,
+        )
+        city = m[m["city"].astype(str).str.strip().eq("Delhi")].sort_values("date")
+        city.to_csv(DATA_DIR / "delhi_city_aqi.csv", index=False)
+        print(f"  delhi_city_aqi.csv     {len(city):,} rows  (CPCB city bulletin for MVP gauge)")
+
     print("\nTransport …")
     export_vehicles()
     print("\nPetrol / Diesel (PPAC) …")

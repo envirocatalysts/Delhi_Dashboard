@@ -26,6 +26,7 @@ from station_coords import (
 DATA = Path(__file__).resolve().parent / "data"
 ROOT = Path(__file__).resolve().parent.parent
 MASTER_CSV = ROOT / "AIR_QUALITY_DASHBOARD" / "data" / "master_aqi_daily.csv"
+DELHI_CITY_AQI_CSV = DATA / "delhi_city_aqi.csv"
 DELHI_CITY = "Delhi"
 LOGO_PATH = Path(__file__).resolve().parent / "EC_Logo-35.jpg"
 AQI_DASH_URL = "https://envirocatalysts-delhi-aq-dashboard.streamlit.app/"
@@ -420,19 +421,99 @@ def load_data() -> dict[str, pd.DataFrame]:
     }
 
 
-def _load_delhi_city_aqi() -> pd.DataFrame:
-    """CPCB city-wise daily AQI for Delhi (not station-level)."""
-    if not MASTER_CSV.is_file():
-        return pd.DataFrame(columns=["date", "index_value", "air_quality_category"])
-    m = pd.read_csv(
+def _city_aqi_source_paths() -> list[Path]:
+    """Prefer slim Delhi export in repo; fall back to full national master."""
+    cwd = Path.cwd()
+    return [
+        DELHI_CITY_AQI_CSV,
+        DATA / "master_aqi_daily.csv",
         MASTER_CSV,
-        usecols=["date", "city", "index_value", "air_quality_category"],
-        low_memory=False,
-    )
-    m["date"] = _to_dt(m["date"])
-    m["index_value"] = pd.to_numeric(m["index_value"], errors="coerce")
-    m = m[m["city"].astype(str).str.strip().eq(DELHI_CITY)].dropna(subset=["date"])
-    return m.sort_values("date")
+        cwd / "AIR_QUALITY_DASHBOARD" / "data" / "master_aqi_daily.csv",
+        cwd.parent / "AIR_QUALITY_DASHBOARD" / "data" / "master_aqi_daily.csv",
+    ]
+
+
+def _read_delhi_rows_from_master(path: Path) -> pd.DataFrame:
+    """Read only Delhi rows from large master_aqi_daily.csv (chunked)."""
+    usecols = ["date", "city", "index_value", "air_quality_category"]
+    parts: list[pd.DataFrame] = []
+    for chunk in pd.read_csv(path, usecols=usecols, chunksize=250_000, low_memory=False):
+        sub = chunk[chunk["city"].astype(str).str.strip().eq(DELHI_CITY)]
+        if not sub.empty:
+            parts.append(sub)
+    if not parts:
+        return pd.DataFrame(columns=usecols)
+    return pd.concat(parts, ignore_index=True)
+
+
+def _ensure_delhi_city_aqi_file() -> None:
+    """One-time export: master → data/delhi_city_aqi.csv (for deploy without sibling folder)."""
+    if DELHI_CITY_AQI_CSV.is_file():
+        return
+    for path in _city_aqi_source_paths():
+        if path == DELHI_CITY_AQI_CSV or not path.is_file():
+            continue
+        if path.name != "master_aqi_daily.csv":
+            continue
+        city = _read_delhi_rows_from_master(path)
+        if city.empty:
+            continue
+        out = city[["date", "index_value", "air_quality_category"]].copy()
+        out.to_csv(DELHI_CITY_AQI_CSV, index=False)
+        return
+
+
+def _city_aqi_cache_key() -> str:
+    mtimes = []
+    for path in _city_aqi_source_paths():
+        if path.is_file():
+            mtimes.append(f"{path}:{path.stat().st_mtime_ns}")
+    return "|".join(mtimes) if mtimes else "none"
+
+
+@st.cache_data(show_spinner=False)
+def _load_delhi_city_aqi_cached(_cache_key: str) -> pd.DataFrame:
+    cols = ["date", "index_value", "air_quality_category"]
+    _ensure_delhi_city_aqi_file()
+    for path in _city_aqi_source_paths():
+        if not path.is_file():
+            continue
+        if path.name == "master_aqi_daily.csv":
+            m = _read_delhi_rows_from_master(path)
+        else:
+            usecols = cols if path == DELHI_CITY_AQI_CSV else ["date", "city", "index_value", "air_quality_category"]
+            m = pd.read_csv(path, usecols=usecols, low_memory=False)
+            if "city" in m.columns:
+                m = m[m["city"].astype(str).str.strip().eq(DELHI_CITY)]
+        m["date"] = _to_dt(m["date"]).dt.normalize()
+        m["index_value"] = pd.to_numeric(m["index_value"], errors="coerce")
+        m = m.dropna(subset=["date", "index_value"]).sort_values("date")
+        if not m.empty:
+            return m[cols].reset_index(drop=True)
+    return pd.DataFrame(columns=cols)
+
+
+def _load_delhi_city_aqi(aqi_stations: pd.DataFrame | None = None) -> pd.DataFrame:
+    """CPCB city-wise daily AQI for Delhi (not station-level)."""
+    cols = ["date", "index_value", "air_quality_category"]
+    city = _load_delhi_city_aqi_cached(_city_aqi_cache_key())
+    if not city.empty:
+        return city
+    if aqi_stations is not None and not aqi_stations.empty:
+        stn = aqi_stations.copy()
+        stn["date"] = _to_dt(stn["date"]).dt.normalize()
+        stn["index_value"] = pd.to_numeric(stn["index_value"], errors="coerce")
+        stn = stn.dropna(subset=["date", "index_value"])
+        if not stn.empty:
+            return (
+                stn.groupby("date", as_index=False)
+                .agg(
+                    index_value=("index_value", "median"),
+                    air_quality_category=("air_quality_category", "first"),
+                )
+                .sort_values("date")
+            )
+    return pd.DataFrame(columns=cols)
 
 
 def main() -> None:
@@ -449,6 +530,13 @@ def main() -> None:
         .stApp {background:#ffffff;}
         [data-testid="stSidebar"] {display:none;}
         [data-testid="collapsedControl"] {display:none;}
+        /* Hide Streamlit default top bar (Fork / GitHub / menu) */
+        [data-testid="stHeader"] {display:none !important; visibility:hidden !important; height:0 !important;}
+        header[data-testid="stHeader"] {display:none !important;}
+        [data-testid="stToolbar"] {display:none !important;}
+        #stDecoration {display:none !important;}
+        .stApp > header {display:none !important;}
+        header.stAppHeader {display:none !important;}
         .block-container {
             max-width:none !important; width:100% !important;
             padding-top:0.8rem !important; padding-bottom:1rem !important;
@@ -569,16 +657,18 @@ def main() -> None:
 
     latest_year = int(daily["year"].dropna().max())
 
-    city_aqi = _load_delhi_city_aqi()
+    city_aqi = _load_delhi_city_aqi(aqi)
     if not city_aqi.empty:
         city_latest_date = city_aqi["date"].max()
         city_row = city_aqi[city_aqi["date"] == city_latest_date].iloc[-1]
         high_aqi = float(city_row["index_value"])
-        high_cat = str(city_row["air_quality_category"])
+        high_cat = str(city_row["air_quality_category"]).strip() or "N/A"
     else:
         city_latest_date = pd.NaT
         high_aqi, high_cat = np.nan, "N/A"
     aqi_cat, aqi_color = _aqi_category(high_aqi)
+    if high_cat == "N/A" and aqi_cat != "N/A":
+        high_cat = aqi_cat
     latest_lbl = (
         pd.Timestamp(city_latest_date).strftime("%B %d, %Y")
         if pd.notna(city_latest_date) else "N/A"
@@ -671,6 +761,10 @@ def main() -> None:
         v_year["month"] = v_year["month"].astype(str).str.strip().str.upper()
         v_year["month_num"] = v_year["month"].map(month_rank)
         latest_month_num = int(v_year["month_num"].dropna().max())
+        if pd.notna(city_latest_date) and int(city_latest_date.year) == transport_year:
+            cap_m = int(city_latest_date.month)
+            if latest_month_num > cap_m:
+                latest_month_num = cap_m
     else:
         latest_month_num = None
     v_latest_month = (
@@ -765,7 +859,6 @@ def main() -> None:
 
     vehicle_type_df = pd.DataFrame(columns=["label", "value"])
     fuel_type_df = pd.DataFrame(columns=["label", "value"])
-    petrol_diesel_df = pd.DataFrame(columns=["label", "value"])
     if not v_latest_month.empty:
         vehicle_type_df = (
             v_latest_month.groupby("vec_class_category", as_index=False)["total"].sum()
@@ -784,14 +877,6 @@ def main() -> None:
                 .sort_values("value", ascending=False)
                 .head(7)
             )
-            pd_tmp = class_v[class_v["fuel_category"].str.lower().isin(["petrol", "diesel", "cng"])]
-            if not pd_tmp.empty:
-                petrol_diesel_df = (
-                    pd_tmp.groupby("fuel_category", as_index=False)["total"].sum()
-                    .rename(columns={"fuel_category": "label", "total": "value"})
-                    .query("value > 0")
-                    .sort_values("value", ascending=False)
-                )
 
     # ── NCAP / XV FC fund (Delhi, crore ₹) ────────────────────────────────
     fund_alloc = fund_released = fund_utilised = np.nan
@@ -1149,7 +1234,7 @@ def main() -> None:
                 f"""<div style='display:flex;justify-content:space-between;align-items:baseline;margin:0 0 8px 0;'>
                   <div class='sector-title'>TRANSPORT SECTOR ANALYTICS</div>
                   <div style='text-align:right;line-height:1.2;'>
-                    <div class='transport-target-head' style='margin:0;font-size:.82rem;white-space:nowrap;'>DELHI EV POLICY (Target 25%)</div>
+                    <div class='transport-target-head' style='margin:0;font-size:.82rem;white-space:nowrap;'>DELHI EV POLICY</div>
                     <div class='mini' style='margin:0;font-size:.68rem;'>{latest_month_heading}</div>
                   </div>
                 </div>""",
@@ -1249,13 +1334,14 @@ def main() -> None:
                     )
                 with target_col:
                     st.markdown("<div class='transport-target-offset'>", unsafe_allow_html=True)
+                    ev_gap = max(EV_TARGET - active_cat_actual_pct, 0.0)
                     fig_target = go.Figure(
                         go.Pie(
-                            labels=["Target 25%", "Our value"],
-                            values=[EV_TARGET, max(active_cat_actual_pct, 0.0)],
+                            labels=["Actual EV share", "Gap to 25% target"],
+                            values=[max(active_cat_actual_pct, 0.0), ev_gap],
                             hole=0.62,
                             domain=dict(x=[0.06, 0.94], y=[0.06, 0.94]),
-                            marker=dict(colors=["#94a3b8", "#0b7285"], line=dict(color="#ffffff", width=1)),
+                            marker=dict(colors=["#0b7285", "#94a3b8"], line=dict(color="#ffffff", width=1)),
                             textinfo="percent",
                             textposition="inside",
                             textfont=dict(color="#ffffff", size=11),
@@ -1274,6 +1360,15 @@ def main() -> None:
                         paper_bgcolor="rgba(0,0,0,0)",
                     )
                     st.plotly_chart(fig_target, use_container_width=True, config={"displayModeBar": False})
+                    st.markdown(
+                        """
+                        <div class="mini" style="margin:2px 0 0;line-height:1.35;font-size:.66rem;color:#475569;">
+                          <span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:#0b7285;margin-right:4px;"></span><b>Teal</b> = EV share of this vehicle class (actual)<br>
+                          <span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:#94a3b8;margin-right:4px;"></span><b>Grey</b> = gap still needed to reach 25% policy target
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
                     st.markdown(
                         f"""
                         <div style="display:flex;justify-content:center;gap:6px;margin:2px 0 2px;">
@@ -1301,14 +1396,12 @@ def main() -> None:
                 unsafe_allow_html=True,
             )
 
-            if not vehicle_type_df.empty or not fuel_type_df.empty or not petrol_diesel_df.empty:
-                c1, c2, c3 = st.columns(3, gap="small")
+            if not vehicle_type_df.empty or not fuel_type_df.empty:
+                c1, c2 = st.columns(2, gap="medium")
                 vt_total = float(vehicle_type_df["value"].sum()) if not vehicle_type_df.empty else 0.0
                 ft_total = float(fuel_type_df["value"].sum()) if not fuel_type_df.empty else 0.0
-                pd_total = float(petrol_diesel_df["value"].sum()) if not petrol_diesel_df.empty else 0.0
                 pie_colors_vt = ["#0b7285", "#1d4ed8", "#7c3aed", "#f59e0b", "#2b8a3e", "#e03131", "#6b7280"]
                 pie_colors_ft = ["#1d4ed8", "#0b7285", "#f59e0b", "#e8590c", "#7c3aed", "#c2255c", "#64748b"]
-                pie_colors_pd = ["#1d4ed8", "#e03131", "#0b7285"]
                 with c1:
                     st.markdown(
                         "<div class='mini' style='text-align:center;margin:0 0 2px;font-weight:700;color:#111827;'>Vehicle Type</div>",
@@ -1335,19 +1428,6 @@ def main() -> None:
                             ft_total,
                         )
                         st.plotly_chart(fig_ft, use_container_width=True, config={"displayModeBar": False})
-                with c3:
-                    st.markdown(
-                        "<div class='mini' style='text-align:center;margin:0 0 2px;font-weight:700;color:#111827;'>Petrol · Diesel · CNG</div>",
-                        unsafe_allow_html=True,
-                    )
-                    if not petrol_diesel_df.empty:
-                        fig_pd = _transport_pie_figure(
-                            petrol_diesel_df["label"].tolist(),
-                            petrol_diesel_df["value"].tolist(),
-                            pie_colors_pd[: len(petrol_diesel_df)],
-                            pd_total,
-                        )
-                        st.plotly_chart(fig_pd, use_container_width=True, config={"displayModeBar": False})
                 st.markdown(
                     f"""
                     <div style="display:flex;justify-content:center;gap:6px;margin:2px 0 4px;">
@@ -1446,19 +1526,19 @@ def main() -> None:
             st.markdown(
                 f"""
                 <h4 class="sector-title" style="margin-bottom:6px;">NCAP · FINANCIAL PROGRESS</h4>
-                <motion.div class="ncap-fy">Delhi · XV FC / NCAP (₹ crore)</motion.div>
-                <motion.div class="fund-compact">
-                  <motion.div class="fund-line"><span class="fund-lbl">Fund Allocation</span><span class="fund-val">₹{fund_alloc:,.2f} cr</span></motion.div>
-                  <motion.div class="fund-line"><span class="fund-lbl">Fund Released</span><span class="fund-val">₹{fund_released:,.2f} cr</span></motion.div>
-                  <motion.div class="fund-line"><span class="fund-lbl">Fund Utilised</span><span class="fund-val">₹{fund_utilised:,.2f} cr</span></motion.div>
-                </motion.div>
-                <motion.div style="margin-top:8px;">
-                  <motion.div style="height:8px;border-radius:999px;background:#dbe4f3;overflow:hidden;">
-                    <motion.div style="height:8px;width:{max(0, min(100, util_pct_alloc if pd.notna(util_pct_alloc) else 0)):.1f}%;background:linear-gradient(90deg,#0ea5e9,#2563eb);"></motion.div>
-                  </motion.div>
-                  <motion.div class="mini" style="margin:4px 0 0;text-align:right;">Utilisation vs allocation: {("—" if np.isnan(util_pct_alloc) else f"{util_pct_alloc:.1f}%")}</motion.div>
-                </motion.div>
-                """.replace("motion.", ""),
+                <div class="ncap-fy">Delhi · XV FC / NCAP (₹ crore)</div>
+                <div class="fund-compact">
+                  <div class="fund-line"><span class="fund-lbl">Fund Allocation</span><span class="fund-val">₹{fund_alloc:,.2f} cr</span></div>
+                  <div class="fund-line"><span class="fund-lbl">Fund Released</span><span class="fund-val">₹{fund_released:,.2f} cr</span></div>
+                  <div class="fund-line"><span class="fund-lbl">Fund Utilised</span><span class="fund-val">₹{fund_utilised:,.2f} cr</span></div>
+                </div>
+                <div style="margin-top:8px;">
+                  <div style="height:8px;border-radius:999px;background:#dbe4f3;overflow:hidden;">
+                    <div style="height:8px;width:{max(0, min(100, util_pct_alloc if pd.notna(util_pct_alloc) else 0)):.1f}%;background:linear-gradient(90deg,#0ea5e9,#2563eb);"></div>
+                  </div>
+                  <div class="mini" style="margin:4px 0 0;text-align:right;">Utilisation vs allocation: {("—" if np.isnan(util_pct_alloc) else f"{util_pct_alloc:.1f}%")}</div>
+                </div>
+                """,
                 unsafe_allow_html=True,
             )
             if pd.notna(fund_alloc):
