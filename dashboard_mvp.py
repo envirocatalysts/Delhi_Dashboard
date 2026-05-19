@@ -106,13 +106,14 @@ def _aqi_category(aqi_val: float) -> tuple[str, str]:
 
 
 def _pollutant_kv_label(pollutant: str) -> str:
-    """Pollutant unit + NAAQS 24-hour average standard in brackets."""
+    """Pollutant unit + NAAQS standard in brackets (O3 = 8h avg; others = 24h avg)."""
     std = NAAQS.get(pollutant)
     if std is None:
         return f"{pollutant} µg/m³"
+    avg_h = "8h" if pollutant == "O3" else "24h"
     return (
         f'{pollutant} µg/m³<br>'
-        f'<span class="poll-naaqs">(NAAQS 24h avg: {std:g})</span>'
+        f'<span class="poll-naaqs">(NAAQS {avg_h} avg: {std:g})</span>'
     )
 
 
