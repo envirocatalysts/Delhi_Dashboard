@@ -321,13 +321,18 @@ _CHART_TICK = dict(size=10, color="#111827")
 _CHART_AXIS_LINE = dict(color="#111827")
 
 
-def _bar_chart_axes(*, y_title: str, x_angle: int = 0) -> dict[str, dict]:
+def _bar_chart_axes(
+    *, y_title: str, x_title: str = "", x_angle: int = 0,
+) -> dict[str, dict]:
     """Dark axis labels — readable on white Streamlit background."""
     xaxis = dict(
         tickfont=_CHART_TICK,
         color="#111827",
+        linecolor="#111827",
         automargin=True,
     )
+    if x_title:
+        xaxis["title"] = dict(text=x_title, font=dict(size=10, color="#111827"))
     if x_angle:
         xaxis["tickangle"] = x_angle
     return {
@@ -338,6 +343,7 @@ def _bar_chart_axes(*, y_title: str, x_angle: int = 0) -> dict[str, dict]:
             gridcolor="#d1d5db",
             zerolinecolor="#e5e7eb",
             color="#111827",
+            linecolor="#111827",
         ),
     }
 
@@ -1404,13 +1410,19 @@ def main() -> None:
                     labels={"value_tpd": "TPD", "fy": "FY", "category": ""},
                 )
                 fig_waste.update_layout(
-                    height=118,
-                    margin=dict(l=0, r=0, t=4, b=0),
+                    height=132,
+                    margin=dict(l=48, r=8, t=30, b=52),
                     paper_bgcolor="rgba(0,0,0,0)",
                     plot_bgcolor="rgba(0,0,0,0)",
-                    legend=dict(orientation="h", y=1.22, x=0, font=dict(size=7, color="#111827")),
-                    yaxis=dict(gridcolor="#d1d5db", tickfont=dict(color="#111827", size=8)),
-                    xaxis=dict(tickangle=-25, tickfont=dict(color="#111827", size=8)),
+                    font=dict(color="#111827"),
+                    legend=dict(
+                        orientation="h",
+                        y=1.14,
+                        yanchor="bottom",
+                        x=0,
+                        font=dict(size=8, color="#111827"),
+                    ),
+                    **_bar_chart_axes(y_title="TPD", x_title="FY", x_angle=-25),
                 )
                 st.plotly_chart(fig_waste, use_container_width=True, config={"displayModeBar": False})
 
