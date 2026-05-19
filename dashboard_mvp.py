@@ -105,6 +105,17 @@ def _aqi_category(aqi_val: float) -> tuple[str, str]:
     return "Severe", "#7b0000"
 
 
+def _pollutant_kv_label(pollutant: str) -> str:
+    """Pollutant unit + NAAQS 24-hour average standard in brackets."""
+    std = NAAQS.get(pollutant)
+    if std is None:
+        return f"{pollutant} µg/m³"
+    return (
+        f'{pollutant} µg/m³<br>'
+        f'<span class="poll-naaqs">(NAAQS 24h avg: {std:g})</span>'
+    )
+
+
 def _pm25_category(pm25_val: float) -> str:
     if np.isnan(pm25_val):
         return "N/A"
@@ -405,8 +416,9 @@ def _transport_pie_figure(
 
 
 def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_TARGET) -> go.Figure:
-    """EV donut: no in-slice labels (small slices unreadable); caption HTML below chart."""
+    """EV donut: class + % on teal slice; small swatch legend below (not a large caption box)."""
     actual = max(float(actual_pct), 0.0)
+    slice_lbl = f"{category}<br>{actual:.1f}%"
     fig = go.Figure(
         go.Pie(
             labels=["", ""],
@@ -414,7 +426,11 @@ def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_T
             hole=0.62,
             domain=dict(x=[0.06, 0.94], y=[0.06, 0.94]),
             marker=dict(colors=["#e8edf4", "#0b7285"], line=dict(color="#ffffff", width=1)),
-            textinfo="none",
+            text=["", slice_lbl],
+            textinfo="text",
+            textposition="inside",
+            insidetextorientation="horizontal",
+            textfont=dict(color="#ffffff", size=9),
             hoverinfo="skip",
             showlegend=False,
             sort=False,
@@ -772,15 +788,21 @@ def main() -> None:
         .insights h4 {font-size:1rem;color:#1a2332;}
         .ncap-fy {color:#5a6b85;font-size:.76rem;line-height:1.3;margin:4px 0;}
         .transport-target-offset {position:relative;top:-118px;}
-        .ev-slice-caption {
-            display:flex; flex-direction:column; align-items:center; justify-content:center;
-            background:linear-gradient(135deg,#0b7285 0%,#0a7a8f 100%);
-            color:#fff; border-radius:8px; padding:8px 12px; margin:2px auto 6px;
-            max-width:94%; text-align:center;
-            box-shadow:0 2px 8px rgba(11,114,133,.35);
+        .poll-naaqs {font-size:.62rem;color:#64748b;line-height:1.25;display:block;margin-top:1px;}
+        .ev-slice-mini {
+            text-align:center;font-size:.76rem;font-weight:700;color:#17253a;
+            margin:2px 0 3px;line-height:1.2;
         }
-        .ev-slice-name {font-size:.8rem;font-weight:700;line-height:1.25;}
-        .ev-slice-pct  {font-size:1.08rem;font-weight:900;margin-top:2px;letter-spacing:.02em;}
+        .ev-teal-legend {
+            display:inline-flex;align-items:center;gap:5px;
+            font-size:.62rem;color:#516580;
+            margin:0 auto 4px;padding:2px 6px;
+            border:1px solid #d5dbe7;border-radius:4px;background:#f8fafc;
+            max-width:100%;line-height:1.2;
+        }
+        .ev-teal-legend .swatch {
+            width:9px;height:9px;border-radius:2px;background:#0b7285;flex-shrink:0;
+        }
         .sector-head-row {display:flex;align-items:center;gap:8px;margin-bottom:6px; flex-wrap:wrap;}
         .sector-icon {font-size:1.35rem;line-height:1;flex-shrink:0;}
 
@@ -830,9 +852,9 @@ def main() -> None:
             .aqi-pill {font-size:.58rem; padding:4px 5px;}
             .fund-lbl {font-size:.68rem;}
             .fund-val {font-size:.78rem;}
-            .ev-slice-caption {padding:6px 10px; max-width:100%;}
-            .ev-slice-name {font-size:.74rem;}
-            .ev-slice-pct {font-size:.95rem;}
+            .poll-naaqs {font-size:.58rem;}
+            .ev-slice-mini {font-size:.7rem;}
+            .ev-teal-legend {font-size:.58rem;}
         }
         </style>
         """,
@@ -1317,7 +1339,7 @@ def main() -> None:
                 </div>
                 <div class="mini" style="text-align:center;margin:8px 0 2px;line-height:1.25;">
                   <div style="font-weight:600;color:#17253a;font-size:.92rem;">{active_station}</div>
-                  <div>Station concentrations · {pm25_lbl}</div>
+                  <div>Station 24h avg concentrations · {pm25_lbl}</div>
                 </div>
                 <div style="display:flex;justify-content:center;gap:6px;margin:6px 0 2px;">
                   {"".join(
@@ -1327,10 +1349,10 @@ def main() -> None:
                   )}
                 </div>
                 <div class="kv kv-aqi">
-                  <div><b>{'—' if np.isnan(pvals['PM2.5']) else f"{pvals['PM2.5']:.0f}"}</b><span>PM2.5 µg/m³</span></div>
-                  <div><b>{'—' if np.isnan(pvals['PM10'])  else f"{pvals['PM10']:.0f}"}</b><span>PM10 µg/m³</span></div>
-                  <div><b>{'—' if np.isnan(pvals['NO2'])   else f"{pvals['NO2']:.0f}"}</b><span>NO2 µg/m³</span></div>
-                  <div><b>{'—' if np.isnan(pvals['O3'])    else f"{pvals['O3']:.0f}"}</b><span>O3 µg/m³</span></div>
+                  <div><b>{'—' if np.isnan(pvals['PM2.5']) else f"{pvals['PM2.5']:.0f}"}</b><span>{_pollutant_kv_label('PM2.5')}</span></div>
+                  <div><b>{'—' if np.isnan(pvals['PM10']) else f"{pvals['PM10']:.0f}"}</b><span>{_pollutant_kv_label('PM10')}</span></div>
+                  <div><b>{'—' if np.isnan(pvals['NO2']) else f"{pvals['NO2']:.0f}"}</b><span>{_pollutant_kv_label('NO2')}</span></div>
+                  <div><b>{'—' if np.isnan(pvals['O3']) else f"{pvals['O3']:.0f}"}</b><span>{_pollutant_kv_label('O3')}</span></div>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -1539,9 +1561,12 @@ def main() -> None:
                     st.plotly_chart(fig_target, use_container_width=True, config={"displayModeBar": False})
                     st.markdown(
                         f"""
-                        <div class="ev-slice-caption">
-                          <span class="ev-slice-name">{active_vehicle_category}</span>
-                          <span class="ev-slice-pct">{active_cat_actual_pct:.1f}%</span>
+                        <div style="text-align:center;">
+                          <div class="ev-slice-mini">{active_vehicle_category} · {active_cat_actual_pct:.1f}%</div>
+                          <div class="ev-teal-legend">
+                            <span class="swatch"></span>
+                            <span>Teal = actual EV share (vs {EV_TARGET:.0f}% policy target)</span>
+                          </div>
                         </div>
                         """,
                         unsafe_allow_html=True,
