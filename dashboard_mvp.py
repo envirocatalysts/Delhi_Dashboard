@@ -638,8 +638,9 @@ def main() -> None:
     st.markdown(
         """
         <style>
-        /* ── White background ── */
-        .stApp {background:#ffffff;}
+        /* ── White background + full-width on all screens ── */
+        .stApp {background:#ffffff; overflow-x:clip;}
+        [data-testid="stAppViewContainer"] {overflow-x:clip;}
         [data-testid="stSidebar"] {display:none;}
         [data-testid="collapsedControl"] {display:none;}
         /* Hide Streamlit default top bar (Fork / GitHub / menu) */
@@ -649,12 +650,22 @@ def main() -> None:
         #stDecoration {display:none !important;}
         .stApp > header {display:none !important;}
         header.stAppHeader {display:none !important;}
-        .block-container {
-            max-width:none !important; width:100% !important;
-            padding-top:0.8rem !important; padding-bottom:1rem !important;
-            padding-left:1.2rem !important; padding-right:1.2rem !important;
+        .block-container,
+        [data-testid="stMainBlockContainer"],
+        .stMainBlockContainer {
+            max-width:100% !important; width:100% !important;
+            padding-top:clamp(0.4rem, 1.5vw, 0.8rem) !important;
+            padding-bottom:1rem !important;
+            padding-left:clamp(0.35rem, 2vw, 1.5rem) !important;
+            padding-right:clamp(0.35rem, 2vw, 1.5rem) !important;
         }
-        [data-testid="column"] {align-items:flex-start;}
+        [data-testid="stAppViewContainer"] .main {max-width:100% !important;}
+        [data-testid="column"] {align-items:flex-start; min-width:0 !important;}
+        [data-testid="stHorizontalBlock"] {gap:0.5rem; width:100% !important;}
+        .js-plotly-plot, .js-plotly-plot .plotly, [data-testid="stPlotlyChart"] {
+            width:100% !important; max-width:100% !important;
+        }
+        iframe {max-width:100% !important;}
         /* Transport / PPAC pie legends — thinner color swatches */
         .js-plotly-plot .legend .traces .legendtoggle path,
         .js-plotly-plot .legend rect {
@@ -672,9 +683,23 @@ def main() -> None:
             align-items:center;
             gap:10px;
         }
-        .aq-head-main {text-align:center;}
-        .aq-title {color:#fff;font-size:2.35rem;font-weight:900;letter-spacing:.08em;margin:0;}
-        .aq-sub   {color:#b8e4f0;font-size:.92rem;margin:2px 0 0;letter-spacing:.04em;}
+        .aq-head-main {text-align:center; min-width:0;}
+        .aq-title {
+            color:#fff;
+            font-size:clamp(0.85rem, 2.8vw, 2.35rem);
+            font-weight:900;
+            letter-spacing:clamp(0.02em, 0.35vw, 0.08em);
+            margin:0;
+            line-height:1.2;
+            word-break:break-word;
+        }
+        .aq-sub {
+            color:#b8e4f0;
+            font-size:clamp(0.68rem, 1.2vw, 0.92rem);
+            margin:2px 0 0;
+            letter-spacing:.04em;
+            line-height:1.35;
+        }
         .aq-logo-wrap {display:flex;justify-content:flex-start;align-items:center;}
         .aq-logo-wrap img {height:46px;width:auto;border-radius:8px;background:rgba(255,255,255,.95);padding:2px 6px;}
         .aq-logo-spacer {height:1px;width:130px;}
@@ -750,21 +775,58 @@ def main() -> None:
         }
         .ev-slice-name {font-size:.8rem;font-weight:700;line-height:1.25;}
         .ev-slice-pct  {font-size:1.08rem;font-weight:900;margin-top:2px;letter-spacing:.02em;}
-        .sector-head-row {display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+        .sector-head-row {display:flex;align-items:center;gap:8px;margin-bottom:6px; flex-wrap:wrap;}
         .sector-icon {font-size:1.35rem;line-height:1;flex-shrink:0;}
 
-        @media (max-width: 1366px) {
+        /* ── 1366px — MacBook / medium laptop ── */
+        @media (max-width:1366px) {
             .transport-target-offset {position:static !important;top:auto !important;}
-        }
-
-        /* Better readability on medium screens */
-        @media (max-width: 1366px) {
-            .aq-title {font-size:2rem;}
             .panel h4, .sector-title {font-size:1.05rem;}
             .mini {font-size:.8rem;}
             .fund-lbl {font-size:.72rem;}
             .fund-val {font-size:.84rem;}
             .aqi-pill {font-size:.66rem;}
+            .big {font-size:1.85rem;}
+            .kv b {font-size:.95rem;}
+            .aq-logo-spacer {width:90px;}
+        }
+
+        /* ── 1100px — small laptop ── */
+        @media (max-width:1100px) {
+            .big {font-size:1.45rem;}
+            .aq-logo-wrap img {height:36px;}
+            .aq-logo-spacer {width:70px;}
+            .transport-target-head {font-size:.88rem; white-space:normal;}
+        }
+
+        /* ── 900px — tablet: stack main 3 columns ── */
+        @media (max-width:900px) {
+            [data-testid="stHorizontalBlock"] {flex-wrap:wrap !important;}
+            [data-testid="column"] {
+                min-width:100% !important;
+                flex:0 0 100% !important;
+                width:100% !important;
+            }
+            .transport-target-offset {position:static !important;top:auto !important;}
+            .kv {grid-template-columns:repeat(2,minmax(0,1fr));}
+            .aqi-legend {grid-template-columns:repeat(3,minmax(0,1fr));}
+            .transport-target-head {white-space:normal;}
+        }
+
+        /* ── 600px — phone ── */
+        @media (max-width:600px) {
+            .aq-header {grid-template-columns:auto 1fr; padding:12px 10px;}
+            .aq-logo-spacer {display:none;}
+            .aq-logo-wrap img {height:28px;}
+            .panel {padding:6px 8px;}
+            .kv {grid-template-columns:repeat(2,minmax(0,1fr));}
+            .aqi-legend {grid-template-columns:repeat(2,minmax(0,1fr));}
+            .aqi-pill {font-size:.58rem; padding:4px 5px;}
+            .fund-lbl {font-size:.68rem;}
+            .fund-val {font-size:.78rem;}
+            .ev-slice-caption {padding:6px 10px; max-width:100%;}
+            .ev-slice-name {font-size:.74rem;}
+            .ev-slice-pct {font-size:.95rem;}
         }
         </style>
         """,
