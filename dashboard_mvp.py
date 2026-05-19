@@ -401,24 +401,23 @@ def _transport_pie_figure(
 
 
 def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_TARGET) -> go.Figure:
-    """Delhi EV policy donut — same footprint as transport pies."""
-    ev_gap = max(target - actual_pct, 0.0)
+    """Punjab-style EV donut: teal = actual share only; no grey slice labels or legend."""
+    actual = max(float(actual_pct), 0.0)
     fig = go.Figure(
         go.Pie(
-            labels=["Actual EV share", "Gap to 25% target"],
-            values=[max(actual_pct, 0.0), ev_gap],
-            hole=0.58,
-            domain=dict(x=[0.02, 0.98], y=[0.06, 0.96]),
-            marker=dict(colors=["#0b7285", "#94a3b8"], line=dict(color="#ffffff", width=1)),
-            textinfo="percent",
-            textposition="inside",
-            textfont=dict(color="#ffffff", size=11),
+            labels=["", ""],
+            values=[target, actual],
+            hole=0.62,
+            domain=dict(x=[0.06, 0.94], y=[0.06, 0.94]),
+            marker=dict(colors=["#e8edf4", "#0b7285"], line=dict(color="#ffffff", width=1)),
+            textinfo="none",
             showlegend=False,
+            sort=False,
         )
     )
     fig.add_annotation(
-        x=0.5, y=0.51, xref="paper", yref="paper",
-        text=f"{category}<br>{actual_pct:.1f}%",
+        x=0.5, y=0.5, xref="paper", yref="paper",
+        text=f"{category}<br>{actual:.1f}%",
         showarrow=False,
         font=dict(size=11, color="#1f2937"),
     )
@@ -829,7 +828,7 @@ def main() -> None:
         lat, lon, plat, plon = _station_map_coords(station, delhi_boundary_rings)
         return pd.Series({"lat": lat, "lon": lon, "lat_plot": plat, "lon_plot": plon})
 
-    _coords = map_df["station"].map(_map_row_coords)
+    _coords = map_df["station"].apply(_map_row_coords)
     map_df = pd.concat([map_df, _coords], axis=1)
     map_df = map_df.dropna(subset=["lat", "lon"]).sort_values("pm25_latest", ascending=False)
     station_cycle = map_df["station"].dropna().tolist()
