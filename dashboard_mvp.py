@@ -158,6 +158,61 @@ def load_delhi_boundary() -> list[list[tuple[float, float]]]:
     return rings
 
 
+def _point_in_polygon(lon: float, lat: float, ring: list[tuple[float, float]]) -> bool:
+    """Ray-cast test; ring vertices are (lon, lat)."""
+    inside = False
+    n = len(ring)
+    if n < 3:
+        return False
+    j = n - 1
+    for i in range(n):
+        xi, yi = ring[i][0], ring[i][1]
+        xj, yj = ring[j][0], ring[j][1]
+        if ((yi > lat) != (yj > lat)) and (
+            lon < (xj - xi) * (lat - yi) / (yj - yi + 1e-12) + xi
+        ):
+            inside = not inside
+        j = i
+    return inside
+
+
+def _clip_latlon_inside_delhi(
+    lat: float,
+    lon: float,
+    rings: list[list[tuple[float, float]]],
+) -> tuple[float, float]:
+    """Keep map pins inside NCT Delhi outline (approx coords + offsets can sit in NCR)."""
+    if not rings:
+        return lat, lon
+    ring = rings[0]
+    if _point_in_polygon(lon, lat, ring):
+        return lat, lon
+    clat, clon = MAP_CENTER["lat"], MAP_CENTER["lon"]
+    for step in range(1, 26):
+        t = step / 25.0
+        tlat = lat + (clat - lat) * t
+        tlon = lon + (clon - lon) * t
+        if _point_in_polygon(tlon, tlat, ring):
+            return (
+                tlat - (tlat - clat) * 0.015,
+                tlon - (tlon - clon) * 0.015,
+            )
+    return clat, clon
+
+
+def _station_map_coords(
+    station: str,
+    rings: list[list[tuple[float, float]]],
+) -> tuple[float, float, float, float]:
+    """True lat/lon plus plot position clipped to Delhi boundary."""
+    lat, lon = station_lat_lon(station)
+    dlat, dlon = STATION_PLOT_OFFSETS.get(station, (0.0, 0.0))
+    plat = lat + dlat
+    plon = lon + dlon
+    plat, plon = _clip_latlon_inside_delhi(plat, plon, rings)
+    return lat, lon, plat, plon
+
+
 @st.cache_data(show_spinner=False)
 def load_delhi_district_geojson() -> dict:
     """NCT Delhi revenue districts for transport choropleth (like Punjab districts map)."""
@@ -262,50 +317,115 @@ def _delhi_map_view(
     return DELHI_MAP_CENTER, DELHI_MAP_ZOOM, None
 
 
+_CHART_TICK = dict(size=10, color="#111827")
+_CHART_AXIS_LINE = dict(color="#111827")
+
+
+def _bar_chart_axes(*, y_title: str, x_angle: int = 0) -> dict[str, dict]:
+    """Dark axis labels — readable on white Streamlit background."""
+    xaxis = dict(
+        tickfont=_CHART_TICK,
+        color="#111827",
+        automargin=True,
+    )
+    if x_angle:
+        xaxis["tickangle"] = x_angle
+    return {
+        "xaxis": xaxis,
+        "yaxis": dict(
+            title=dict(text=y_title, font=dict(size=10, color="#111827")),
+            tickfont=_CHART_TICK,
+            gridcolor="#d1d5db",
+            zerolinecolor="#e5e7eb",
+            color="#111827",
+        ),
+    }
+
+
+TRANSPORT_DONUT_HEIGHT = 218
+TRANSPORT_DONUT_LEGEND = dict(
+    orientation="h",
+    y=-0.06,
+    x=0.5,
+    xanchor="center",
+    yanchor="top",
+    font=dict(size=7, color="#111827"),
+    itemwidth=14,
+    itemsizing="constant",
+    tracegroupgap=4,
+)
+
+
 def _transport_pie_figure(
     labels: list,
     values: list,
     colors: list[str],
     total: float,
 ) -> go.Figure:
-    """Donut chart with readable dark labels (Punjab layout)."""
+    """Donut chart — thin legend swatches, matched size across transport pies."""
+    n_leg = len(labels)
+    bottom_margin = 58 if n_leg <= 4 else (72 if n_leg <= 6 else 88)
     fig = go.Figure(
         go.Pie(
             labels=labels,
             values=values,
-            hole=0.6,
-            domain=dict(x=[0.0, 1.0], y=[0.24, 1.0]),
+            hole=0.58,
+            domain=dict(x=[0.02, 0.98], y=[0.06, 0.96]),
             textinfo="percent",
             textposition="inside",
             insidetextorientation="horizontal",
-            textfont=dict(color="#111827", size=10),
-            insidetextfont=dict(color="#111827", size=10),
+            textfont=dict(color="#111827", size=11),
+            insidetextfont=dict(color="#111827", size=11),
             marker=dict(colors=colors, line=dict(color="#ffffff", width=1.5)),
             showlegend=True,
         )
     )
     fig.add_annotation(
         x=0.5,
-        y=0.64,
+        y=0.51,
         xref="paper",
         yref="paper",
         text=f"Total<br>{total:,.0f}",
         showarrow=False,
-        font=dict(size=10, color="#1f2937"),
+        font=dict(size=11, color="#1f2937"),
     )
     fig.update_layout(
-        height=158,
-        margin=dict(l=0, r=0, t=0, b=8),
+        height=TRANSPORT_DONUT_HEIGHT,
+        margin=dict(l=2, r=2, t=2, b=bottom_margin),
         paper_bgcolor="rgba(0,0,0,0)",
-        legend=dict(
-            orientation="h",
-            y=-0.22,
-            x=0.5,
-            xanchor="center",
-            font=dict(size=7, color="#111827"),
-        ),
-        uniformtext_minsize=8,
+        legend={**TRANSPORT_DONUT_LEGEND, "y": -0.08 if n_leg <= 4 else -0.12},
+        uniformtext_minsize=9,
         uniformtext_mode="hide",
+    )
+    return fig
+
+
+def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_TARGET) -> go.Figure:
+    """Delhi EV policy donut — same footprint as transport pies."""
+    ev_gap = max(target - actual_pct, 0.0)
+    fig = go.Figure(
+        go.Pie(
+            labels=["Actual EV share", "Gap to 25% target"],
+            values=[max(actual_pct, 0.0), ev_gap],
+            hole=0.58,
+            domain=dict(x=[0.02, 0.98], y=[0.06, 0.96]),
+            marker=dict(colors=["#0b7285", "#94a3b8"], line=dict(color="#ffffff", width=1)),
+            textinfo="percent",
+            textposition="inside",
+            textfont=dict(color="#ffffff", size=11),
+            showlegend=False,
+        )
+    )
+    fig.add_annotation(
+        x=0.5, y=0.51, xref="paper", yref="paper",
+        text=f"{category}<br>{actual_pct:.1f}%",
+        showarrow=False,
+        font=dict(size=11, color="#1f2937"),
+    )
+    fig.update_layout(
+        height=TRANSPORT_DONUT_HEIGHT,
+        margin=dict(l=2, r=2, t=2, b=8),
+        paper_bgcolor="rgba(0,0,0,0)",
     )
     return fig
 
@@ -543,6 +663,11 @@ def main() -> None:
             padding-left:1.2rem !important; padding-right:1.2rem !important;
         }
         [data-testid="column"] {align-items:flex-start;}
+        /* Transport / PPAC pie legends — thinner color swatches */
+        .js-plotly-plot .legend .traces .legendtoggle path,
+        .js-plotly-plot .legend rect {
+            width: 14px !important;
+        }
 
         /* ── Header ── */
         .aq-header {
@@ -656,6 +781,7 @@ def main() -> None:
     waste = data["waste"]
 
     latest_year = int(daily["year"].dropna().max())
+    delhi_boundary_rings = load_delhi_boundary()
 
     city_aqi = _load_delhi_city_aqi(aqi)
     if not city_aqi.empty:
@@ -698,14 +824,13 @@ def main() -> None:
 
     map_df = pm25_st.copy()
     map_df["pm25_category"] = map_df["pm25_latest"].apply(_pm25_category)
-    map_df["lat"] = map_df["station"].map(lambda s: station_lat_lon(s)[0])
-    map_df["lon"] = map_df["station"].map(lambda s: station_lat_lon(s)[1])
-    map_df["lat_plot"] = map_df["station"].map(
-        lambda s: station_lat_lon(s)[0] + STATION_PLOT_OFFSETS.get(s, (0.0, 0.0))[0]
-    )
-    map_df["lon_plot"] = map_df["station"].map(
-        lambda s: station_lat_lon(s)[1] + STATION_PLOT_OFFSETS.get(s, (0.0, 0.0))[1]
-    )
+
+    def _map_row_coords(station: str) -> pd.Series:
+        lat, lon, plat, plon = _station_map_coords(station, delhi_boundary_rings)
+        return pd.Series({"lat": lat, "lon": lon, "lat_plot": plat, "lon_plot": plon})
+
+    _coords = map_df["station"].map(_map_row_coords)
+    map_df = pd.concat([map_df, _coords], axis=1)
     map_df = map_df.dropna(subset=["lat", "lon"]).sort_values("pm25_latest", ascending=False)
     station_cycle = map_df["station"].dropna().tolist()
     active_station = station_cycle[0] if station_cycle else "N/A"
@@ -941,7 +1066,6 @@ def main() -> None:
     imd_chart = imd_daily.dropna(subset=["tmax_c"]).copy() if not imd_daily.empty else imd_daily
 
     delhi_district_geojson = load_delhi_district_geojson()
-    delhi_boundary_rings = load_delhi_boundary()
     delhi_map_center, aqi_map_zoom, _delhi_map_bounds = _delhi_map_view(
         delhi_district_geojson,
         map_height=AQI_MAP_HEIGHT,
@@ -1005,7 +1129,7 @@ def main() -> None:
                     category_orders={
                         "pm25_category": ["Good", "Satisfactory", "Moderate", "Poor", "Very Poor", "Severe", "N/A"]
                     },
-                    size_max=24,
+                    size_max=17,
                 )
                 fig_map.update_layout(
                     map={
@@ -1306,7 +1430,7 @@ def main() -> None:
                         coloraxis_colorbar=dict(
                             title=dict(text="Registered vehicles (count)", font=dict(color="#111827", size=8)),
                             orientation="v",
-                            thickness=6,
+                            thickness=4,
                             x=0.98,
                             xanchor="right",
                             y=0.5,
@@ -1334,37 +1458,15 @@ def main() -> None:
                     )
                 with target_col:
                     st.markdown("<div class='transport-target-offset'>", unsafe_allow_html=True)
-                    ev_gap = max(EV_TARGET - active_cat_actual_pct, 0.0)
-                    fig_target = go.Figure(
-                        go.Pie(
-                            labels=["Actual EV share", "Gap to 25% target"],
-                            values=[max(active_cat_actual_pct, 0.0), ev_gap],
-                            hole=0.62,
-                            domain=dict(x=[0.06, 0.94], y=[0.06, 0.94]),
-                            marker=dict(colors=["#0b7285", "#94a3b8"], line=dict(color="#ffffff", width=1)),
-                            textinfo="percent",
-                            textposition="inside",
-                            textfont=dict(color="#ffffff", size=11),
-                            showlegend=False,
-                        )
-                    )
-                    fig_target.add_annotation(
-                        x=0.5, y=0.5, xref="paper", yref="paper",
-                        text=f"{active_vehicle_category}<br>{active_cat_actual_pct:.1f}%",
-                        showarrow=False,
-                        font=dict(size=11, color="#1f2937"),
-                    )
-                    fig_target.update_layout(
-                        height=175,
-                        margin=dict(l=0, r=0, t=0, b=0),
-                        paper_bgcolor="rgba(0,0,0,0)",
+                    fig_target = _ev_target_pie_figure(
+                        active_vehicle_category, active_cat_actual_pct,
                     )
                     st.plotly_chart(fig_target, use_container_width=True, config={"displayModeBar": False})
                     st.markdown(
                         """
                         <div class="mini" style="margin:2px 0 0;line-height:1.35;font-size:.66rem;color:#475569;">
-                          <span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:#0b7285;margin-right:4px;"></span><b>Teal</b> = EV share of this vehicle class (actual)<br>
-                          <span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:#94a3b8;margin-right:4px;"></span><b>Grey</b> = gap still needed to reach 25% policy target
+                          <span style="display:inline-block;width:14px;height:5px;border-radius:1px;background:#0b7285;margin-right:4px;vertical-align:middle;"></span><b>Teal</b> = EV share (actual)<br>
+                          <span style="display:inline-block;width:14px;height:5px;border-radius:1px;background:#94a3b8;margin-right:4px;vertical-align:middle;"></span><b>Grey</b> = gap to 25% policy target
                         </div>
                         """,
                         unsafe_allow_html=True,
@@ -1536,7 +1638,7 @@ def main() -> None:
                   <div style="height:8px;border-radius:999px;background:#dbe4f3;overflow:hidden;">
                     <div style="height:8px;width:{max(0, min(100, util_pct_alloc if pd.notna(util_pct_alloc) else 0)):.1f}%;background:linear-gradient(90deg,#0ea5e9,#2563eb);"></div>
                   </div>
-                  <div class="mini" style="margin:4px 0 0;text-align:right;">Utilisation vs allocation: {("—" if np.isnan(util_pct_alloc) else f"{util_pct_alloc:.1f}%")}</div>
+                  <div class="mini" style="margin:4px 0 0;text-align:right;color:#111827;font-weight:600;">Utilisation vs allocation: {("—" if np.isnan(util_pct_alloc) else f"{util_pct_alloc:.1f}%")}</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -1557,12 +1659,12 @@ def main() -> None:
                 )
                 fig_ncap.update_layout(
                     height=140,
-                    margin=dict(l=0, r=0, t=8, b=0),
+                    margin=dict(l=4, r=4, t=8, b=28),
                     paper_bgcolor="rgba(0,0,0,0)",
                     plot_bgcolor="rgba(0,0,0,0)",
-                    yaxis=dict(title="₹ crore", gridcolor="#d1d5db"),
-                    xaxis=dict(tickfont=dict(size=9)),
+                    font=dict(color="#111827"),
                     showlegend=False,
+                    **_bar_chart_axes(y_title="₹ crore"),
                 )
                 st.plotly_chart(fig_ncap, use_container_width=True, config={"displayModeBar": False})
 
@@ -1598,18 +1700,12 @@ def main() -> None:
                     )
                 )
                 fig_pol_pie.update_layout(
-                    height=168,
-                    margin=dict(l=4, r=4, t=8, b=36),
+                    height=TRANSPORT_DONUT_HEIGHT,
+                    margin=dict(l=4, r=4, t=8, b=40),
                     paper_bgcolor="rgba(0,0,0,0)",
                     uniformtext_minsize=11,
                     uniformtext_mode="hide",
-                    legend=dict(
-                        orientation="h",
-                        y=-0.12,
-                        x=0.5,
-                        xanchor="center",
-                        font=dict(size=11, color="#111827"),
-                    ),
+                    legend={**TRANSPORT_DONUT_LEGEND, "font": dict(size=10, color="#111827")},
                 )
                 st.plotly_chart(fig_pol_pie, use_container_width=True, config={"displayModeBar": False})
 

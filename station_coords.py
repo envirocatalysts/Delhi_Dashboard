@@ -48,12 +48,12 @@ STATION_COORDS: dict[str, tuple[float, float]] = {
     "Wazirpur, Delhi - DPCC": (28.7028, 77.1726),
 }
 
-# Nudge overlapping co-located pairs on the map.
+# Small nudge for co-located pairs (keep inside NCT — large offsets push pins outside border).
 STATION_PLOT_OFFSETS: dict[str, tuple[float, float]] = {
-    "Lodhi Road, Delhi - IITM": (-0.008, -0.012),
-    "Lodhi Road, Delhi - IMD": (0.008, 0.012),
-    "Pusa, Delhi - DPCC": (-0.006, -0.010),
-    "Pusa, Delhi - IMD": (0.006, 0.010),
+    "Lodhi Road, Delhi - IITM": (-0.003, -0.004),
+    "Lodhi Road, Delhi - IMD": (0.003, 0.004),
+    "Pusa, Delhi - DPCC": (-0.002, -0.003),
+    "Pusa, Delhi - IMD": (0.002, 0.003),
 }
 
 MAP_CENTER = {"lat": 28.652, "lon": 77.143}
