@@ -1565,7 +1565,7 @@ def main() -> None:
                           <div class="ev-slice-mini">{active_vehicle_category} · {active_cat_actual_pct:.1f}%</div>
                           <div class="ev-teal-legend">
                             <span class="swatch"></span>
-                            <span>Teal = actual EV share (vs {EV_TARGET:.0f}% policy target)</span>
+                            <span>Teal = actual EV share</span>
                           </div>
                         </div>
                         """,
