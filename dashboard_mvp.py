@@ -399,7 +399,7 @@ def _transport_pie_figure(
 
 
 def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_TARGET) -> go.Figure:
-    """Punjab-style EV donut: teal = actual share only; no grey slice labels or legend."""
+    """EV donut: label + % on teal slice only; grey remainder stays blank."""
     actual = max(float(actual_pct), 0.0)
     fig = go.Figure(
         go.Pie(
@@ -408,16 +408,14 @@ def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_T
             hole=0.62,
             domain=dict(x=[0.06, 0.94], y=[0.06, 0.94]),
             marker=dict(colors=["#e8edf4", "#0b7285"], line=dict(color="#ffffff", width=1)),
-            textinfo="none",
+            text=["", f"{category}<br>{actual:.1f}%"],
+            textinfo="text",
+            textposition="inside",
+            insidetextorientation="horizontal",
+            textfont=dict(color="#ffffff", size=11),
             showlegend=False,
             sort=False,
         )
-    )
-    fig.add_annotation(
-        x=0.5, y=0.5, xref="paper", yref="paper",
-        text=f"{category}<br>{actual:.1f}%",
-        showarrow=False,
-        font=dict(size=11, color="#1f2937"),
     )
     fig.update_layout(
         height=TRANSPORT_DONUT_HEIGHT,
