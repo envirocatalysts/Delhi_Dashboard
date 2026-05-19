@@ -350,8 +350,7 @@ TRANSPORT_DONUT_LEGEND = dict(
     xanchor="center",
     yanchor="top",
     font=dict(size=7, color="#111827"),
-    itemwidth=14,
-    itemsizing="constant",
+    itemwidth=30,
     tracegroupgap=4,
 )
 
@@ -394,8 +393,7 @@ def _transport_pie_figure(
         margin=dict(l=2, r=2, t=2, b=bottom_margin),
         paper_bgcolor="rgba(0,0,0,0)",
         legend={**TRANSPORT_DONUT_LEGEND, "y": -0.08 if n_leg <= 4 else -0.12},
-        uniformtext_minsize=9,
-        uniformtext_mode="hide",
+        uniformtext=dict(minsize=9, mode="hide"),
     )
     return fig
 
@@ -1462,15 +1460,6 @@ def main() -> None:
                     )
                     st.plotly_chart(fig_target, use_container_width=True, config={"displayModeBar": False})
                     st.markdown(
-                        """
-                        <div class="mini" style="margin:2px 0 0;line-height:1.35;font-size:.66rem;color:#475569;">
-                          <span style="display:inline-block;width:14px;height:5px;border-radius:1px;background:#0b7285;margin-right:4px;vertical-align:middle;"></span><b>Teal</b> = EV share (actual)<br>
-                          <span style="display:inline-block;width:14px;height:5px;border-radius:1px;background:#94a3b8;margin-right:4px;vertical-align:middle;"></span><b>Grey</b> = gap to 25% policy target
-                        </div>
-                        """,
-                        unsafe_allow_html=True,
-                    )
-                    st.markdown(
                         f"""
                         <div style="display:flex;justify-content:center;gap:6px;margin:2px 0 2px;">
                           {"".join(
@@ -1702,8 +1691,7 @@ def main() -> None:
                     height=TRANSPORT_DONUT_HEIGHT,
                     margin=dict(l=4, r=4, t=8, b=40),
                     paper_bgcolor="rgba(0,0,0,0)",
-                    uniformtext_minsize=11,
-                    uniformtext_mode="hide",
+                    uniformtext=dict(minsize=11, mode="hide"),
                     legend={**TRANSPORT_DONUT_LEGEND, "font": dict(size=10, color="#111827")},
                 )
                 st.plotly_chart(fig_pol_pie, use_container_width=True, config={"displayModeBar": False})
