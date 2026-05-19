@@ -399,7 +399,7 @@ def _transport_pie_figure(
 
 
 def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_TARGET) -> go.Figure:
-    """EV donut: label + % on teal slice only; grey remainder stays blank."""
+    """EV donut: no in-slice labels (small slices unreadable); caption HTML below chart."""
     actual = max(float(actual_pct), 0.0)
     fig = go.Figure(
         go.Pie(
@@ -408,11 +408,8 @@ def _ev_target_pie_figure(category: str, actual_pct: float, target: float = EV_T
             hole=0.62,
             domain=dict(x=[0.06, 0.94], y=[0.06, 0.94]),
             marker=dict(colors=["#e8edf4", "#0b7285"], line=dict(color="#ffffff", width=1)),
-            text=["", f"{category}<br>{actual:.1f}%"],
-            textinfo="text",
-            textposition="inside",
-            insidetextorientation="horizontal",
-            textfont=dict(color="#ffffff", size=11),
+            textinfo="none",
+            hoverinfo="skip",
             showlegend=False,
             sort=False,
         )
@@ -744,6 +741,15 @@ def main() -> None:
         .insights h4 {font-size:1rem;color:#1a2332;}
         .ncap-fy {color:#5a6b85;font-size:.76rem;line-height:1.3;margin:4px 0;}
         .transport-target-offset {position:relative;top:-118px;}
+        .ev-slice-caption {
+            display:flex; flex-direction:column; align-items:center; justify-content:center;
+            background:linear-gradient(135deg,#0b7285 0%,#0a7a8f 100%);
+            color:#fff; border-radius:8px; padding:8px 12px; margin:2px auto 6px;
+            max-width:94%; text-align:center;
+            box-shadow:0 2px 8px rgba(11,114,133,.35);
+        }
+        .ev-slice-name {font-size:.8rem;font-weight:700;line-height:1.25;}
+        .ev-slice-pct  {font-size:1.08rem;font-weight:900;margin-top:2px;letter-spacing:.02em;}
         .sector-head-row {display:flex;align-items:center;gap:8px;margin-bottom:6px;}
         .sector-icon {font-size:1.35rem;line-height:1;flex-shrink:0;}
 
@@ -1457,6 +1463,15 @@ def main() -> None:
                         active_vehicle_category, active_cat_actual_pct,
                     )
                     st.plotly_chart(fig_target, use_container_width=True, config={"displayModeBar": False})
+                    st.markdown(
+                        f"""
+                        <div class="ev-slice-caption">
+                          <span class="ev-slice-name">{active_vehicle_category}</span>
+                          <span class="ev-slice-pct">{active_cat_actual_pct:.1f}%</span>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
                     st.markdown(
                         f"""
                         <div style="display:flex;justify-content:center;gap:6px;margin:2px 0 2px;">
